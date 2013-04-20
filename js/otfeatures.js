@@ -1,5 +1,11 @@
-// http://www.impallari.com/testing/
-// Pablo Impallari
+/*
+* font-testing-page
+* https://github.com/impallari/font-testing-page
+* Released under the MIT License
+*/
+
+// 
+// 
 //
 // CSS3 Syntax
 
