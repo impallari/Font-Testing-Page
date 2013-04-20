@@ -214,6 +214,36 @@ function prepareAndShowFontLayout() {
     var $allcaps = $('#allcaps');
     setColumnTemplate2($allcaps, GRUMPIES.allcaps);
 
+	var target = document.createElement('div');
+	target.setAttribute('style','width: 920px;');
+	target.setAttribute('contenteditable','true');
+	for (var a = 28; a>8; a--) { 
+		var sizelabel = document.createElement('p');
+		sizelabel.setAttribute('class','sizelabel');
+		sizelabel.textContent = a + 'px';
+		target.appendChild(sizelabel);
+
+		var hintslower = document.createElement('p'); 
+		hintslower.setAttribute('class','hints-lower');
+		hintslower.setAttribute('style','font-size: ' + a + 'px');
+		target.appendChild(hintslower);
+
+		var hintscaps = document.createElement('p'); 
+		hintscaps.setAttribute('class','hints-caps');
+		hintscaps.setAttribute('style','font-size: ' + a + 'px');
+		target.appendChild(hintscaps);
+
+		var hintsnumbers = document.createElement('p'); 
+		hintsnumbers.setAttribute('class','hints-numbers');
+		hintsnumbers.setAttribute('style','font-size: ' + a + 'px');
+		target.appendChild(hintsnumbers);
+
+		var hintsend = document.createElement('p'); 
+		hintsend.innerHTML = '&nbsp;';
+		target.appendChild(hintsend);
+	};
+	document.getElementById('hinting').appendChild(target);
+
     var hints_caps = $('.hints-caps');
     var hints_numbers = $('.hints-numbers');
     var hints_lower = $('.hints-lower');
