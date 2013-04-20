@@ -397,7 +397,7 @@ OT Features
 	  <div id="hinting">
 	  		<div style="width: 920px;" contenteditable="true">
 				
-				<p class="sizelabel"><script>document.write(navigator.userAgent);</script></p><p>&nbsp;</p>
+				<p id="userAgent" class="sizelabel"><script>document.getElementById('userAgent').innerHTML = navigator.userAgent;</script></p><p>&nbsp;</p>
 				
 				<p class="sizelabel">48px</p>
 				<p class="hints-lower" style="font-size: 48px;"></p>
