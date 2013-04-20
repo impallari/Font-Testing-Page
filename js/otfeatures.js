@@ -1,5 +1,4 @@
 // http://www.impallari.com/testing/
-// Version 10.0
 // Pablo Impallari
 //
 // CSS3 Syntax

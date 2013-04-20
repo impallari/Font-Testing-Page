@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Pablo Impallari www.impallari.com" />
-<title>Font Testing Page v10.0 - Impallari.com/testing</title>
+<title>Font Testing Page - Impallari.com/testing</title>
 <link type="text/css" href="css/styles.css" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
@@ -14,8 +14,12 @@
 <script src="js/constants.js" type="text/javascript" charset="utf-8"></script>
 
 <script>
- $(document).ready(function(){
-    
+// Include the version in the page title
+var version = '10.0';
+document.title = 'Font Testing Page v' + version + ' - Impallari.com/testing'
+
+$(document).ready(function(){
+        
     // Tabs
     var tabContainers = $('div.tabs > div');
     $('div.tabs ul.tabNavigation a').click(function () {
@@ -636,8 +640,8 @@ OT Features
 		
 <!-- Footer -->
 <section id="pie">
-	<p>Font Testing Page version 9.1 By <a href="http://www.impallari.com">Pablo Impallari</a>, <a href="http://www.omnibus-type.com">Pablo Cosgaya</a> and <a href="http://understandingfonts.com/">Dave Crossland</a>. Download the source code and post your comments and suggestions at the <a href="http://www.impallari.com/projects/overview/drag-and-drop-font-testing-page">Project Page</a></p>
 	<p>Based on <a href="http://www.fontdragr.com">Fontdragr</a>. Kerning string by <a href="http://www.terminaldesign.com">James Montalbano</a>. Latin text by <a href="http://www.tipo.net.ar">Eduardo Tunni</a>. Pangrams from <a href="http://www.wikipedia.org">Wikipedia</a>. OT Panel reworked from Jonathan Kew's <a href="http://people.mozilla.com/~jkew/opentype-feature-playground.html">OpenType Playground</a> for Mozilla.</p>
+	<p>Font Testing Page v<span id="pageVersion"><script>document.getElementById('pageVersion').innerHTML = version;</script> by <a href="http://www.impallari.com">Pablo Impallari</a>, <a href="http://www.omnibus-type.com">Pablo Cosgaya</a> and <a href="http://understandingfonts.com/">Dave Crossland</a>. Download the source code and post your comments and suggestions at the <a href="http://www.impallari.com/projects/overview/drag-and-drop-font-testing-page">Project Page</a></p>
 </section>
 
 </body>
