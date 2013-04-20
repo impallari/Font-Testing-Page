@@ -20,28 +20,28 @@ var version = '10.0';
 document.title = 'Font Testing Page v' + version + ' - Impallari.com/testing'
 
 $(document).ready(function(){
-        
-    // Tabs
-    var tabContainers = $('div.tabs > div');
-    $('div.tabs ul.tabNavigation a').click(function () {
-        tabContainers.hide().filter(this.hash).show();
-        $('div.tabs ul.tabNavigation a').removeClass('selected');
-        $(this).addClass('selected');
-        return false;
-    }).filter(':first').click();
-    
-    // OT Features Panel
-    $('#showhide').click(function () {
-        $('#otfeatures').slideToggle("fast", function() {
-		    $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features" : "OpenType Features");
+		
+	// Tabs
+	var tabContainers = $('div.tabs > div');
+	$('div.tabs ul.tabNavigation a').click(function () {
+		tabContainers.hide().filter(this.hash).show();
+		$('div.tabs ul.tabNavigation a').removeClass('selected');
+		$(this).addClass('selected');
+		return false;
+	}).filter(':first').click();
+	
+	// OT Features Panel
+	$('#showhide').click(function () {
+		$('#otfeatures').slideToggle("fast", function() {
+			$("#showhide").text($(this).is(':visible') ? "Hide OpenType Features" : "OpenType Features");
 		  });
-    });
+	});
 
-    // OT Features initial Run
-    refreshFeatures();
-    
-    // Grab the text from the JS constant file, and show it
-    prepareAndShowFontLayout();
+	// OT Features initial Run
+	refreshFeatures();
+	
+	// Grab the text from the JS constant file, and show it
+	prepareAndShowFontLayout();
 
 });
 </script>
@@ -145,19 +145,19 @@ OT Features
 	<div class="tabs">
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
-	    <li><a href="#headlines">Headlines</a></li>
-	    <li><a href="#text">Text</a></li>
-	    <li><a href="#adhesion">adhesion</a></li>
-	    <li><a href="#hamburgefonstiv">hamburgefonstiv</a></li>
-	    <li><a href="#lowercases">a-z</a></li>
-	    <li><a href="#caps">Words</a></li>
-	    <li><a href="#allcaps">Caps</a></li>
-	    <li><a href="#layout">Layout</a></li>
-	    <li><a href="#lettering">Lettering</a></li>
-	    <li><a href="#kern">Kern</a></li>
-	    <li><a href="#hinting">Hinting</a></li>
-	    <li><a href="#latin">Latin</a></li>
-	    <li><a href="#nonlatin">More</a></li>
+		<li><a href="#headlines">Headlines</a></li>
+		<li><a href="#text">Text</a></li>
+		<li><a href="#adhesion">adhesion</a></li>
+		<li><a href="#hamburgefonstiv">hamburgefonstiv</a></li>
+		<li><a href="#lowercases">a-z</a></li>
+		<li><a href="#caps">Words</a></li>
+		<li><a href="#allcaps">Caps</a></li>
+		<li><a href="#layout">Layout</a></li>
+		<li><a href="#lettering">Lettering</a></li>
+		<li><a href="#kern">Kern</a></li>
+		<li><a href="#hinting">Hinting</a></li>
+		<li><a href="#latin">Latin</a></li>
+		<li><a href="#nonlatin">More</a></li>
 	  </ul>
 	
 	  <!-- Headlines -->
