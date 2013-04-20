@@ -5,12 +5,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Pablo Impallari www.impallari.com" />
 <title>Font Testing Page v10.0 - Impallari.com/testing</title>
-<link type="text/css" href="css/styles-v9.css" rel="stylesheet" charset="utf-8" />
-<link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
+<link type="text/css" href="css/styles.css" rel="stylesheet" charset="utf-8" />
+<link type="text/css" href="css/print.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script>localStorage.clear();</script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/otfeatures.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/contentEditable" type="text/javascript" charset="utf-8"></script>
 <script src="js/constants.js" type="text/javascript" charset="utf-8"></script>
 
