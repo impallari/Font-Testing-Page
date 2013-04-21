@@ -2,7 +2,7 @@ body { background: white; color: black; }
 section { display: block; float: left; margin: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 
-#top { width: 920px; margin: 0 20px; padding: 0px; }
+#dropcontainer { width: 920px; margin: 0 20px; padding: 0px; }
 header { background: #ccc; }
 header h1 { margin: 0; padding: 30px 16px; }
 
