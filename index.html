@@ -1,6 +1,5 @@
-<?php header("Content-type: text/html; charset=utf-8"); // UTF 8 ?> 
 <!DOCTYPE html>
-<html>
+<html manifest="offline.appcache">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Pablo Impallari www.impallari.com" />
@@ -408,6 +407,24 @@ OT Features
 				<p class="hints-caps" style="font-size: 48px;"></p>
 				<p class="hints-numbers" style="font-size: 48px;"></p>
 				<p>&nbsp;</p>
+
+				<p class="sizelabel">28px</p>
+				<p class="hints-lower" style="font-size: 28px;"></p>
+				<p style="font-size: 28px;">
+					<span class="hints-caps"></span> 
+					<span class="hints-numbers"></span>
+				</p><p>&nbsp;</p>
+				
+        <script>
+          var hintSizeDiv = $("#hinting");
+          for (var i = 24; i >= 9; i--) {
+            hintSizeDiv.append($('<p class="sizelabel">').text(i + 'px'));
+            hintSizeDiv.append($('<p class="hints-lower">').css('font-size', i));
+            hintSizeDiv.append($('<p>').css('font-size', i)
+                .html('<span class="hints-caps"></span><span class="hints-numbers"></span>'));
+				    hintSizeDiv.append($('<p>&nbsp;</p>'));
+          }
+        </script>
 
 	  		</div>
 	  </div>
