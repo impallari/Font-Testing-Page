@@ -210,35 +210,37 @@ function prepareAndShowFontLayout() {
 
 	var $caps = $('#caps');
 	setColumnTemplate2($caps, GRUMPIES.caps);
-	
+
 	var $allcaps = $('#allcaps');
 	setColumnTemplate2($allcaps, GRUMPIES.allcaps);
 
 	var target = document.createElement('div');
 	target.setAttribute('style','width: 920px;');
-	target.setAttribute('contenteditable','true');
-	for (var a = 28; a>8; a--) { 
+	for (var a = 28; a>8; a--) {
 		var sizelabel = document.createElement('p');
 		sizelabel.setAttribute('class','sizelabel');
 		sizelabel.textContent = a + 'px';
 		target.appendChild(sizelabel);
 
-		var hintslower = document.createElement('p'); 
+		var hintslower = document.createElement('p');
+		hintslower.setAttribute('contenteditable','true');
 		hintslower.setAttribute('class','hints-lower');
 		hintslower.setAttribute('style','font-size: ' + a + 'px');
 		target.appendChild(hintslower);
 
-		var hintscaps = document.createElement('p'); 
+		var hintscaps = document.createElement('p');
+		hintscaps.setAttribute('contenteditable','true');
 		hintscaps.setAttribute('class','hints-caps');
 		hintscaps.setAttribute('style','font-size: ' + a + 'px');
 		target.appendChild(hintscaps);
 
-		var hintsnumbers = document.createElement('p'); 
+		var hintsnumbers = document.createElement('p');
+		hintsnumbers.setAttribute('contenteditable','true');
 		hintsnumbers.setAttribute('class','hints-numbers');
 		hintsnumbers.setAttribute('style','font-size: ' + a + 'px');
 		target.appendChild(hintsnumbers);
 
-		var hintsend = document.createElement('p'); 
+		var hintsend = document.createElement('p');
 		hintsend.innerHTML = '&nbsp;';
 		target.appendChild(hintsend);
 	};
