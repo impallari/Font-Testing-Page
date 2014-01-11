@@ -1,0 +1,11 @@
+{
+  "name": "font-testing-page",
+  "version": "10.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-curl": "~1.2.1",
+    "grunt-contrib-sass": "~0.6.0"
+  }
+}
