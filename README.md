@@ -44,6 +44,13 @@ Thanks
 - Latin text by Eduardo Tunni (http://tipo.net.ar)
 - Pangrams from Wikipedia (http://en.wikipedia.org/wiki/List_of_pangrams)
 
+Developing
+------------
+
+Use ```npm install``` to load all dependencies.
+Use ```grunt``` to build all static files.
+Use ```grunt download``` to download latest [http://github.com/davelab6/otfeatures/](otfeatures mixin)
+
 License
 ------------
 
