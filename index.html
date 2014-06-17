@@ -130,6 +130,14 @@ OT Features
 				</td>
 			</tr>
 			<tr>
+				<td colspan="4" valign="top">
+				   <label for="unicodebmp">Fallback Font</label>
+				   <input type="radio" checked id="unicodebmp" name="fallback" onchange="refreshFeatures()">Unicode BMP Fallback Font</input> &nbsp;
+				   <input type="radio" id="adobeblank" name="fallback" onchange="refreshFeatures()">Adobe Blank</input> &nbsp;
+				   <input id="fallbackfont" type="text" style="display:none" />
+				</td>
+			</tr>
+			<tr>
 				<td colspan="3">
 					<p style="margin: 0 0 6px;">Recommended CSS:</p>
 					<p id="csscode"></p>
@@ -414,10 +422,10 @@ OT Features
 				<p class="sizelabel">28px</p>
 				<p class="hints-lower" style="font-size: 28px;"></p>
 				<p style="font-size: 28px;">
-					<span class="hints-caps"></span> 
+					<span class="hints-caps"></span>
 					<span class="hints-numbers"></span>
 				</p><p>&nbsp;</p>
-				
+
         <script>
           var hintSizeDiv = $("#hinting");
           for (var i = 24; i >= 9; i--) {

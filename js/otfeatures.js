@@ -4,8 +4,8 @@
 * Released under the MIT License
 */
 
-// 
-// 
+//
+//
 //
 // CSS3 Syntax
 
@@ -16,13 +16,13 @@ function refreshFeatures() {
 	if (document.getElementById("kern")) codeCSS3 += !document.getElementById("kern").checked ? '"kern" off, ' : '"kern" on, ';
 	if (document.getElementById("liga")) codeCSS3 += !document.getElementById("liga").checked ? '"liga" off, ' : '"liga" on, ';
 	if (document.getElementById("calt")) codeCSS3 += !document.getElementById("calt").checked ? '"calt" off, ' : '"calt" on, ';
-	
+
 	if (document.getElementById("dlig")) codeCSS3 += !document.getElementById("dlig").checked ? '' : '"dlig", ';
 	if (document.getElementById("hlig")) codeCSS3 += !document.getElementById("hlig").checked ? '' : '"hlig", ';
-	
+
 	if (document.getElementById("swsh")) codeCSS3 += !document.getElementById("swsh").checked ? '' : '"swsh", ';
 	if (document.getElementById("salt")) codeCSS3 += !document.getElementById("salt").checked ? '' : '"salt", ';
-	
+
 	if (document.getElementById("ss01")) codeCSS3 += !document.getElementById("ss01").checked ? '' : '"ss01", ';
 	if (document.getElementById("ss02")) codeCSS3 += !document.getElementById("ss02").checked ? '' : '"ss02", ';
 	if (document.getElementById("ss03")) codeCSS3 += !document.getElementById("ss03").checked ? '' : '"ss03", ';
@@ -46,24 +46,25 @@ function refreshFeatures() {
 
 	if (document.getElementById("smcp")) codeCSS3 += !document.getElementById("smcp").checked ? '' : '"smcp", ';
 	if (document.getElementById("c2sc")) codeCSS3 += !document.getElementById("c2sc").checked ? '' : '"c2sc", ';
-	
+
 	if (document.getElementById("ordn")) codeCSS3 += !document.getElementById("ordn").checked ? '' : '"ordn", ';
 
 	if (document.getElementById("lnum")) codeCSS3 += !document.getElementById("lnum").checked ? '' : '"lnum", ';
 	if (document.getElementById("onum")) codeCSS3 += !document.getElementById("onum").checked ? '' : '"onum", ';
 	if (document.getElementById("tnum")) codeCSS3 += !document.getElementById("tnum").checked ? '' : '"tnum", ';
-	if (document.getElementById("pnum")) codeCSS3 += !document.getElementById("pnum").checked ? '' : '"pnum", ';	
+	if (document.getElementById("pnum")) codeCSS3 += !document.getElementById("pnum").checked ? '' : '"pnum", ';
 
 	if (document.getElementById("numr")) codeCSS3 += !document.getElementById("numr").checked ? '' : '"numr", ';
 	if (document.getElementById("dnom")) codeCSS3 += !document.getElementById("dnom").checked ? '' : '"dnom", ';
 	if (document.getElementById("sups")) codeCSS3 += !document.getElementById("sups").checked ? '' : '"sups", ';
 	if (document.getElementById("sinf")) codeCSS3 += !document.getElementById("sinf").checked ? '' : '"sinf", ';
-		
+
 	if (document.getElementById("frac")) codeCSS3 += !document.getElementById("frac").checked ? '' : '"frac", ';
 	if (document.getElementById("zero")) codeCSS3 += !document.getElementById("zero").checked ? '' : '"zero", ';
-	
+
+
 	codeCSS3 = codeCSS3.substring(0, codeCSS3.length - 2);
-	
+
 	// Special Case for Fake Small Caps
 	var fakeSC = !document.getElementById("fake-smcp").checked ? 'normal' : 'small-caps';
 
@@ -76,7 +77,7 @@ function refreshFeatures() {
 	recommendedCSS += "-ms-font-feature-settings: " + codeCSS3 + "<br/>";
 	recommendedCSS += "-o-font-feature-settings: " + codeCSS3 ;
     $('#csscode').html( recommendedCSS );
-	
+
 	// Apply the Code
 	$('#custom').css("font-variant", fakeSC );
 	$('#custom').css("font-feature-settings", codeCSS3 );
@@ -84,5 +85,12 @@ function refreshFeatures() {
 	$('#custom').css("-webkit-font-feature-settings", codeCSS3 );
 	$('#custom').css("-ms-font-feature-settings", codeCSS3 );
 	$('#custom').css("-o-font-feature-settings", codeCSS3 );
-	
-};	
+
+	var fallbackfont = document.getElementById("fallbackfont");
+	fallbackfont.value = (document.getElementById("unicodebmp").checked ? 'Unicode BMP Fallback' : 'Adobe Blank');
+	var fontFamily = $('#custom').css('font-family').split(',');
+	if (fontFamily.length > 1) {
+		fontFamily[1] = fallbackfont.value;
+		$('#custom').css('font-family', fontFamily.join(','));
+	}
+};
