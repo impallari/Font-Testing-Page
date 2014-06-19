@@ -8,10 +8,10 @@
 (function( $ ){
 
   var methods = {
-	 init : function( options ) {
+     init : function( options ) {
 		
-		return this.each(function(){
-		 
+       return this.each(function(){
+         
 			var $this = $(this);
 			
 			//reset any previous change events set
@@ -23,13 +23,13 @@
 				
 			});
 			
-		});
-	 },
-	 field : function( parent ) {
+	   });
+     },
+     field : function( parent ) {
 	 
 	 	return this.each(function(){
 		
-		 	var $this = $(this);
+         	var $this = $(this);
 			// setting the key based on an attribute available on the same level as 'contentEditable'
 			var key = $this.attr("data-key");
 			// add triggers
@@ -64,14 +64,14 @@
   };
 
   $.fn.contentEditable = function( method ) {
-	
-	if ( methods[method] ) {
-	  return methods[method].apply( this, Array.prototype.slice.call( arguments, 1 ));
-	} else if ( typeof method === 'object' || ! method ) {
-	  return methods.init.apply( this, arguments );
-	} else {
-	  $.error( 'Method ' +  method + ' does not exist on jQuery.contentEditable' );
-	}	
+    
+    if ( methods[method] ) {
+      return methods[method].apply( this, Array.prototype.slice.call( arguments, 1 ));
+    } else if ( typeof method === 'object' || ! method ) {
+      return methods.init.apply( this, arguments );
+    } else {
+      $.error( 'Method ' +  method + ' does not exist on jQuery.contentEditable' );
+    }    
   
   };
 

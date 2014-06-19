@@ -1,4 +1,4 @@
-font-testing-page
+Font Testing Page
 =================
 
 Stable releases available for use at http://www.impallari.com/testing
@@ -9,8 +9,7 @@ There is a short video demonstrating this tool, http://vimeo.com/40296571
 
 Operation is simple:
 
-- First, you must accept the request from the browser.
-- Then drag the font you want to try to the upper area of the Testing Page
+- Drag the font you want to try to the upper area of the Testing Page
 - Add more fonts and you'll see their file names and file sizes as buttons
 
 Below the drop area you see some buttons to select different layouts:

@@ -1,7 +1,7 @@
 /*
 * font dragr v1.5
 * http://www.thecssninja.com/javascript/font-dragr
-* Copyright (c) 2010 Ryan Seddon
+* Copyright (c) 2010 Ryan Seddon 
 * released under the MIT License
 */
 var TCNDDF = TCNDDF || {};
@@ -20,7 +20,7 @@ contentStorageTimer;
 
 TCNDDF.setup = function () {
 dropListing = document.getElementById("fonts");
-dropContainer = document.getElementById("dropcontainer");
+dropContainer = document.getElementsByTagName("section")[0];
 displayContainer = document.getElementById("custom");
 styleSheet = document.styleSheets[0];
 
@@ -77,13 +77,13 @@ var reader = new FileReader();
 reader.name = name;
 reader.size = size;
 
-/*
+/* 
 Chrome 6 dev can't do DOM2 event based listeners on the FileReader object so fallback to DOM0
 http://code.google.com/p/chromium/issues/detail?id=48367
 reader.addEventListener("loadend", TCNDDF.buildFontListItem, false);
 */
 reader.onloadend = function (event) { TCNDDF.buildFontListItem(event); }
-reader.readAsDataURL(file);
+reader.readAsDataURL(file); 
 };
 
 TCNDDF.buildFontListItem = function (event) {
@@ -123,9 +123,7 @@ fontPreviewFragment.appendChild(domElements[0]);
 
 dropListing.appendChild(fontPreviewFragment);
 TCNDDF.updateActiveFont(domElements[0]);
-debugger;
-var fallbackfont = document.getElementById("fallbackfont").value;
-displayContainer.style.fontFamily = [name, fallbackfont].join(',');
+displayContainer.style.fontFamily = name;
 };
 
 /* Control changing of fonts in drop list  */
