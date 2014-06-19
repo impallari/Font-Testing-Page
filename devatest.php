@@ -1,1 +1,0 @@
-The Devanagari Testing Page has a new URL, update your bookmarks: <a href="http://www.impallari.com/testing/index-devanagari.php">http://www.impallari.com/testing/index-devanagari.php</a>
