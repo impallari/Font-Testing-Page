@@ -29,8 +29,7 @@ Below the drop area you see some buttons to select different layouts:
 
 Notes:
 
-- Requires Firefox 3.6+/Chrome 13+
-- 100% Javascript
+- Requires Firefox or Chrome
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
 
 Thanks
