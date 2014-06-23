@@ -14,9 +14,9 @@
 		<tr>
 			<td valign="top" width="25%">
 				<input type="checkbox" id="kern" onchange="refreshFeatures()" checked>OpenType Kerning</input><br/>
+				<br/>
 				<input type="checkbox" id="liga" checked onchange="refreshFeatures()">Standard Ligatures</input><br/>
 				<input type="checkbox" id="calt" checked onchange="refreshFeatures()">Contextual Alternates</input><br/>
-				<br/>
 				<input type="checkbox" id="dlig" onchange="refreshFeatures()">Discretionary Ligatures</input><br/>
 				<input type="checkbox" id="swsh" onchange="refreshFeatures()">Swashes</input><br/>
 				<input type="checkbox" id="salt" onchange="refreshFeatures()">Stylistic Alternates</input><br/>
@@ -25,7 +25,7 @@
 			<td valign="top" width="25%">
 				<input type="radio" name="smcp" checked onchange="refreshFeatures()">SmallCaps Off</input><br/>
 				<input type="radio" id="fake-smcp" name="smcp" onchange="refreshFeatures()">Fake SmallCaps</input><br/>
-				<input type="radio" id="smcp" name="smcp" onchange="refreshFeatures()">True SmallCaps</input><br/>
+				<input type="radio" id="smcp" name="smcp" onchange="refreshFeatures()">Real SmallCaps</input><br/>
 				<input type="checkbox" id="c2sc" onchange="refreshFeatures()">Capitals to Small Caps</input><br/>
 				<br/>
 				<input type="checkbox" id="case" onchange="refreshFeatures()">Case Sensitive Forms</input>
@@ -40,10 +40,9 @@
 				<input type="radio" id="tnum" name="numspc" onchange="refreshFeatures()">Tabular Figures</input>
 			</td>
 			<td valign="top" width="25%">
+				<input type="checkbox" id="ordn" onchange="refreshFeatures()">Ordinals</input><br/>
 				<input type="checkbox" id="frac" name="frac" onchange="refreshFeatures()">Fractions</input><br/>
 				<input type="checkbox" id="zero" onchange="refreshFeatures()">Slashed zero</input><br/>
-				<br/>
-				<input type="checkbox" id="ordn" onchange="refreshFeatures()">Ordinals</input><br/>
 				<br/>
 				<input type="checkbox" id="sups" onchange="refreshFeatures()">Superiors</input><br/>
 				<input type="checkbox" id="numr" onchange="refreshFeatures()">Numerator</input><br/>
