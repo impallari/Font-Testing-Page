@@ -50,7 +50,7 @@
 	    <li><a href="#grid">Grid Generator</a></li>
 	    <li><a href="#connection">Connection Tester</a></li>
 	    <li><a href="#specimens">Specimens</a></li>
-	    <li><a href="#kernpairs">Kern Pairs Generator</a></li>
+	    <li><a href="#pairs">Kern Pairs Generator</a></li>
 	  </ul>
 
 	  <!-- Filter Text from Dictionaries -->
@@ -74,10 +74,8 @@
 	  </div>
 
 	  <!-- Kern Pairs Generator -->
-	  <div id="kernpairs">
-	  		<div contenteditable="true">
-				<p style="font-size: 20px;">Placeholder for the Kerning Generator Tool... to be added soon.</p>
-			</div>				
+	  <div id="pairs">
+	  	<?php include("includes/tools/pairs.php"); ?>			
 	  </div>
 
 	</div><!-- end tabs -->

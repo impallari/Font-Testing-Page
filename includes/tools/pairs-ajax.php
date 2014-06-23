@@ -93,13 +93,13 @@ $timer_start = microtime(true);
 
 // Do Stuff
 $a = new makePairs();
-if ( !empty( $_POST['antes'] ) ) $a->antes( $_POST['antes'] );
-if ( !empty( $_POST['glyphs'] ) ) $a->glyphs( $_POST['glyphs'] );
-if ( !empty( $_POST['despues'] ) ) $a->despues( $_POST['despues'] );
+if ( !empty( $_POST['pairsantes'] ) ) $a->antes( $_POST['pairsantes'] );
+if ( !empty( $_POST['pairsglyphs'] ) ) $a->glyphs( $_POST['pairsglyphs'] );
+if ( !empty( $_POST['pairsdespues'] ) ) $a->despues( $_POST['pairsdespues'] );
 
-if ( $_POST['format'] == 'plain' ) {
+if ( $_POST['pairsformat'] == 'plain' ) {
 	$pairs = $a->generate_plain();
-} elseif ( $_POST['format'] == 'fontlab' ) {
+} elseif ( $_POST['pairsformat'] == 'fontlab' ) {
 	$pairs = $a->generate_fl();
 } else {
 	$pairs = $a->generate();
@@ -112,26 +112,26 @@ $timer_end = microtime(true) - $timer_start;
 //print_r($_POST);
 //echo '</pre>';
 
-if ( $_POST['format'] == 'plain' ) {
+if ( $_POST['pairsformat'] == 'plain' ) {
 	foreach ($pairs as $key => $value) {
 		echo $value.' ';
 	}
 }
 
-if ( $_POST['format'] == 'fontlab' ) {
+if ( $_POST['pairsformat'] == 'fontlab' ) {
 	foreach ($pairs as $key => $value) {
 		echo $value.'<br />';
 	}
 }
 
-if ( $_POST['format'] == 'metricsmachine' ) {
+if ( $_POST['pairsformat'] == 'metricsmachine' ) {
 	echo '#KPL:P: My custom pairs list<br />';
 	foreach ($pairs as $key => $value) {
 		echo $value.'<br />';
 	}
 }
 
-if ( $_POST['format'] == 'kernmaster' ) {
+if ( $_POST['pairsformat'] == 'kernmaster' ) {
 	echo 'Comment My custom pairs list<br />';
 	echo 'StartFontMetrics<br />';
 	echo 'StartKernData<br />';
