@@ -52,8 +52,9 @@
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
 	    <li><a href="#lettering">Lettering</a></li>
-	    <li><a href="#unicode_table">Unicode Table</a></li>
-	    <li><a href="#unicode_list">Unicode List</a></li>
+	    <li><a href="#anatomy">Anatomy</a></li>
+	    <li><a href="#unicode_table">Uni Table</a></li>
+	    <li><a href="#unicode_list">Uni List</a></li>
 	    <li><a href="#frequency">Frequency</a></li>
 	    <li><a href="#syllables">Syllables</a></li>
 	    <li><a href="#consonant_pairs">Consonant Pairs</a></li>
@@ -65,6 +66,11 @@
 	  <!-- Lettering Sheet -->
 	  <div id="lettering">
 	  	<?php include("includes/devanagari/lettering.php"); ?>
+	  </div>
+
+	  <!-- Anatomy -->
+	  <div id="anatomy">
+	  	<?php include("includes/devanagari/anatomy.php"); ?>
 	  </div>
 
 	  <!-- Unicode Table -->
