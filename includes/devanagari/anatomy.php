@@ -1,7 +1,6 @@
 <div>
 
-	<p class="sizelabel">Bhagwat’s grouping of letters by graphical similarities</strong></p>
-	
+	<p class="sizelabel">Bhagwat’s groups, by graphical similarities.</p>
 	<table cellpadding="36" cellspacing="0" border="0">
 		<tr>
 			<td valign="top">
@@ -20,7 +19,7 @@
 			</td>
 			<td valign="top">
 				<p style="font-size: 42px;">अ आ ओ औ अं अः</p>
-				<p style="font-size: 42px;">ए ?</p>
+				<p style="font-size: 42px;">ए ऐ</p>
 				<p style="font-size: 42px;">ऋ ॠ</p>
 				<p style="font-size: 42px;">उ ऊ</p>
 			</td>
