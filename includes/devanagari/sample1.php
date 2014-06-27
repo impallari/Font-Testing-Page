@@ -1,6 +1,6 @@
 <div contenteditable="true" style="width: 920px;">
 
-	<p class="sizelabel">To Do: Is this text ok? Can it be replaced with something better?</strong></p>
+	<p class="sizelabel">To Do: Is this text ok? Can it be replaced with something better?</p>
 	
 	<p>&nbsp;</p>
 	

@@ -1,6 +1,6 @@
 <div style="width: 920px;">
 
-	<p class="sizelabel">Unicode v7 - List View</strong></p>
+	<p class="sizelabel">Unicode v7 - List View</p>
 	
 	<h3>Various signs</h3>
 	<table class="unicode">		<tr><td><p class="sizelabel">0900</p></td><td class="bigslot">&#x0900;</td><td><p class="sizelabel">DEVANAGARI SIGN INVERTED CANDRABINDU</p></td></tr>		<tr><td><p class="sizelabel">0901</p></td><td class="bigslot">&#x0901;</td><td><p class="sizelabel">DEVANAGARI SIGN CANDRABINDU</p></td></tr>		<tr><td><p class="sizelabel">0902</p></td><td class="bigslot">&#x0902;</td><td><p class="sizelabel">DEVANAGARI SIGN ANUSVARA</p></td></tr>		<tr><td><p class="sizelabel">0903</p></td><td class="bigslot">&#x0903;</td><td><p class="sizelabel">DEVANAGARI SIGN VISARGA</p></td></tr>

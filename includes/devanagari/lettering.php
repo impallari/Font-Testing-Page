@@ -1,6 +1,6 @@
 <div style="width: 920px;">
 
-	<p class="sizelabel">Contributed by Girish Dalvi, Ek Type</strong></p>
+	<p class="sizelabel">Contributed by Girish Dalvi, Ek Type</p>
 	
 	<p>&nbsp;</p>
 					

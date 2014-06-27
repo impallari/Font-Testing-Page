@@ -1,6 +1,6 @@
 <div contenteditable="true" style="width: 920px;">
 
-	<p class="sizelabel">A few conjunts - informal test</strong></p>
+	<p class="sizelabel">A few conjunts - informal test</p>
 	
 	<table width="856px" cellpadding="16" cellpadding="0" border="0">
 		<tr>

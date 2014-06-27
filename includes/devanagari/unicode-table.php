@@ -1,6 +1,6 @@
 <div style="width: 920px;">
 
-	<p class="sizelabel">Unicode v7 - Table View</strong></p>
+	<p class="sizelabel">Unicode v7 - Table View</p>
 	
 	<p>&nbsp;</p>
 		
