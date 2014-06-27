@@ -26,4 +26,20 @@
 		</tr>
 	</table>
 
+	<p class="sizelabel">&nbsp;</p>
+
+	<p class="sizelabel">Naik’s groups, by position of the vertical bar.</p>
+	<table cellpadding="36" cellspacing="0" border="0">
+		<tr>
+			<td valign="top">
+				<p style="font-size: 42px;">अ ख घ च ज झ त थ ध न प ब भ म य व ष स क्ष ज्ञ</p>
+				<p style="font-size: 42px;">ग ण श</p>
+				<p style="font-size: 42px;">उ ऊ ऌ ॡ ड़ छ ट ठ ड ढ ळ</p>
+				<p style="font-size: 42px;">ऋ ॠ क फ</p>
+				<p style="font-size: 42px;">र</p>
+				<p style="font-size: 42px;">ए ऐ</p>
+			</td>
+		</tr>
+	</table>
+
 </div>
