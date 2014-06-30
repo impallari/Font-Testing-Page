@@ -1,6 +1,6 @@
 <div>
 
-	<p class="sizelabel">Bhagwat’s groups, by graphical similarities.</p>
+	<p class="sizelabel"><a href="http://books.google.co.in/books?id=zh9BujwGYG4C" target="_blank">Bhagwat’s groups</a>, by graphical similarities.</p>
 	<table cellpadding="36" cellspacing="0" border="0">
 		<tr>
 			<td valign="top">
@@ -28,7 +28,7 @@
 
 	<p class="sizelabel">&nbsp;</p>
 
-	<p class="sizelabel">Naik’s groups, by position of the vertical bar.</p>
+	<p class="sizelabel"><a href="http://books.google.co.in/books?id=je94ngEACAAJ" target="_blank">Naik’s groups</a>, by position of the vertical bar.</p>
 	<table cellpadding="36" cellspacing="0" border="0">
 		<tr>
 			<td valign="top">
