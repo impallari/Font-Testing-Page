@@ -1,6 +1,7 @@
 <div contenteditable="true" style="width: 920px;">
 
-<p class="sizelabel">Every consonant with every vowel sign (or matra) and signs like candrabindu, anusvara and visarga, as well as the combining mark glyph for reph (Ra + virama) to each combination (All Included) - Generated using https://github.com/anexasajoop/devanagari-type-tools</p>
+<p class="sizelabel" style="line-height: 15px !important;">Every consonant with every vowel sign (or matra) and signs like candrabindu, anusvara and visarga, as well as the combining mark glyph for reph (Ra + virama) to each combination</p>
+<p class="sizelabel" style="line-height: 15px !important;">(All Included) - Generated using https://github.com/anexasajoop/devanagari-type-tools</p>
 
 <p>&nbsp;</p>
 
