@@ -46,4 +46,26 @@
 	<p style="font-size: 11px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p>
 	<p style="font-size: 10px;">पाव + किमीनुफू + भरसगदह + र्मों ड्डू + यथधआछड …</p>
 	
+	<p>&nbsp;</p>
+	
+	<p class="sizelabel">Knots and Loops</p>
+	<p style="font-size: 48px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 44px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 40px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 36px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 32px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 28px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 24px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 20px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 19px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 18px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 17px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 16px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 15px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 14px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 13px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 12px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 11px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	<p style="font-size: 10px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p>
+	
 </div>
