@@ -4,7 +4,7 @@
 	
 	<p>&nbsp;</p>
 		
-	<table cellpadding="16" cellpadding="0" border="0" class="unicode">
+	<table cellpadding="16" cellspacing="0" border="0" class="unicode">
 		<tr>
 			<td>&nbsp;</td>
 			<td>090</td>

@@ -169,7 +169,7 @@ if ( $_POST['loon'] == "yes" ) $a->addloon();
 $timer_end = microtime(true) - $timer_start;
 
 
-// Define Size
+// Define Size or use default
 $filtersize = 72;
 if ( isset( $_POST['filtersize'] ) && !empty( $_POST['filtersize'] ) ) $filtersize = $_POST['filtersize'];
 
@@ -177,17 +177,80 @@ if ( isset( $_POST['filtersize'] ) && !empty( $_POST['filtersize'] ) ) $filtersi
 if ( $_POST['loon'] == "yes" ) echo '<div style="background: #1a3351 url(\'images/stars-2.png\'); padding: 80px 40px;">';
 
 // Render Contents
-echo '<p class="sizelabel">'.$a->count(). ' Results';
-echo ' ('.number_format($timer_end, 2).' seconds)';
-echo '</p>';
-// echo '<p style="font-size: '.$size.'px; text-transform: Lowercase;';
-echo '<p style="font-size: '.$filtersize.'px;';
-if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
-//  if ( $_POST['uppercase'] == "yes" ) echo ' text-transform: Uppercase;';
-echo '">';
-echo $a->getResults();
-echo '</p>';
+if ($filtersize >= 20 ) {
+
+	// If font size is bigger than 20
+	echo '<p class="sizelabel">'.$a->count(). ' Results';
+	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '</p>';
+	echo '<p style="font-size: '.$filtersize.'px;';
+	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+	if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+	echo '">';
+	echo $a->getResults();
+	echo '</p>';
+
+} else {
+
+	// If smaller, make multiple size preview
+	echo '<p class="sizelabel">'.$a->count(). ' Results';
+	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '</p>';
+	echo '<table cellpadding="14" cellspacing="0" border="0">';
+		echo '<tr>';
+			echo '<td valign="top">';
+				echo '<p class="sizelabel">'.$filtersize.'px</p>';
+				echo '<p style="font-size: '.$filtersize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';
+			echo '<td valign="top">';
+				$newSize = $filtersize - 1;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';			
+			echo '</td>';
+			echo '<td valign="top">';
+				$newSize = $filtersize - 2;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';
+			echo '<td valign="top">';
+				$newSize = $filtersize - 3;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';
+			echo '<td valign="top">';
+				$newSize = $filtersize - 4;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';			
+		echo '</tr>';
+	echo '</table>';
+
+}
 
 // Add background Coor
 if ( $_POST['loon'] == "yes" ) echo '</div>';
