@@ -274,6 +274,30 @@ if ($filtersize >= 20 ) {
 			echo '</td>';							
 		echo '</tr>';
 	echo '</table>';
+	echo '<table cellpadding="14" cellspacing="0" border="0">';
+		echo '<tr>';			
+			echo '<td valign="top">';
+				$newSize = 28;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';						
+			echo '<td valign="top">';
+				$newSize = 20;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';			
+		echo '</tr>';
+	echo '</table>';
 
 }
 
