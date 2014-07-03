@@ -15,9 +15,9 @@
 						<textarea rows="2" style="width: 500px;" id="filterglyphs"><?php if (isset($_POST['filterglyphs']) && !empty($_POST['filterglyphs']) ) echo $_POST['filterglyphs']; ?></textarea>	  						
 					</td>
 					<td width="80" valign="top">
+						<input type="checkbox" id="addsomesentence"> SSC<br />
 						<input type="checkbox" id="addsentence"> SC<br />
 						<input type="checkbox" id="adduppercase"> UC<br />
-						<input type="checkbox" id="addloon"> Loon
 					</td>
 					<td colspan="3" valign="top">
 						<p class="sizelabel">To filter your own text, paste it here:</p>
@@ -125,9 +125,9 @@
 		var eng_dict = $("#eng_dict").is(':checked') ? "yes" : "no";
 		var spa_dict = $("#spa_dict").is(':checked') ? "yes" : "no";
 		var deva_dict = $("#deva_dict").is(':checked') ? "yes" : "no";
-		var addloon = $("#addloon").is(':checked') ? "yes" : "no";
 		var adduppercase = $("#adduppercase").is(':checked') ? "yes" : "no";
 		var addsentence = $("#addsentence").is(':checked') ? "yes" : "no";
+		var addsomesentence = $("#addsomesentence").is(':checked') ? "yes" : "no";
 		
 		$.ajax({
 			url: "includes/tools/filter-ajax.php",
@@ -144,9 +144,9 @@
 				filtersize: $( "#filtersize" ).val(),
 				line: $( "#line" ).val(),
 				max: $( "#max" ).val(),
-				loon: addloon,
 				uppercase: adduppercase,
-				sentence: addsentence,				
+				sentence: addsentence,
+				somesentence: addsomesentence,				
 				eng_dict: eng_dict,
 				spa_dict: spa_dict,
 				deva_dict: deva_dict,

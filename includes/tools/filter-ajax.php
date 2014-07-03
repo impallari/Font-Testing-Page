@@ -120,6 +120,18 @@ class textFilter
         return $this;        
     }
 
+    function somesentence()
+    {
+        $sentence_count = 1;
+        foreach ($this->text as $key => $value) {
+        	if ($sentence_count % 6 == 1 ) {
+        		$this->text[$key] = ucwords($this->text[$key]);
+        	}
+        	$sentence_count ++;
+        }
+        return $this;        
+    }
+
     function getResults()
     {
         $this->result = implode( ' ', $this->text );
@@ -162,6 +174,7 @@ if ( !empty( $_POST['ending'] ) ) $a->ending( $_POST['ending'] );
 $a->randomize();
 $a->max( $_POST['max'] );
 if ( $_POST['sentence'] == "yes" ) $a->sentencecase();
+if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
 if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
 if ( $_POST['loon'] == "yes" ) $a->addloon();
 
@@ -197,7 +210,7 @@ if ($filtersize >= 20 ) {
 	echo ' ('.number_format($timer_end, 2).' seconds)';
 	echo '</p>';
 	echo '<table cellpadding="14" cellspacing="0" border="0">';
-		echo '<tr>';
+		echo '<tr>';;
 			echo '<td valign="top">';
 				echo '<p class="sizelabel">'.$filtersize.'px</p>';
 				echo '<p style="font-size: '.$filtersize.'px;';
@@ -227,6 +240,8 @@ if ($filtersize >= 20 ) {
 				echo $a->getResults();
 				echo '</p>';				
 			echo '</td>';
+		echo '</tr>';
+		echo '<tr>';			
 			echo '<td valign="top">';
 				$newSize = $filtersize - 3;
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
@@ -236,7 +251,7 @@ if ($filtersize >= 20 ) {
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
-			echo '</td>';
+			echo '</td>';			
 			echo '<td valign="top">';
 				$newSize = $filtersize - 4;
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
@@ -246,7 +261,17 @@ if ($filtersize >= 20 ) {
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
-			echo '</td>';			
+			echo '</td>';
+			echo '<td valign="top">';
+				$newSize = $filtersize - 5;
+				echo '<p class="sizelabel">'.$newSize.'px</p>';
+				echo '<p style="font-size: '.$newSize.'px;';
+				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+				echo '">';
+				echo $a->getResults();
+				echo '</p>';				
+			echo '</td>';							
 		echo '</tr>';
 	echo '</table>';
 
