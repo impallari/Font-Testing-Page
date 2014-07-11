@@ -19,9 +19,12 @@ if (isset($_POST['gridglyphs']) && !empty($_POST['gridglyphs']) ) {
 	
 ?>
 
-	<table>
+	<table width="100%" cellspacing="0" cellpadding="14" border="0">
 		<tr>
+			<!--
 			<td style="border: 1px solid #333; padding: <?php echo $padding_top ?>px <?php echo $padding_sides ?>px;">
+			-->
+			<td>
 			<?php 
 			for ($i = 0; $i <= count($letras); $i++) {
 				echo '<p style="font-size: '.$tamanio.'px;">';

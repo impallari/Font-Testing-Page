@@ -15,18 +15,18 @@
 						<textarea rows="2" style="width: 500px;" id="filterglyphs"><?php if (isset($_POST['filterglyphs']) && !empty($_POST['filterglyphs']) ) echo $_POST['filterglyphs']; ?></textarea>	  						
 					</td>
 					<td width="80" valign="top">
-						<input type="checkbox" id="addsomesentence"> SSC<br />
-						<input type="checkbox" id="addsentence"> SC<br />
-						<input type="checkbox" id="adduppercase"> UC<br />
+						<p class="sizelabel"><input type="checkbox" id="addsomesentence"> Some<br />
+						<input type="checkbox" id="addsentence"> Initial<br />
+						<input type="checkbox" id="adduppercase"> AllCaps</p>
 					</td>
 					<td colspan="3" valign="top">
 						<p class="sizelabel">To filter your own text, paste it here:</p>
 						<textarea rows="2" style="width: 200px;" id="words"><?php if (isset($_POST['words']) && !empty($_POST['words']) ) echo $_POST['words']; ?></textarea>	  						
 					</td>
 					<td valign="top">
-						<input type="checkbox" id="eng_dict" checked="checked"> Eng <br />
-						<input type="checkbox" id="spa_dict" checked="checked"> Spa <br />
-						<input type="checkbox" id="deva_dict"> Deva		  						
+						<p class="sizelabel"><input type="checkbox" id="eng_dict" checked="checked"> Eng<br />
+						<input type="checkbox" id="spa_dict" checked="checked"> Spa<br />
+						<input type="checkbox" id="deva_dict"> Deva</p>	  						
 					</td>		  						
 				</tr>
 				<tr>
