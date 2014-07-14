@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 8/1/2013:v1
+
+CACHE:
+css/styles-v9.css
+css/print-v9.css
+js/constants.js
+js/fontdrag.js
+js/otfeatures-v9.1.js
+js/contentEditable
+js/jquery-1.7.2.min.js

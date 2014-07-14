@@ -1,4 +1,4 @@
-Font Testing Page
+font-testing-page
 =================
 
 Stable releases available for use at http://www.impallari.com/testing
@@ -9,7 +9,8 @@ There is a short video demonstrating this tool, http://vimeo.com/40296571
 
 Operation is simple:
 
-- Drag the font you want to try to the upper area of the Testing Page
+- First, you must accept the request from the browser.
+- Then drag the font you want to try to the upper area of the Testing Page
 - Add more fonts and you'll see their file names and file sizes as buttons
 
 Below the drop area you see some buttons to select different layouts:
@@ -29,7 +30,8 @@ Below the drop area you see some buttons to select different layouts:
 
 Notes:
 
-- Requires Firefox or Chrome
+- Requires Firefox 3.6+/Chrome 13+
+- 100% Javascript
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
 
 Thanks

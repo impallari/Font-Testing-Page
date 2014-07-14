@@ -20,7 +20,7 @@ contentStorageTimer;
 
 TCNDDF.setup = function () {
 dropListing = document.getElementById("fonts");
-dropContainer = document.getElementsByTagName("section")[0];
+dropContainer = document.getElementById("dropcontainer"); 
 displayContainer = document.getElementById("custom");
 styleSheet = document.styleSheets[0];
 

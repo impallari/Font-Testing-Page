@@ -1,6 +1,11 @@
-// http://www.impallari.com/testing/
-// Version 9.1
-// Pablo Impallari
+/*
+* font-testing-page
+* https://github.com/impallari/font-testing-page
+* Released under the MIT License
+*/
+
+// 
+// 
 //
 // CSS3 Syntax
 
@@ -17,7 +22,6 @@ function refreshFeatures() {
 	
 	if (document.getElementById("swsh")) codeCSS3 += !document.getElementById("swsh").checked ? '' : '"swsh", ';
 	if (document.getElementById("salt")) codeCSS3 += !document.getElementById("salt").checked ? '' : '"salt", ';
-	if (document.getElementById("titl")) codeCSS3 += !document.getElementById("titl").checked ? '' : '"titl", ';
 	
 	if (document.getElementById("ss01")) codeCSS3 += !document.getElementById("ss01").checked ? '' : '"ss01", ';
 	if (document.getElementById("ss02")) codeCSS3 += !document.getElementById("ss02").checked ? '' : '"ss02", ';
@@ -42,7 +46,6 @@ function refreshFeatures() {
 
 	if (document.getElementById("smcp")) codeCSS3 += !document.getElementById("smcp").checked ? '' : '"smcp", ';
 	if (document.getElementById("c2sc")) codeCSS3 += !document.getElementById("c2sc").checked ? '' : '"c2sc", ';
-	if (document.getElementById("case")) codeCSS3 += !document.getElementById("case").checked ? '' : '"case", ';
 	
 	if (document.getElementById("ordn")) codeCSS3 += !document.getElementById("ordn").checked ? '' : '"ordn", ';
 
