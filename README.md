@@ -1,11 +1,8 @@
-font-testing-page
-=================
+###Tamil Font Testing Page
 
-Stable releases available for use at http://www.impallari.com/testing
+Live at http://niram.org/tamil-font-test
 
-The Font Testing Page is a tool primarily intended for type designers and independent foundries to 'Drag and Drop' their work in progress into a browser. It can also be used by art directors, graphic designers, teachers and students interested in seeing how a typeface works on the web.
-
-There is a short video demonstrating this tool, http://vimeo.com/40296571
+Tamil Font Testing Page is a tool to test Tamil fonts which are in development. Simply 'Drag and Drop' the work in progress, font into a browser to see how it displayed. It 
 
 Operation is simple:
 
@@ -18,21 +15,20 @@ Below the drop area you see some buttons to select different layouts:
 - Headlines: Displays examples: 72, 60, 48, 36 and 30 to 12.
 - Text: Displays text blocks, from 20 to 10.
 - Adhesion: Shows examples using only 'adhesion' text. Intended for the early stages on a typeface design.
-- Hamburgefonstiv Examples using 'Hamburgefonstiv' text.
-- Lowercase only: Displays examples of 72, 60, 48, 36, 30, 24, 18 and 16 to 10.
-- Caps: Displays examples of words in Sentence Case at 60.
-- All Caps: Displays examples of words in All-Caps at 60.
+- Words: Displays examples of words in Sentence Case at 60.
 - Layout: Displays examples of Headline, Subhead and Body text.
 - Kern: Displays examples of combinations of letters and miscellaneous signs.
 - Latin: Diacritics for 103 Latin languages, pangrams and text samples.
-- Non-Latin: Examples in arabic, armenian, greek, hebrew and +10 Non-Latin languages
 - Hinting: Basic Char-set at different sizes to check for hinting problems
+- World Scripts: Examples in arabic, armenian, greek, hebrew and +10 Non-Latin languages
 
 Notes:
 
 - Requires Firefox 3.6+/Chrome 13+
 - 100% Javascript
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
+
+#####This testing page is based on [Font Testing Page](https://github.com/impallari/Font-Testing-Page)
 
 Thanks
 
@@ -49,4 +45,4 @@ License
 
 Code is available under the MIT License, see LICENSE.md for full details
 
-Page text is available under the Creative Commons Attribution-ShareAlike v3.0 License
+Page text are from Niram blog at [tamil.niram.org](https://github.com/impallari/Font-Testing-Page)
