@@ -2,7 +2,7 @@
 
 Live at http://niram.org/tamil-font-test
 
-Tamil Font Testing Page is a tool to test Tamil fonts which are in development. Simply 'Drag and Drop' the work in progress, font into a browser to see how it displayed. It 
+Tamil Font Testing Page is a tool to test Tamil fonts which are in development. Simply 'Drag and Drop' the work in progress, font into a browser to see how it displayed in a browser.
 
 Operation is simple:
 
