@@ -42,4 +42,53 @@
 		</tr>
 	</table>
 
+	<p class="sizelabel">&nbsp;</p>
+
+	<p class="sizelabel"><a href="http://www.ektype.in/" target="_blank">Girish Dalvi’s groups</a>, Roots Letter and Derived.</p>
+	<table cellpadding="36" cellspacing="0" border="0">
+		<tr>
+			<td valign="top">
+				<p style="font-size: 42px;">अ - आ उ ऊ ओ औ अं अः - ञ</p>
+				<p style="font-size: 42px;">इ - ई झ - ङ ड - ह - ज्ञ</p>
+				<p style="font-size: 42px;">ए - ऐ</p>
+				<p style="font-size: 42px;">ख - र स - क ब व - श</p>
+				<p style="font-size: 42px;">त - ल</p>
+				<p style="font-size: 42px;">भ - ग न म</p>
+				<p style="font-size: 42px;">द - ट ठ ढ क्ष - ळ</p>
+				<p style="font-size: 42px;">ध - घ छ - च ज</p>
+				<p style="font-size: 42px;">थ - य</p>
+				<p style="font-size: 42px;">ष - प फ ण</p>
+			</td>
+		</tr>
+	</table>
+
+	<p>&nbsp;</p>
+	
+	<p class="sizelabel">Knots and Loops</p>
+	<table cellpadding="4" cellspacing="0" border="0">
+		<?php
+		$i = 42;
+		while ($i >= 20) {
+		?>
+		<tr>
+			<td><p class="sizelabel"><?php echo$i; ?>px</p></td>
+			<td><p style="font-size: <?php echo$i; ?>px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+		<?php
+		$i = $i - 4;
+		}
+
+		$i = 18;
+		while ($i >= 10) {
+		?>
+		<tr>
+			<td><p class="sizelabel"><?php echo$i; ?>px</p></td>
+			<td><p style="font-size: <?php echo$i; ?>px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
+		</tr>
+		<?php
+		$i = $i - 1;
+		}
+		?>
+	</table>
+
 </div>

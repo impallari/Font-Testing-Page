@@ -56,33 +56,4 @@
 		?>
 	</table>
 	
-	<p>&nbsp;</p>
-	
-	<p class="sizelabel">Knots and Loops</p>
-	<table cellpadding="4" cellspacing="0" border="0">
-		<?php
-		$i = 48;
-		while ($i >= 20) {
-		?>
-		<tr>
-			<td><p class="sizelabel"><?php echo$i; ?>px</p></td>
-			<td><p style="font-size: <?php echo$i; ?>px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
-		</tr>
-		<?php
-		$i = $i - 4;
-		}
-
-		$i = 18;
-		while ($i >= 10) {
-		?>
-		<tr>
-			<td><p class="sizelabel"><?php echo$i; ?>px</p></td>
-			<td><p style="font-size: <?php echo$i; ?>px;">नगरसमइदझज्ञ - क्षभ - थधशढछ - ऋॠ</p></td>
-		</tr>
-		<?php
-		$i = $i - 1;
-		}
-		?>
-	</table>
-	
 </div>
