@@ -93,10 +93,10 @@
 							<option value="500">500</option>
 							<option value="700">700</option>
 						</select>
-						</td>							
-						<td align="left" valign="middle">
-							<button type="submit">Filter</button>
-						</td>	
+					</td>							
+					<td align="left" valign="middle">
+						<button type="submit">Filter</button>
+					</td>	
 				</tr>
 			</table>
 		

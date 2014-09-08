@@ -20,7 +20,7 @@ class textFilter
     {
         if ( !empty($glypsh_string) ) {
         	$glypsh_string = preg_replace('/\s+/', '', trim($glypsh_string));
-        	$regex = '/^[' . $glypsh_string . ']{5,6}$/u';
+        	$regex = '/^[' . $glypsh_string . ']{5,10}$/u';
         	// echo $regex;
         	$this->text = array_slice(array_values(preg_grep($regex, $this->text)), 0);
         }

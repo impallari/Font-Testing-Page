@@ -3,7 +3,7 @@ var GRUMPIES = {
         'text': "Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.",
         'columns': [ // single column
             {
-                sizes: [72, 60, 48, 36, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12],
+                sizes: [96, 84, 72, 60, 48, 36, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12],
                 innerblock: 'div'
             }
         ],
@@ -22,7 +22,7 @@ var GRUMPIES = {
     'lowercaseShort': {
         'text': "the five boxing wizards jump quickly pack my red box with five dozen quality jugs a very big box sailed up then whizzed quickly from japan",
         'columns': [
-            {sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
+            {sizes: [96, 84, 72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
         ],
         'tab': '#lowercases'
     },
@@ -39,7 +39,7 @@ var GRUMPIES = {
     'adhesionShort': {
         'text': "adhesion donnishness indianians deaden on ode so sheenie died dashed dens seaside easines nonseasoned seen hindi said seines sadnesses deaden donnishness dissensions dead",
         'columns': [
-            {sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
+            {sizes: [96, 84, 72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
         ],
         'tab': '#adhesion'
     },
@@ -56,7 +56,7 @@ var GRUMPIES = {
     'hamburgefonstivShort': {
         'text': "fortieth boring trait favoring barrage referring thrusting tannest embargo sausage gaining astutest augur hibernate variant hearse beggaring foresee eagerer hearten ensnaring tufting interstate meager veneration stigma feminine tabbing noising trimming throbbing ransoming stiffen oaring fishing rehire overbore bonniest ravishment teensiest mintier shriven unforeseen overrate surgeon smarter submarine revenging assuaging masher amnesia insentient rehashing fresher buttering sorghum thine sitter month serer minting variate torsion gaunt",
         'columns': [
-            {sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
+            {sizes: [96, 84, 72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
         ],
         'tab': '#hamburgefonstiv'
     },
