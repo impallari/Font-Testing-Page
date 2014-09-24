@@ -70,6 +70,11 @@ div.tabs > div h2 { margin-top: 0; }
 	column-gap: 20px;
 }
 
+/* 100 pixel ruler background */
+.ruler100pixels {
+	background: #ffffff url('../images/100pixels.png') repeat-x left top;
+}
+
 /* This is only used in the "Ruder" tab, should be moved to inline css into the ruder.php include file */  
 #ruder td { font-size: 32px; line-height: 1; margin: 0; padding: 4px; }
 

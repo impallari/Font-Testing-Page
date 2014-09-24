@@ -54,10 +54,12 @@
 	    <li><a href="#ruder">Ruder</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
 	    <li><a href="#lowergrid">LC Grid</a></li>
-	    <li><a href="#lowerspacing">LC1</a></li>
-	    <li><a href="#lowerspacingend">LC2</a></li>
+	    <li><a href="#lowerspacing01">LC1</a></li>
+	    <li><a href="#lowerspacing02">LC2</a></li>
+	    <li><a href="#lowerspacing03">LC3</a></li>
+	    <li><a href="#upperspacing03">UC3</a></li>
 	    <li><a href="#numbers">N1</a></li>
-	    <li><a href="#numeritos">N2</a></li>		    
+	    <li><a href="#numeritos">N2</a></li>   		    
 	    <li><a href="#overshoots">OS</a></li>
 	    <li><a href="#pangra">Pang</a></li>
 	    <li><a href="#dia_one">Diac1</a></li>	 
@@ -95,11 +97,6 @@
 	  	<?php include("includes/latin-02/ruder.php"); ?>
 	  </div>
 
-	  <!-- Numbers -->
-	  <div id="numbers">
-		<?php include("includes/latin-02/numbers.php"); ?>
-	  </div>
-
 	  <!-- Caps Grid -->
 	  <div id="capsgrid">
 		<?php include("includes/latin-02/caps-grid.php"); ?>
@@ -109,31 +106,46 @@
 	  <div id="lowergrid">
 		<?php include("includes/latin-02/lower-grid.php"); ?>
 	  </div>
+
+	  <!-- lowerspacing 1 -->
+	  <div id="lowerspacing01">
+		<?php include("includes/latin-02/lc-spacing-01.php"); ?>
+	  </div>
+
+	  <!-- lowerspacing 2 -->
+	  <div id="lowerspacing02">
+		<?php include("includes/latin-02/lc-spacing-02.php"); ?>
+	  </div>	  
+
+	  <!-- lowerspacing 3 -->
+	  <div id="lowerspacing03">
+		<?php include("includes/latin-02/lc-spacing-03.php"); ?>
+	  </div>		  
+
+	  <!-- Upperspacing 3 -->
+	  <div id="upperspacing03">
+		<?php include("includes/latin-02/uc-spacing-03.php"); ?>
+	  </div>
 	  
-	  <!-- Pangrams -->
-	  <div id="pangra">
-		<?php include("includes/latin-02/pangra.php"); ?>			
+	  <!-- Numbers -->
+	  <div id="numbers">
+		<?php include("includes/latin-02/numbers.php"); ?>
+	  </div>
+	  
+	  <!-- numeritos -->
+	  <div id="numeritos">
+	  	<?php include("includes/latin-02/numeritos.php"); ?>
 	  </div>
 
 	  <!-- overshoots -->
 	  <div id="overshoots">
 		<?php include("includes/latin-02/overshoots.php"); ?>	
 	  </div>
-	  
-	  <!-- numeritos -->
-	  <div id="numeritos">
-	  	<?php include("includes/latin-02/numeritos.php"); ?>
-	  </div>	  
 
-	  <!-- lowerspacing 2 -->
-	  <div id="lowerspacing">
-		<?php include("includes/latin-02/lc-spacing-01.php"); ?>
-	  </div>
-
-	  <!-- lowerspacing 3 -->
-	  <div id="lowerspacingend">
-		<?php include("includes/latin-02/lc-spacing-02.php"); ?>
-	  </div>
+	  <!-- Pangrams -->
+	  <div id="pangra">
+		<?php include("includes/latin-02/pangra.php"); ?>			
+	  </div>	 	  
 
 	  <!-- Diacritics One -->
 	  <div id="dia_one">

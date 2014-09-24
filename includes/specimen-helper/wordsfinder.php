@@ -1,7 +1,7 @@
 <div>
 
 	<div id="formContainer">
-		<form method="post" action="includes/playground/wordsfinder-ajax.php" id="filterform">
+		<form method="post" action="includes/specimen-helper/wordsfinder-ajax.php" id="filterform">
 		
 			<?php
 			// Defino un tamaño por defecto
@@ -174,7 +174,7 @@
 		var addsentence = $("#addsentence").is(':checked') ? "yes" : "no";
 		
 		$.ajax({
-			url: "includes/playground/wordsfinder-ajax.php",
+			url: "includes/specimen-helper/wordsfinder-ajax.php",
 			data: {
 				measures: $( "#measures" ).val(),
 				kerning: $( "#kerning" ).val(),

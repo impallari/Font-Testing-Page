@@ -47,23 +47,23 @@
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
 	    <li><a href="#wordsfinder">Words finder</a></li>
-	    <li><a href="#scale">Scale</a></li>
-	    <li><a href="#spe01">Specimen 01</a></li>
+	    <li><a href="#calculator">Calculator</a></li>
+	    <li><a href="#template01">Template 01</a></li>
 	  </ul>
 
 	  <!-- Words Finder -->
 	  <div id="wordsfinder">
-	  	<?php include("includes/playground/wordsfinder.php"); ?>
+	  	<?php include("includes/specimen-helper/wordsfinder.php"); ?>
 	  </div>	  
 
-	  <!-- My Scale -->
-	  <div id="scale">
-	  	<?php include("includes/playground/scale.php"); ?>
+	  <!-- Calculator -->
+	  <div id="calculator">
+	  	<?php include("includes/specimen-helper/calculator.php"); ?>
 	  </div>
 
-	  <!-- Specimen Format 01 -->
-	  <div id="spe01">
-	  	<?php include("includes/playground/spe01.php"); ?>
+	  <!-- Specimen Template 01 -->
+	  <div id="template01">
+	  	<?php include("includes/specimen-helper/template01.php"); ?>
 	  </div>
 
 	</div><!-- end tabs -->
