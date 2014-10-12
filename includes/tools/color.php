@@ -1,6 +1,6 @@
 <div>
 	
-	<form method="post" action="includes/tools/grid-ajax.php" id="gridgeneratorform">
+	<form method="post" action="includes/tools/color-ajax.php" id="gridgeneratorform">
 
 		<?php
 		// Defino un tamaño por defecto
@@ -42,7 +42,7 @@
 		event.preventDefault();
 		
 		$.ajax({
-			url: "includes/tools/grid-ajax.php",			
+			url: "includes/tools/color-ajax.php",			
 			data: {
 				gridglyphs: $( "#gridglyphs" ).val(),
 				gridtamanio: $( "#gridtamanio" ).val(),

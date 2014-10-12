@@ -49,6 +49,7 @@
 	    <li><a href="#wordsfinder">Words finder</a></li>
 	    <li><a href="#calculator">Calculator</a></li>
 	    <li><a href="#template01">Template 01</a></li>
+	    <li><a href="#scale">Scale</a></li>
 	  </ul>
 
 	  <!-- Words Finder -->
@@ -64,6 +65,11 @@
 	  <!-- Specimen Template 01 -->
 	  <div id="template01">
 	  	<?php include("includes/specimen-helper/template01.php"); ?>
+	  </div>
+
+	  <!-- Scale -->
+	  <div id="scale">
+	  	<?php include("includes/specimen-helper/scale.php"); ?>
 	  </div>
 
 	</div><!-- end tabs -->

@@ -47,8 +47,9 @@
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
 	    <li><a href="#filter">Filter Text</a></li>
-	    <li><a href="#grid">Grid Generator</a></li>
-	    <li><a href="#connection">Connection Tester</a></li>
+	    <li><a href="#nnxnn">Spacing Grid</a></li>	    
+	    <li><a href="#color">Color Grid</a></li>
+	    <li><a href="#connection">Connections Grid</a></li>
 	    <li><a href="#specimens">Specimens</a></li>
 	    <li><a href="#pairs">Kern Pairs Generator</a></li>
 	  </ul>
@@ -58,9 +59,14 @@
 	  	<?php include("includes/tools/filter.php"); ?>
 	  </div>	  
 
-	  <!-- Grid Generator -->
-	  <div id="grid">
-	  	<?php include("includes/tools/grid.php"); ?>			
+	  <!-- nnxnn Generator -->
+	  <div id="nnxnn">
+	  	<?php include("includes/tools/nnxnn.php"); ?>			
+	  </div>
+
+	  <!-- Color Generator -->
+	  <div id="color">
+	  	<?php include("includes/tools/color.php"); ?>			
 	  </div>
 
 	  <!-- Connection Tester -->
