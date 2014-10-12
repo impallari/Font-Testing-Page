@@ -42,7 +42,12 @@ if (isset($_POST['nnxnnglyphs']) && !empty($_POST['nnxnnglyphs']) ) {
 					echo '</td>';
 					echo '<td>';
 						echo '<p style="font-size: '.$tamanio.'px;">';
-						echo 'nn'.$value.'nono'.$value.'oo';
+						echo 'nn'.$value.'oo'.$value.'nn';
+						echo '</p>';
+					echo '</td>';
+					echo '<td>';
+						echo '<p style="font-size: '.$tamanio.'px;">';
+						echo 'oo'.$value.'nn'.$value.'oo';
 						echo '</p>';
 					echo '</td>';
 			echo '</tr>';
@@ -60,7 +65,12 @@ if (isset($_POST['nnxnnglyphs']) && !empty($_POST['nnxnnglyphs']) ) {
 					echo '</td>';
 					echo '<td>';
 						echo '<p style="font-size: '.$tamanio.'px;">';
-						echo 'HH'.$value.'HOHO'.$value.'OO';
+						echo 'HH'.$value.'OO'.$value.'HH';
+						echo '</p>';
+					echo '</td>';
+					echo '<td>';
+						echo '<p style="font-size: '.$tamanio.'px;">';
+						echo 'OO'.$value.'HH'.$value.'OO';
 						echo '</p>';
 					echo '</td>';
 				echo '</tr>';
