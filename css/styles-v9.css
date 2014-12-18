@@ -5,6 +5,7 @@ body { background: white; color: black; margin: 0; padding: 0; }
 section { display: block; float: left; margin: 0; padding: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 ol { padding-left: 0px; list-style-position: inside; }
+*:focus { outline: none;}
 
 /*----------------------------------------------------------------------------------------------------
   Top
@@ -56,11 +57,6 @@ div.tabs > div h2 { margin-top: 0; }
 .whiteGrey #footer p, .whiteGrey #footer p a, .whiteGrey #custom p.sizelabel {color: #aaa;}
 
 .whiteBlack {color: white; background: black;}
-
-/* Hide focus */
-[contenteditable="true"]:focus {
-    outline: none;
-}
 
 /*-----------------------------------------------------------------------------------------------------
   Tab Specific Rules:
