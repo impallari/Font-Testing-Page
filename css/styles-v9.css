@@ -19,14 +19,16 @@ header h1 { margin: 0; padding: 40px 20px; }
 #fonts li.active { background: #CCCCCC; }
 
 /* OT Features Panel */
-#toggleotfeatures { float: left; width: 880px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
-#toggleotfeatures a { color: #fff; text-decoration:none; text-shadow: 1px 1px 2px black; }
+#toggleotfeatures { float: left; width: 880px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; color: black; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+#toggleotfeatures a { color: #000; text-decoration:none;}
 #editions { float: right; }
 
 /* OT Features Menu */
-#otfeatures { float: left; width: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+#otfeatures { float: left; width: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; color: black; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 #otfeatures table td { padding: 4px 20px;}
 #csscode { margin: 0; padding: 0; font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
+
+select { -webkit-appearance: none; -moz-appearance: window; padding: 0; margin: 0; border: none; background: none; color: #000; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; cursor: pointer;} 
 
 /*-----------------------------------------------------------------------------------------------------
   Content
@@ -47,6 +49,18 @@ div.tabs > div { padding: 20px; }
 
 /* Is this rule still used? If no longer used then it can be removed... */
 div.tabs > div h2 { margin-top: 0; } 
+
+/* Themes */
+.greyWhite {color: #333;}
+.whiteGrey {color: white; background: #666;}
+.whiteGrey #footer p, .whiteGrey #footer p a, .whiteGrey #custom p.sizelabel {color: #aaa;}
+
+.whiteBlack {color: white; background: black;}
+
+/* Hide focus */
+[contenteditable="true"]:focus {
+    outline: none;
+}
 
 /*-----------------------------------------------------------------------------------------------------
   Tab Specific Rules:

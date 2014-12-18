@@ -37,6 +37,15 @@
     
     // Grab the text from the JS constant file, and show it
     prepareAndShowFontLayout();
+     
+    // Theme chooser
+     var selectedScheme = 'Default';
+
+    $('#color_scheme').change(function(){
+        $('body').removeClass(selectedScheme).addClass($(this).val());
+        selectedScheme = $(this).val();
+    });
+
 
 });
 </script>
@@ -47,7 +56,6 @@
 <?php include("includes/top.php"); ?>
 
 <section id="custom">
-
 	<div class="tabs">
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
@@ -179,7 +187,6 @@
 	  </div>
 
 	</div><!-- end tabs -->
-
 </section>
 		
 <!-- Footer -->

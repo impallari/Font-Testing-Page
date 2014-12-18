@@ -6,8 +6,14 @@
 
 <!-- OT Features Menu -->
 <div id="toggleotfeatures">
+	<a href="javascript://" id="showhide">OpenType Features</a> | 
+    <select name="color_scheme" id="color_scheme">
+        <option selected="selected" value="default">Default Theme</option>
+        <option value="greyWhite">Grey on White</option>
+        <option value="whiteGrey">White on Grey</option>
+        <option value="whiteBlack">White on Black</option>
+    </select>
 	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
-	<a href="javascript://" id="showhide">OpenType Features</a>
 </div>
 <div id="otfeatures" style="display: none;">
 	<table width="100%">
