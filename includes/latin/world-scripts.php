@@ -1,6 +1,6 @@
 <div style="width: 920px;" contenteditable="true">
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Cyrillic</h3>
+	<h3 class="worldHeading">Cyrillic</h3>
 		<p class="sizelabel">Bulgarian</p>
 		<p style="font-size: 26px;">Ах чудна българска земьо, полюшквай цъфтящи жита.</p><p>&nbsp;</p>
 	
@@ -16,11 +16,11 @@
 		<p class="sizelabel">Ukrainian</p>
 		<p style="font-size: 26px;">Жебракують філософи при ґанку церкви в Гадячі, ще й шатро їхнє п'яне знаємо.</p><p>&nbsp;</p>
 			
-	<h3 style="text-align: center; border-top: 1px solid #333;">Devanagari</h3>
+	<h3 class="worldHeading">Devanagari</h3>
 		<p class="sizelabel">Hindi</p>
 		<p style="font-size: 26px;">दीवारबंद जयपुर ऐसी दुनिया है जहां लगभग हर दुकान का नाम हिन्दी में लिखा गया है। नामकरण की ऐसी तरतीब हिन्दुस्तान में कम दिखती है। दिल्ली में कॉमनवेल्थ गेम्स के दौरान कनॉट प्लेस और पहाड़गंज की नामपट्टिकाओं को एक समान करने का अभियान चला। पत्रकार लिख</p><p>&nbsp;</p>
 			
-	<h3 style="text-align: center; border-top: 1px solid #333;">Greek</h3>
+	<h3 class="worldHeading">Greek</h3>
 		<p class="sizelabel">Greek</p>
 		<p style="font-size: 26px;">Τάχιστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός</p><p>&nbsp;</p>
 		
@@ -51,7 +51,7 @@
 			</tr>
 		</table>
 						
-	<h3 style="text-align: center; border-top: 1px solid #333;">Arabic</h3>
+	<h3 class="worldHeading">Arabic</h3>
 		<p class="sizelabel">Arabic</p>
 		<p style="font-size: 26px;">صِف خَلقَ خَودِ كَمِثلِ الشَمسِ إِذ بَزَغَت — يَحظى الضَجيعُ بِها نَجلاءَ مِعطارِ</p><p>&nbsp;</p>
 	
@@ -61,50 +61,50 @@
 		<p class="sizelabel">Urdu</p>
 		<p style="font-size: 26px;">ر‌ضائی کو غلط اوڑھے بیٹھی ژوب کی قرۃ العین اور عظمٰی کے پاس گھر کے ذخیرے سے آناً فاناً ڈش میں ثابت جو، صراحی میں چائے اور پلیٹ میں زردہ آیا۔</p><p>&nbsp;</p>				
 		
-	<h3 style="text-align: center; border-top: 1px solid #333;">Hebrew</h3>
+	<h3 class="worldHeading">Hebrew</h3>
 		<p style="font-size: 26px;">כך התרסק נפץ על גוזל קטן, שדחף את צבי למים</p><p>&nbsp;</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Armenian</h3>
+	<h3 class="worldHeading">Armenian</h3>
 		<p style="font-size: 26px;">բել դղյակի ձախ ժամն օֆ ազգությանը ցպահանջ չճշտած վնաս էր և փառք</p>
 		<p style="font-size: 26px;">ԲԵԼ ԴՂՅԱԿԻ ՁԱԽ ԺԱՄՆ ՕՖ ԱԶԳՈՒԹՅԱՆԸ ՑՊԱՀԱՆՋ ՉՃՇՏԱԾ ՎՆԱՍ ԷՐ և ՓԱՌՔ</p><p>&nbsp;</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Georgian</h3>
+	<h3 class="worldHeading">Georgian</h3>
 		<p style="font-size: 26px;">ქართული ენა — ქართველების მშობლიური ენა, საქართველოს სახელმწიფო ენა (აფხაზეთის ავტონომიურ რესპუბლიკაში, მის პარალელურად, სახელმწიფო ენად აღიარებულია აფხაზური ენა). ქართულ ენაზე 5 მილიონზე მეტი ადამიანი ლაპარაკობს.</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Thai</h3>
+	<h3 class="worldHeading">Thai</h3>
 		<p style="font-size: 26px;">นายสังฆภัณฑ์ เฮงพิทักษ์ฝั่ง ผู้เฒ่าซึ่งมีอาชีพเป็นฅนขายฃวด ถูกตำรวจปฏิบัติการจับฟ้องศาล ฐานลักนาฬิกาคุณหญิงฉัตรชฎา ฌานสมาธิ</p><p>&nbsp;</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Bengali</h3>
+	<h3 class="worldHeading">Bengali</h3>
 		<p style="font-size: 26px;">বাংলা লিপি বাংলা, অসমীয়া, মণিপুরি ও সিলেটি ভাষায় ব্যবহৃত হয়৷ বাংলা লিপির গঠন তুলনামূলকভাবে কম আয়তাকার ও বেশী সর্পিল৷ বাংলা লিপিটি সিদ্ধং লিপি থেকে উদ্ভূত হয়েছে বলে মনে করা হয়৷ ১৭৭৮ সালে অক্ষরস্থাপক চার্ল্‌স্ উইলকিন্‌স্ লিপিটির আধুনিক রূপ সর্বপ্রথম নিয়মাবদ্ধ করেন৷ অসমীয়া ও অন্যান্য ভাষায় বাংলা লিপির যে সংস্করণগুলো ব্যবহৃত হয়, সেগুলোতে কিছু ছোটখাটো পার্থক্য রয়েছে৷ যেমন: (বাংলা র; অসমীয়া ৰ) এবং (অসমীয়া ৱ; কোন বাংলা প্রতিলিপি নেই)৷</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Burmese</h3>
+	<h3 class="worldHeading">Burmese</h3>
 		<p class="sizelabel">Myanmar</p>
 		<p style="font-size: 26px;">သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေးဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။ </p><p>&nbsp;</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">CJK</h3>
+	<h3 class="worldHeading">CJK</h3>
 		<p class="sizelabel">Japanese</p>
 		<p style="font-size: 26px;">いろはにほへと　ちりぬるを　わかよたれそ　つねならむ　うゐのおくやま　けふこえて　あさきゆめみし　ゑひもせす 色は匂へど　散りぬるを　我が世誰ぞ　常ならむ　有為の奥山　今日越えて　浅き夢見じ　酔ひもせず（ん）</p><p>&nbsp;</p>
 	
 		<p class="sizelabel">Korean</p>
 		<p style="font-size: 26px;">키스의 고유조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다.</p><p>&nbsp;</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Ethiopic</h3>
+	<h3 class="worldHeading">Ethiopic</h3>
 		<p style="font-size: 26px;">ቃለ፡ በረከት፡ ዘሄኖክ፡ ዘከመ፡ ባረከ፡ ኅሩያነ፡ ወጻድቃነ፡ እለ፡ ሀለዉ፡ ይኩኑ፡ በዕለተ፡ ምንዳቤ፡ ለአሰስሎ፡ ኵሉ፡ እኩያን፡ ወረሲዓን።</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Khmer</h3>
+	<h3 class="worldHeading">Khmer</h3>
 		<p style="font-size: 26px;">ខ្ញុំអាចញ៉ាំកញ្ចក់បាន ដោយគ្មានបញ្ហា</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Lao</h3>
+	<h3 class="worldHeading">Lao</h3>
 		<p style="font-size: 26px;">ຂອບໃຈຫຼາຍໆເດີ້ ໄຂປະຕູໃຫ້ແດ່</p>
 		<p style="font-size: 26px;">ໂຄງການ​ຫໍສະໝຸດ​ດິຈິ​ຕອລໜັງສື​ໃບ​ລານ​ລາວ ຂອງ​ຫໍສະໝຸດ​ແຫ່ງ​ຊາດ ນະ​ຄອນ​ຫລວງ​ວຽງ​ຈັນ ​ໄດ້​ຈັດ​ສະ​ເໜີ​ຮູບ​ພາບ​ດິຈິ​ຕອລ​ເອກະສານ​​ເກືອບ 12,000 ຕົ້ນ​ສະບັບ ຈາກ​ທົ່ວ​ປະ​ເທດ​ໂດຍ​ຜ່ານ​ອິນ​ເຕີ​ເນັດ ​ເພື່ອ​ຜູ້​ສົນ​ໃຈ​ສາມາດ​ໃຊ້​ສຶກສາ​ຄົ້ນຄວ້າ​ໄດ້​ໂດຍ​ສະ​ດວກ. ຄຼິກຫ້ອງ​ ‘ພາສາ​ລາວ’ ​ຢູ່​ທາງ​ເທິງ​ເພື່ອ​ເບິ່ງ​ເວັບ​ໄຊ​ພາສາ​ລາວ.</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Tamil</h3>
+	<h3 class="worldHeading">Tamil</h3>
 		<p style="font-size: 26px;">தமிழ் அரிச்சுவடி என்பது தமிழ் மொழியில் உள்ள எழுத்துக்களின் வரிசை ஆகும். அரி என்னும் முன்னடை சிறு என்னும் பொருள் கொண்டது. இதனை தமிழ் அகரவரிசை, தமிழ் நெடுங்கணக்கு போன்ற சொற்களாலும் குறிப்பிடப்படுகிறது. தமிழில் 12 உயிரெழுத்துக்களும், 18 மெய்யெழுத்துக்களும், 216 உயிர்மெய் எழுத்துக்களும், ஓரு ஆய்த எழுத்துமாக மொத்தம் 247 எழுத்துக்கள் தமிழ் நெருங்கணக்கில் உள்ளன. தற்காலத்தில் வழங்கும் கிரந்த எழுத்துக்கள் தமிழ் நெடுங்கணக்கைச் சேர்ந்ததல்ல.</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Thaana</h3>
+	<h3 class="worldHeading">Thaana</h3>
 		<p style="font-size: 26px;">Missing Thaana sample text string</p>
 	
-	<h3 style="text-align: center; border-top: 1px solid #333;">Tibetian</h3>
+	<h3 class="worldHeading">Tibetian</h3>
 		<p class="sizelabel">Dzongkha</p>
 		<p style="font-size: 26px;">ཨ་ཡིག་དཀར་མཛེས་ལས་འཁྲུངས་ཤེས་བློའི་གཏེར༎ ཕས་རྒོལ་ཝ་སྐྱེས་ཟིལ་གནོན་གདོང་ལྔ་བཞིན༎ ཆགས་ཐོགས་ཀུན་བྲལ་མཚུངས་མེད་འཇམ་དབྱངསམཐུས༎ མཧཱ་མཁས་པའི་གཙོ་བོ་ཉིད་འགྱུར་ཅིག།</p><p>&nbsp;</p>
 
