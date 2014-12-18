@@ -8,8 +8,11 @@
 <div id="toggleotfeatures">
     <a href="javascript://" id="showhide">OpenType Features</a> | 
     <select name="color_scheme" id="color_scheme">
-        <option selected="selected" value="default">Default Theme</option>
-        <option value="greyWhite">Grey on White</option>
+        <option value='' disabled selected style='display:none;'>Change Color</option>
+        <option value="default">Black on White</option>
+        <option value="DarkGreyWhite">Dark grey on White</option>
+        <option value="GreyWhite">Grey on White</option>
+        <option value="LightGreyWhite">Light grey on White</option>
         <option value="whiteGrey">White on Grey</option>
         <option value="whiteBlack">White on Black</option>
     </select>
