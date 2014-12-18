@@ -7,6 +7,10 @@ section { display: block; float: left; margin: 0; padding: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 ol { padding-left: 0px; list-style-position: inside; }
 *:focus { outline: none;}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
 
 /*----------------------------------------------------------------------------------------------------
   Top
