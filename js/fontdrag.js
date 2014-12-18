@@ -65,6 +65,9 @@ droppedFileName = droppedFullFileName.replace(/\..+$/,""); // Removes file exten
 droppedFileName = droppedFileName.replace(/\W+/g, "-"); // Replace any non alpha numeric characters with -
 droppedFileSize = Math.round(file.size/1024) + "kb";
 
+// Change the html title (useful for printing etc.) - should probably be somewhere else because now it only updates when adding and not when changing to an already added font
+document.title = droppedFileName;
+
 TCNDDF.processData(file,droppedFileName,droppedFileSize);
 } else {
 alert("Invalid file extension. Will only accept ttf, otf or woff font files");
