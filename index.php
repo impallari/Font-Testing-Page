@@ -38,14 +38,19 @@
     // Grab the text from the JS constant file, and show it
     prepareAndShowFontLayout();
      
-    // Theme chooser
-     var selectedScheme = 'Default';
-
+    // Theme Chooser
+    var selectedScheme = 'Default';
     $('#color_scheme').change(function(){
-        $('body').removeClass(selectedScheme).addClass($(this).val());
+$('body').removeClass(selectedScheme).addClass($(this).val());
         selectedScheme = $(this).val();
     });
-
+     
+     // Hide Labels
+    var selectedLabels = 'Default';
+    $('#size_label').change(function(){
+$('.sizelabel').removeClass(selectedLabels).addClass($(this).val());
+        selectedLabels = $(this).val();
+    });
 
 });
 </script>

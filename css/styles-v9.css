@@ -60,14 +60,18 @@ div.tabs > div { padding: 20px; }
 div.tabs > div h2 { margin-top: 0; } 
 
 /* Themes */
-.DarkGreyWhite {color: #272727;} 
-.GreyWhite {color: #545454;}
-.LightGreyWhite {color: #818181;} 
-.whiteGrey {color: white; background: #666;}
-.whiteGrey #footer p, .whiteGrey #footer p a, .whiteGrey #custom p.sizelabel {color: #aaa;}
+.DarkGreyWhite {color: #272727; } 
+.GreyWhite {color: #545454; }
+.LightGreyWhite {color: #818181; } 
+
+.whiteGrey {color: white; background: #666; }
+.whiteGrey #footer p, .whiteGrey #footer p a, .whiteGrey #custom p.sizelabel {color: #aaa; }
+ 
+.whiteBlack {color: white; background: black; }
+
 .whiteGrey .worldHeading:not(:first-of-type), whiteBlack .worldHeading:not(:first-of-type) {border-top: 1px solid white; padding-top: 25px; }
 
-.whiteBlack {color: white; background: black;}
+.labelsOff {opacity: 0; }
 
 /*-----------------------------------------------------------------------------------------------------
   Tab Specific Rules:

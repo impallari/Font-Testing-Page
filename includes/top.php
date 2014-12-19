@@ -7,8 +7,13 @@
 <!-- OT Features Menu -->
 <div id="toggleotfeatures">
     <a href="javascript://" id="showhide">OpenType Features</a> | 
+    <select name="size_label" id="size_label">
+        <option value='' disabled selected style='display:none;'>Labels</option>
+        <option value="default">Shown</option>
+        <option value="labelsOff">Hidden</option>
+    </select> | 
     <select name="color_scheme" id="color_scheme">
-        <option value='' disabled selected style='display:none;'>Change Color</option>
+        <option value='' disabled selected style='display:none;'>Color</option>
         <option value="default">Black on White</option>
         <option value="DarkGreyWhite">Dark grey on White</option>
         <option value="GreyWhite">Grey on White</option>
