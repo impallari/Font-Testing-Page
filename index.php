@@ -37,7 +37,7 @@
     
     // Grab the text from the JS constant file, and show it
     prepareAndShowFontLayout();
-
+     
 });
 </script>
 </head>
@@ -47,7 +47,6 @@
 <?php include("includes/top.php"); ?>
 
 <section id="custom">
-
 	<div class="tabs">
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
@@ -179,7 +178,6 @@
 	  </div>
 
 	</div><!-- end tabs -->
-
 </section>
 		
 <!-- Footer -->

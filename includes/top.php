@@ -1,3 +1,21 @@
+<script>
+$(document).ready(function(){
+    // Theme Chooser
+    var selectedScheme = 'Default';
+    $('#color_scheme').change(function(){
+$('body').removeClass(selectedScheme).addClass($(this).val());
+        selectedScheme = $(this).val();
+    });
+     
+     // Hide Labels
+    var selectedLabels = 'Default';
+    $('#size_label').change(function(){
+$('.sizelabel').removeClass(selectedLabels).addClass($(this).val());
+        selectedLabels = $(this).val();
+    });
+});     
+</script>
+
 <!-- Header -->
 <section id="top">
 	<header><h1>Drag fonts here!</h1></header>
@@ -6,8 +24,22 @@
 
 <!-- OT Features Menu -->
 <div id="toggleotfeatures">
-	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
-	<a href="javascript://" id="showhide">OpenType Features</a>
+    <a href="javascript://" id="showhide">OpenType Features</a> | 
+    <select name="size_label" id="size_label">
+        <option value='' disabled selected style='display:none;'>Labels</option>
+        <option value="default">Shown</option>
+        <option value="labelsOff">Hidden</option>
+    </select> | 
+    <select name="color_scheme" id="color_scheme">
+        <option value='' disabled selected style='display:none;'>Color</option>
+        <option value="default">Black on White</option>
+        <option value="DarkGreyWhite">Dark grey on White</option>
+        <option value="GreyWhite">Grey on White</option>
+        <option value="LightGreyWhite">Light grey on White</option>
+        <option value="whiteGrey">White on Grey</option>
+        <option value="whiteBlack">White on Black</option>
+    </select>
+	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> | <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
 </div>
 <div id="otfeatures" style="display: none;">
 	<table width="100%">
