@@ -23,15 +23,13 @@
 		Hungry bugs placed on shaved arms were more likely to try to feed compared with those on unshaved arms, the journal Biology Letters reported. Researchers say the hair slows down the bed bugs and warns the victim. Pest controllers say the UK is currently experiencing a steep rise in the number of bed bug infestations. Prof Michael Siva-Jothy, from Sheffield University's Department of Animal and Plant Sciences, recruited 29 brave volunteers to test the theory further, watching the bedbugs as they found a place to feed and removing them only as they were about to bite. 
 		This tallies with other studies which look at how humans came to be relatively less hairy than apes.</p>
 		
-		<p>&nbsp;</p>
-		
-		<p>1. Preface</p>
-		<p>2. Pre-Hot 100 era</p>
-		<p>3. Hot 100 era</p>
-		<p>4. Sources</p>
-		<p>5. See also</p>
-		
-		<p>&nbsp;</p>
+		<ol>
+			<li>Preface</li>
+			<li>Pre-Hot 100 era</li>
+			<li>Hot 100 era</li>
+			<li>Sources</li>
+			<li>See also</li>
+		</ol>
 		
 		<p>He found that more layers of both longer visible hairs and finer, “vellus” hairs near the surface appeared to work as a deterrent to the insects, with the finer hairs also acting as an early warning system.
 		Continue reading the main story
