@@ -10,31 +10,7 @@
 <script>localStorage.clear(); </script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
-
-<script>
- $(document).ready(function(){
-    
-    // Tabs
-    var tabContainers = $('div.tabs > div');
-    $('div.tabs ul.tabNavigation a').click(function () {
-        tabContainers.hide().filter(this.hash).show();
-        $('div.tabs ul.tabNavigation a').removeClass('selected');
-        $(this).addClass('selected');
-        return false;
-    }).filter(':first').click();
-    
-    // OT Features Panel
-    $('#showhide').click(function () {
-        $('#otfeatures').slideToggle("fast", function() {
-		    $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features" : "OpenType Features");
-		  });
-    });
-
-    // OT Features initial Run
-    refreshFeatures();
-
-});
-</script>
+<script src="js/init.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body spellcheck="false">

@@ -14,6 +14,15 @@
 <script src="js/constants-cyr.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/init.js" type="text/javascript" charset="utf-8"></script>
 
+<script>
+$(document).ready(function(){
+    
+    // Grab the text from the JS constant file, and show it
+    prepareAndShowFontLayout();
+
+});
+</script>
+
 </head>
 
 <body spellcheck="false">

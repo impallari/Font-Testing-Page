@@ -1,42 +1,13 @@
-$(document).ready(function(){
+ $(document).ready(function(){
     
     // Tabs
     var tabContainers = $('div.tabs > div');
-
-    function tabTrigger(link, hash) {
-    	tabContainers.hide().filter(hash).show();
+    $('div.tabs ul.tabNavigation a').click(function () {
+        tabContainers.hide().filter(this.hash).show();
         $('div.tabs ul.tabNavigation a').removeClass('selected');
-        link.addClass('selected');
-    }
-
-    if (location.hash) {
-    	// Make sure page jump back to top
-		setTimeout(function() {
-			window.scrollTo(0, 0);
-		}, 1);
-	}
-
-    if (window.location.hash) {
-    	var hash = window.location.hash
-    		link = $('div.tabs ul.tabNavigation a[href="'+hash+'"]');
-    	tabTrigger(link, hash);
-    } else {
-    	var link = $('div.tabs ul.tabNavigation a').filter(':first'),
-    		hash = link.attr('href');
-    	tabTrigger(link, hash);
-    };
-
-    $('div.tabs ul.tabNavigation a').click(function (event) {
-    	var link = $(this),
-    		hash = link.attr('href');
-        tabTrigger(link, hash);
-        // History API
-        if(history.pushState) {
-        	history.pushState(null, null, hash);
-        };
-        event.preventDefault();
+        $(this).addClass('selected');
         return false;
-    });
+    }).filter(':first').click();
     
     // OT Features Panel
     $('#showhide').click(function () {
@@ -47,8 +18,5 @@ $(document).ready(function(){
 
     // OT Features initial Run
     refreshFeatures();
-    
-    // Grab the text from the JS constant file, and show it
-    prepareAndShowFontLayout();
 
 });
