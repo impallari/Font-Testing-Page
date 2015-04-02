@@ -65,6 +65,9 @@ droppedFileName = droppedFullFileName.replace(/\..+$/,""); // Removes file exten
 droppedFileName = droppedFileName.replace(/\W+/g, "-"); // Replace any non alpha numeric characters with -
 droppedFileSize = Math.round(file.size/1024) + "kb";
 
+// Custom Addition by Andras Larsen
+document.title = droppedFileName;
+
 TCNDDF.processData(file,droppedFileName,droppedFileSize);
 } else {
 alert("Invalid file extension. Will only accept ttf, otf or woff font files");
@@ -138,15 +141,16 @@ TCNDDF.updateActiveFont(clickTarget);
 }
 };
 TCNDDF.updateActiveFont = function (target) {
-var getFontFamily = target.title,
-dropListItem = dropListing.getElementsByTagName("li");
-
-displayContainer.style.fontFamily = getFontFamily;
-
-for(var i=0, len = dropListItem.length; i<len; i++) {
-dropListItem[i].className = "";
-}
-target.className = "active";
+	var getFontFamily = target.title,
+	dropListItem = dropListing.getElementsByTagName("li");
+	displayContainer.style.fontFamily = getFontFamily;
+	for(var i=0, len = dropListItem.length; i<len; i++) {
+		dropListItem[i].className = "";
+	}
+	target.className = "active";
+	
+	// Custom Addition by Andras Larsen
+	document.title = displayContainer.style.fontFamily;
 };
 
 /* localStorage methods */
