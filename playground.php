@@ -22,43 +22,25 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#filter">Filter Text</a></li>
-	    <li><a href="#spacing">Spacing Grid</a></li>	    
-	    <li><a href="#color">Color Grid</a></li>
-	    <li><a href="#connection">Connections Grid</a></li>
-	    <li><a href="#specimens">Specimens</a></li>
-	    <li><a href="#pairs">Kern Pairs Generator</a></li>
+	    <li><a href="#better">Better Adhesion</a></li>
+	    <li><a href="#textanalizer">Text Analizer</a></li>
+	    <li><a href="#randomfinder">Random Finder</a></li>
 	  </ul>
 
-	  <!-- Filter Text from Dictionaries -->
-	  <div id="filter">
-	  	<?php include("includes/tools/filter.php"); ?>
-	  </div>	  
+	  <!-- Better Adhesion -->
+	  <div id="better">
+	  	<?php include("includes/playground/better.php"); ?>
+	  </div>	
 
-	  <!-- spacing Generator -->
-	  <div id="spacing">
-	  	<?php include("includes/tools/spacing.php"); ?>			
+	  <!-- Phrase Analizer -->
+	  <div id="textanalizer">
+	  	<?php include("includes/playground/textanalizer.php"); ?>
 	  </div>
-
-	  <!-- Color Generator -->
-	  <div id="color">
-	  	<?php include("includes/tools/color.php"); ?>			
-	  </div>
-
-	  <!-- Connection Tester -->
-	  <div id="connection">
-	  	<?php include("includes/tools/connections.php"); ?>			
-	  </div>
-
-	  <!-- Specimens Generator -->
-	  <div id="specimens">
-	  	<?php include("includes/tools/specimens.php"); ?>				
-	  </div>
-
-	  <!-- Kern Pairs Generator -->
-	  <div id="pairs">
-	  	<?php include("includes/tools/pairs.php"); ?>			
-	  </div>
+	  
+	  <!-- Random Word Finder -->
+	  <div id="randomfinder">
+	  	<?php include("includes/playground/randomfinder.php"); ?>
+	  </div>	  	
 
 	</div><!-- end tabs -->
 

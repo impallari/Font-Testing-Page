@@ -34,6 +34,8 @@
 	    <li><a href="#lowerspacing01">LC1</a></li>
 	    <li><a href="#lowerspacing02">LC2</a></li>
 	    <li><a href="#lowerspacing03">LC3</a></li>
+	    <li><a href="#upperspacing01">UC1</a></li>
+	    <li><a href="#upperspacing02">UC2</a></li>
 	    <li><a href="#upperspacing03">UC3</a></li>
 	    <li><a href="#numbers">N1</a></li>
 	    <li><a href="#numeritos">N2</a></li>   		    
@@ -98,6 +100,16 @@
 	  <div id="lowerspacing03">
 		<?php include("includes/latin-02/lc-spacing-03.php"); ?>
 	  </div>		  
+
+	  <!-- Upperspacing 1 -->
+	  <div id="upperspacing01">
+		<?php include("includes/latin-02/uc-spacing-01.php"); ?>
+	  </div>
+
+	  <!-- Upperspacing 2 -->
+	  <div id="upperspacing02">
+		<?php include("includes/latin-02/uc-spacing-02.php"); ?>
+	  </div>
 
 	  <!-- Upperspacing 3 -->
 	  <div id="upperspacing03">

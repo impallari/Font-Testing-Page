@@ -1,10 +1,12 @@
 <div>
 	
-	<form method="post" action="includes/tools/nnxnn-ajax.php" id="nnxnngeneratorform">
+	<form method="post" action="includes/tools/spacing-ajax.php" id="nnxnngeneratorform" class="dontprint">
 
 		<?php
-		// Defino un tamaño por defecto
-		if ( !isset($_POST['nnxnnglyphs']) && empty($_POST['nnxnnglyphs']) ) $_POST['nnxnnglyphs'] = 'noadhesi';
+		// Default Values
+		if ( !isset($_POST['nnxnncase']) && empty($_POST['nnxnncase']) ) $_POST['nnxnncase'] = 'lower';
+		if ( !isset($_POST['nnxnnmode']) && empty($_POST['nnxnnmode']) ) $_POST['nnxnnmode'] = 'short';
+		if ( !isset($_POST['nnxnnglyphs']) && empty($_POST['nnxnnglyphs']) ) $_POST['nnxnnglyphs'] = 'adhesion';
 		if ( !isset($_POST['nnxnntamanio']) && empty($_POST['nnxnntamanio']) ) $_POST['nnxnntamanio'] = 40;
 		?> 
 		
@@ -20,9 +22,15 @@
 				</td>
 				<td>
 					<p class="sizelabel">
-					<input type="radio" name="nnxnncase" value="lower" id="nnxnnlower">Lowercases</input><br/>
-					<input type="radio" name="nnxnncase" value="upper" id="nnxnnupper">Uppercases</input></p>
+					<input type="radio" name="nnxnncase" value="lower" id="nnxnnlower" <?php if ( $_POST['nnxnncase'] == 'lower') echo 'checked="checked" ';?>>oonn</input><br/>
+					<input type="radio" name="nnxnncase" value="upper" id="nnxnnupper" <?php if ( $_POST['nnxnncase'] == 'upper') echo 'checked="checked" ';?>>OOHH</input><br/>
+					<input type="radio" name="nnxnncase" value="figures" id="nnxnnupper" <?php if ( $_POST['nnxnncase'] == 'figures') echo 'checked="checked" ';?>>0011</input></p>
 				</td>			
+				<td>
+					<p class="sizelabel">
+					<input type="radio" name="nnxnnmode" value="short" id="nnxnnshort" <?php if ( $_POST['nnxnnmode'] == 'short') echo 'checked="checked" ';?>>Short Test</input><br/>
+					<input type="radio" name="nnxnnmode" value="long" id="nnxnnlong" <?php if ( $_POST['nnxnnmode'] == 'long') echo 'checked="checked" ';?>>Long Test</input></p>
+				</td>
 				<td>
 					<p class="sizelabel">&nbsp;</p>
 					<button type="submit">Generate Grid</button>
@@ -47,11 +55,12 @@
 		event.preventDefault();
 		
 		$.ajax({
-			url: "includes/tools/nnxnn-ajax.php",			
+			url: "includes/tools/spacing-ajax.php",			
 			data: {
 				nnxnnglyphs: $( "#nnxnnglyphs" ).val(),
 				nnxnntamanio: $( "#nnxnntamanio" ).val(),
 				nnxnncase: $('input[name=nnxnncase]:checked', '#nnxnngeneratorform').val(),
+				nnxnnmode: $('input[name=nnxnnmode]:checked', '#nnxnngeneratorform').val(),
 			},
 			type: "POST",
 			dataType : "html",

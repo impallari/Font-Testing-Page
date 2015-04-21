@@ -1,2 +1,2 @@
-#top, #toggleotfeatures, #otfeatures, .tabNavigation, #footer, #formContainer {display:none;}
+#top, #toggleotfeatures, #otfeatures, .tabNavigation, #footer, #formContainer,.dontprint {display:none;}
 #fonts { position: relative; }
