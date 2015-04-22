@@ -24,7 +24,6 @@
 	  <ul class="tabNavigation">
 	    <li><a href="#better">Better Adhesion</a></li>
 	    <li><a href="#textanalizer">Text Analizer</a></li>
-	    <li><a href="#randomfinder">Random Finder</a></li>
 	  </ul>
 
 	  <!-- Better Adhesion -->
@@ -35,11 +34,6 @@
 	  <!-- Phrase Analizer -->
 	  <div id="textanalizer">
 	  	<?php include("includes/playground/textanalizer.php"); ?>
-	  </div>
-	  
-	  <!-- Random Word Finder -->
-	  <div id="randomfinder">
-	  	<?php include("includes/playground/randomfinder.php"); ?>
 	  </div>	  	
 
 	</div><!-- end tabs -->
