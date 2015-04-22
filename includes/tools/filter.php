@@ -6,6 +6,7 @@
 			<?php
 			// Defino un tamaño por defecto
 			if ( !isset($_POST['filtersize']) && empty($_POST['filtersize']) ) $_POST['filtersize'] = 60;
+			if ( !isset($_POST['filterglyphs']) && empty($_POST['filterglyphs']) ) $_POST['filterglyphs'] = 'abcdefghijklmnopqrstuvwxyz';
 			?> 
 			<table width="920" border="0">
 			
@@ -111,15 +112,11 @@
 		</form>
 	</div>
 	
+	<div class="filer_loading" style="padding: 20px 80px 20px 0px;display: none;"><p class="sizelabel">Searching...</p></div>
+	
 	<!-- ajax Results -->
-	<div id="filterresults" contenteditable="true" style="padding: 20px 80px 20px 0px;">
-		<p>What's this:</p>
-		<p>It's a simple tool to filter text, when looking for any particular character</p>
-		<p>Instrucionts:</p>
-		<p>Copy and paste some adhesion text on the big box</p>
-		<p>Type the character yuo are more interest in</p>
-		<p>(you can also select a second character ir you are looking to see how they interact)</p>
-		<p>And click the "Filter Button"</p>
+	<div class="filer_results" id="filterresults" contenteditable="true" style="padding: 20px 80px 20px 0px;">
+		<p>A simple filter tool</p>
 	</div>
 				
 </div>
@@ -127,48 +124,52 @@
 <!-- Javascript for the Filter Tool -->
 <script>
     $("#filterform").submit(function(event) {
-
-		event.preventDefault();
-		  
-		var eng_dict = $("#eng_dict").is(':checked') ? "yes" : "no";
-		var spa_dict = $("#spa_dict").is(':checked') ? "yes" : "no";
-		var deva_dict = $("#deva_dict").is(':checked') ? "yes" : "no";
-		var adduppercase = $("#adduppercase").is(':checked') ? "yes" : "no";
-		var addsentence = $("#addsentence").is(':checked') ? "yes" : "no";
-		var addsomesentence = $("#addsomesentence").is(':checked') ? "yes" : "no";
-		
-		$.ajax({
-			url: "includes/tools/filter-ajax.php",
-			data: {
-				words: $( "#words" ).val(),
-				filterglyphs: $( "#filterglyphs" ).val(),
-				starting: $( "#starting" ).val(),
-				having: $( "#having" ).val(),
-				also_having: $( "#also_having" ).val(),
-				also_having_more: $( "#also_having_more" ).val(),
-				not_having: $( "#not_having" ).val(),
-				also_not_having: $( "#also_not_having" ).val(),
-				ending: $( "#ending" ).val(),
-				filtersize: $( "#filtersize" ).val(),
-				line: $( "#line" ).val(),
-				max: $( "#max" ).val(),
-				uppercase: adduppercase,
-				sentence: addsentence,
-				somesentence: addsomesentence,				
-				eng_dict: eng_dict,
-				spa_dict: spa_dict,
-				deva_dict: deva_dict,
-			},
-			type: "POST",
-			dataType : "html",
-			success: function( msg ) {
-				$( "#filterresults" ).html( msg );
-			},
-			error: function( xhr, status ) {
-				alert( "Sorry. Try Again, there was a problem!" );
-			},
-		});
-      
+			event.preventDefault();
+			var eng_dict = $("#eng_dict").is(':checked') ? "yes" : "no";
+			var spa_dict = $("#spa_dict").is(':checked') ? "yes" : "no";
+			var deva_dict = $("#deva_dict").is(':checked') ? "yes" : "no";
+			var adduppercase = $("#adduppercase").is(':checked') ? "yes" : "no";
+			var addsentence = $("#addsentence").is(':checked') ? "yes" : "no";
+			var addsomesentence = $("#addsomesentence").is(':checked') ? "yes" : "no";
+			$.ajax({
+				url: "includes/tools/filter-ajax.php",
+				data: {
+					words: $( "#words" ).val(),
+					filterglyphs: $( "#filterglyphs" ).val(),
+					starting: $( "#starting" ).val(),
+					having: $( "#having" ).val(),
+					also_having: $( "#also_having" ).val(),
+					also_having_more: $( "#also_having_more" ).val(),
+					not_having: $( "#not_having" ).val(),
+					also_not_having: $( "#also_not_having" ).val(),
+					ending: $( "#ending" ).val(),
+					filtersize: $( "#filtersize" ).val(),
+					line: $( "#line" ).val(),
+					max: $( "#max" ).val(),
+					uppercase: adduppercase,
+					sentence: addsentence,
+					somesentence: addsomesentence,				
+					eng_dict: eng_dict,
+					spa_dict: spa_dict,
+					deva_dict: deva_dict,
+				},
+				type: "POST",
+				dataType : "html",
+				success: function( msg ) {
+					$( "#filterresults" ).html( msg );
+				},
+				error: function( xhr, status ) {
+					alert( "Try Again, there was a problem!" );
+				},
+		    beforeSend:function(){
+		    	$(".filer_loading").show();
+		    	$(".filer_results").hide();
+		    },
+		    complete:function(){
+		    	$(".filer_loading").hide();
+		    	$(".filer_results").show();
+		    },
+			});
     }); 
 </script>
 <!-- End Javascript for the Filter Tool -->

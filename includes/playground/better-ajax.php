@@ -3,6 +3,7 @@ header("Content-type: text/html; charset=utf-8");
 
 $made_from = $_POST['betterglyphs'];
 $max_words = $_POST['bettermax'];
+$bettersize = $_POST['bettersize'];
 $text_size = 30;
 
 # Limpio Lista de Glyphs
@@ -22,12 +23,7 @@ foreach ($made_from as $key => $value) {
 	$made_from_as_array[$key] = 0;	
 }
 
-// Adding Dictionary
-include ("../dictionaries/english.php");
-$text .= ' '.$english;
-include ("../dictionaries/spanish.php");
-$text .= ' '.$spanish;
-
+# Funcion para buscar values que contengan una determinada string dentro de un array
 function my_array_find($needle, $haystack)
 {
    foreach ($haystack as $item) {
@@ -38,12 +34,13 @@ function my_array_find($needle, $haystack)
    }
 }
 
+# Classe que hace toda la magia
 class textFilter
 {
+    private $max_words = 300;
     private $full_text = array();
-    public $madefrom_text = array();
+    private $madefrom_text = array();
     private $resulting_text = array(); 
-    public $max_words = 300;
     private $length;
     private $occurences = array();
 
@@ -117,12 +114,46 @@ class textFilter
         return $this;
     }
 
-    function get_results()
+    function get_words()
     {
         $this->add_initial_words_to_results();
         for ($i = 5; $i < $this->max_words; $i++) {
         	$this->add_less_frequent_words_to_results();
         }
+        return $this;
+    }
+
+    function uppercase()
+    {
+        foreach ($this->resulting_text as $key => $resulting_text) {
+        	$this->resulting_text[$key] = strtoupper($this->resulting_text[$key]);
+        }
+        return $this;        
+    }
+
+    function sentencecase()
+    {
+        foreach ($this->resulting_text as $key => $value) {
+        	$this->resulting_text[$key] = ucwords($this->resulting_text[$key]);
+        }
+        return $this;        
+    }
+
+    function somesentence()
+    {
+        $sentence_count = 1;
+        foreach ($this->resulting_text as $key => $value) {
+        	if ($sentence_count % 6 == 1 ) {
+        		$this->resulting_text[$key] = ucwords($this->resulting_text[$key]);
+        	}
+        	$sentence_count ++;
+        }
+        return $this;        
+    }
+
+    function get_results()
+    {
+        shuffle($this->resulting_text);
         return $this->resulting_text;
     }
 
@@ -133,22 +164,39 @@ class textFilter
 
 }
 
-$a = new textFilter();
-$a->add_dictionary($text)->made_from( $made_from_as_array )->set_max_words($max_words);
+// Start Benchmark
+$timer_start = microtime(true);
 
+// Adding Dictionaries
+$text ='';
+if ( $_POST['better_eng_dict'] == "yes" ) {
+	include ("../dictionaries/english.php");
+	$text .= ' '.$english;
+}
+if ( $_POST['better_spa_dict'] == "yes" ) {
+	include ("../dictionaries/spanish.php");
+	$text .= ' '.$spanish;
+}
+
+$a = new textFilter();
+$a->add_dictionary($text)->made_from( $made_from_as_array )->set_max_words($max_words)->get_words();
+if ( $_POST['better_sentence'] == "yes" ) $a->sentencecase();
+if ( $_POST['better_somesentence'] == "yes" ) $a->somesentence();
+if ( $_POST['better_uppercase'] == "yes" ) $a->uppercase();
 $resultados = $a->get_results();
 
-echo '<p class="sizelabel">'.count($resultados). ' Results</p>';
-echo '<p style="font-size: 30px;">'.implode(' ', $resultados).'</p>';
+// End Benchmark
+$timer_end = microtime(true) - $timer_start;
 
-echo '<hr>';
+echo '<p class="sizelabel">'.count($resultados). ' Results ('.number_format($timer_end, 2).' seconds)</p>';
+echo '<p style="font-size: '.$bettersize.'px;';
+if ( isset( $_POST['betterline'] ) && !empty( $_POST['betterline'] ) ) echo ' line-height: '.$_POST['betterline'].';';
+echo '">'.implode(' ', $resultados).'</p>';
+
+echo '<div class="dontprint">';
 echo '<pre>';
 print_r( $a->get_occurences() );
 echo '</pre>';
-
-//echo '<hr>';
-//echo '<pre>';
-//print_r( $a->madefrom_text );
-//echo '</pre>';
-
+echo '</div>';
+;
 ?>
