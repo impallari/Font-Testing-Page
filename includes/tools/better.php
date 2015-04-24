@@ -1,7 +1,7 @@
 <div>
 
 	<div id="formContainer">
-		<form method="post" action="includes/playground/better-ajax.php" id="betterform">
+		<form method="post" action="includes/tools/better-ajax.php" id="betterform">
 
 			<?php
 			// Defino un tamaño por defecto
@@ -94,7 +94,7 @@
 			var better_addsentence = $("#better_addsentence").is(':checked') ? "yes" : "no";
 			var better_addsomesentence = $("#better_addsomesentence").is(':checked') ? "yes" : "no";
 			$.ajax({
-				url: "includes/playground/better-ajax.php",
+				url: "includes/tools/better-ajax.php",
 				data: {
 					betterglyphs: $( "#betterglyphs" ).val(),
 					bettermax: $( "#bettermax" ).val(),

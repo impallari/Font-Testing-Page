@@ -23,17 +23,24 @@
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
 	    <li><a href="#filter">Filter Text</a></li>
+	    <li><a href="#better">Better Adhesion</a></li>	    
 	    <li><a href="#spacing">Spacing Grid</a></li>	    
 	    <li><a href="#color">Color Grid</a></li>
 	    <li><a href="#connection">Connections Grid</a></li>
 	    <li><a href="#specimens">Specimens</a></li>
 	    <li><a href="#pairs">Kern Pairs Generator</a></li>
+	    <li><a href="#textanalizer">Text Analizer</a></li>
 	  </ul>
 
 	  <!-- Filter Text from Dictionaries -->
 	  <div id="filter">
 	  	<?php include("includes/tools/filter.php"); ?>
 	  </div>	  
+
+	  <!-- Better Adhesion -->
+	  <div id="better">
+	  	<?php include("includes/tools/better.php"); ?>
+	  </div>	
 
 	  <!-- spacing Generator -->
 	  <div id="spacing">
@@ -59,6 +66,11 @@
 	  <div id="pairs">
 	  	<?php include("includes/tools/pairs.php"); ?>			
 	  </div>
+
+	  <!-- Phrase Analizer -->
+	  <div id="textanalizer">
+	  	<?php include("includes/tools/textanalizer.php"); ?>
+	  </div>	
 
 	</div><!-- end tabs -->
 

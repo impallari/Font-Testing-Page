@@ -22,18 +22,12 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#better">Better Adhesion</a></li>
-	    <li><a href="#textanalizer">Text Analizer</a></li>
+	    <li><a href="#randomfilter">Random Filter</a></li>
 	  </ul>
 
 	  <!-- Better Adhesion -->
-	  <div id="better">
-	  	<?php include("includes/playground/better.php"); ?>
-	  </div>	
-
-	  <!-- Phrase Analizer -->
-	  <div id="textanalizer">
-	  	<?php include("includes/playground/textanalizer.php"); ?>
+	  <div id="randomfilter">
+	  	<?php include("includes/playground/randomfinder.php"); ?>
 	  </div>	  	
 
 	</div><!-- end tabs -->

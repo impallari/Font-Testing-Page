@@ -1,6 +1,6 @@
 <div>
 
-	<form method="post" action="includes/playground/textanalizer-ajax.php" id="analizerform">
+	<form method="post" action="includes/tools/textanalizer-ajax.php" id="analizerform">
 
 		<?php
 		// Defino un tamaño por defecto
@@ -41,7 +41,7 @@
 		event.preventDefault();
 		
 		$.ajax({
-			url: "includes/playground/textanalizer-ajax.php",			
+			url: "includes/tools/textanalizer-ajax.php",			
 			data: {
 				analizerone: $( "#analizerone" ).val(),
 				analizertwo: $( "#analizertwo" ).val(),
