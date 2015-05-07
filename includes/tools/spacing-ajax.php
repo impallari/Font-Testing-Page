@@ -33,7 +33,7 @@ if (isset($_POST['nnxnnglyphs']) && !empty($_POST['nnxnnglyphs']) ) {
 		// End Short Mode
 	} else {
 		// Long Mode
-		echo '<table cellspacing="0" cellpadding="'.($tamanio / 6).'" border="0">';
+		echo '<table cellspacing="0" cellpadding="'.($tamanio / 8).'" border="0">';
 			foreach ($letras as $key => $value) {
 					echo '<tr>';
 	
