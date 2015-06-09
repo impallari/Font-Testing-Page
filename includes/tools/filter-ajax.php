@@ -181,31 +181,23 @@ if ( $_POST['loon'] == "yes" ) $a->addloon();
 // End Benchmark
 $timer_end = microtime(true) - $timer_start;
 
-
 // Define Size or use default
 $filtersize = 72;
 if ( isset( $_POST['filtersize'] ) && !empty( $_POST['filtersize'] ) ) $filtersize = $_POST['filtersize'];
+
+function change_order($words) {
+	$words = explode(' ', $words);
+	shuffle($words);
+	$words = implode(' ', $words);
+	return $words;
+}
 
 // Add background Color 040f21
 if ( $_POST['loon'] == "yes" ) echo '<div style="background: #1a3351 url(\'images/stars-2.png\'); padding: 80px 40px;">';
 
 // Render Contents
-if ($filtersize >= 20 ) {
-
-	// If font size is bigger than 20
-	echo '<p class="sizelabel">'.$a->count(). ' Results';
-	echo ' ('.number_format($timer_end, 2).' seconds)';
-	echo '</p>';
-	echo '<p style="font-size: '.$filtersize.'px;';
-	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-	if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
-	echo '">';
-	echo $a->getResults();
-	echo '</p>';
-
-} else {
-
-	// If smaller, make multiple size preview
+if ($filtersize <= 19 ) {
+	// Smaller than 20, multi-size preview
 	echo '<p class="sizelabel">'.$a->count(). ' Results';
 	echo ' ('.number_format($timer_end, 2).' seconds)';
 	echo '</p>';
@@ -298,7 +290,138 @@ if ($filtersize >= 20 ) {
 			echo '</td>';			
 		echo '</tr>';
 	echo '</table>';
+} elseif ($filtersize >= 300 ) {
+	// Bigger than 300, Full Scale preview
+	echo '<div style="white-space: nowrap; overflow: hidden; width: 100%;">';
+	echo '<p class="sizelabel">200px - '.$a->count(). ' Results ';
+	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '</p>';	echo '<p style="font-size: 200px;">'.$a->getResults().'</p>';
 
+	echo '<p class="sizelabel">168px</p>';
+	echo '<p style="font-size: 168px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">142px</p>';
+	echo '<p style="font-size: 142px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">120px</p>';
+	echo '<p style="font-size: 120px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">100px</p>';
+	echo '<p style="font-size: 100px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">84px</p>';
+	echo '<p style="font-size: 84px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">70px</p>';
+	echo '<p style="font-size: 70px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">60px</p>';
+	echo '<p style="font-size: 60px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">50px</p>';
+	echo '<p style="font-size: 50px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p class="sizelabel">42px</p>';
+	echo '<p style="font-size: 42px;">'.change_order($a->getResults()).'</p>';
+	echo '<p class="sizelabel">36px</p>';
+	echo '<p style="font-size: 36px;">'.change_order($a->getResults()).'</p>';
+	echo '<p class="sizelabel">30px</p>';
+	echo '<p style="font-size: 30px;">'.change_order($a->getResults()).'</p>';
+	echo '<p class="sizelabel">28px</p>';
+	echo '<p style="font-size: 28px;">'.change_order($a->getResults()).'</p>';
+	echo '<p class="sizelabel">26px</p>';
+	echo '<p style="font-size: 26px;">'.change_order($a->getResults()).'</p>';
+	
+	echo '<p class="sizelabel">24px</p>';
+	echo '<p style="font-size: 24px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 24px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">22px</p>';
+	echo '<p style="font-size: 22px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 22px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">20px</p>';
+	echo '<p style="font-size: 20px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 20px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">18px</p>';
+	echo '<p style="font-size: 18px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 18px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">16px</p>';
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">15px</p>';
+	echo '<p style="font-size: 15px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 15px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 15px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">14px</p>';
+	echo '<p style="font-size: 14px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 14px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 14px;">'.change_order($a->getResults()).'</p>';
+	
+	echo '<p class="sizelabel">13px</p>';
+	echo '<p style="font-size: 13px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 13px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 13px;">'.change_order($a->getResults()).'</p>';
+	
+	echo '<p class="sizelabel">12px</p>';
+	echo '<p style="font-size: 12px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 12px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 12px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '<p class="sizelabel">11px</p>';
+	echo '<p style="font-size: 11px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 11px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 11px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 11px;">'.change_order($a->getResults()).'</p>';
+	
+	echo '<p class="sizelabel">10px</p>';
+	echo '<p style="font-size: 10px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 10px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 10px;">'.change_order($a->getResults()).'</p>';
+	echo '<p style="font-size: 10px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '</div>';	
+} elseif ($filtersize >= 200 ) {
+	// Bigger than 200, Short Scale preview
+	echo '<div style="white-space: nowrap; overflow: hidden; width: 100%;">';
+
+	echo '<p class="sizelabel">200px - '.$a->count(). ' Results ';
+	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '</p>';	echo '<p style="font-size: 200px;">'.$a->getResults().'</p>';
+
+	echo '<p class="sizelabel">160px</p>';
+	echo '<p style="font-size: 160px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '<p class="sizelabel">120px</p>';
+	echo '<p style="font-size: 120px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '<p class="sizelabel">76px</p>';
+	echo '<p style="font-size: 76px;">'.change_order($a->getResults()).'</p>';
+
+	echo '<p class="sizelabel">46px</p>';
+	echo '<p style="font-size: 46px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 46px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '<p class="sizelabel">28px</p>';
+	echo '<p style="font-size: 28px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 28px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 28px;">'.change_order($a->getResults()).'</p>';	
+
+	echo '<p class="sizelabel">16px</p>';
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';	
+	echo '<p style="font-size: 16px;">'.change_order($a->getResults()).'</p>';	
+	
+	echo '</div>';		
+} else {
+	// Intermediate sizes, normal previw
+	echo '<p class="sizelabel">'.$a->count(). ' Results';
+	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '</p>';
+	echo '<p style="font-size: '.$filtersize.'px;';
+	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+	if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+	echo '">';
+	echo $a->getResults();
+	echo '</p>';	
 }
 
 // Add background Coor
