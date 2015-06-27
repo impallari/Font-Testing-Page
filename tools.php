@@ -27,7 +27,6 @@
 	    <li><a href="#spacing">Spacing Grid</a></li>	    
 	    <li><a href="#color">Color Grid</a></li>
 	    <li><a href="#connection">Connections Grid</a></li>
-	    <li><a href="#specimens">Specimens</a></li>
 	    <li><a href="#pairs">Kern Pairs Generator</a></li>
 	    <li><a href="#textanalizer">Text Analizer</a></li>
 	  </ul>
@@ -55,11 +54,6 @@
 	  <!-- Connection Tester -->
 	  <div id="connection">
 	  	<?php include("includes/tools/connections.php"); ?>			
-	  </div>
-
-	  <!-- Specimens Generator -->
-	  <div id="specimens">
-	  	<?php include("includes/tools/specimens.php"); ?>				
 	  </div>
 
 	  <!-- Kern Pairs Generator -->

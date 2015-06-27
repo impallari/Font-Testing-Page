@@ -24,7 +24,8 @@
 	  <ul class="tabNavigation">
 	    <li><a href="#wordsfinder">Words finder</a></li>
 	    <li><a href="#calculator">Calculator</a></li>
-	    <li><a href="#template01">Template 01</a></li>
+	    <li><a href="#template01">Template for the WordFinder</a></li>
+	    <li><a href="#specimens">Predefined Specimens</a></li>
 	    <li><a href="#scale">Scale</a></li>
 	  </ul>
 
@@ -41,6 +42,11 @@
 	  <!-- Specimen Template 01 -->
 	  <div id="template01">
 	  	<?php include("includes/specimen-helper/template01.php"); ?>
+	  </div>
+
+	  <!-- Specimens Generator -->
+	  <div id="specimens">
+	  	<?php include("includes/specimen-helper/specimens.php"); ?>				
 	  </div>
 
 	  <!-- Scale -->

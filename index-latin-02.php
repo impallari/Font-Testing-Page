@@ -41,7 +41,7 @@
 	    <li><a href="#numeritos">N2</a></li>   		    
 	    <li><a href="#overshoots">OS</a></li>
 	    <li><a href="#pangra">Pang</a></li>
-	    <li><a href="#quotes">Quotes</a></li>
+	    <li><a href="#apostrophes">Apostrophes</a></li>
 	    <li><a href="#dia_one">Diac1</a></li>	 
 	    <li><a href="#dia_two">Diac2</a></li>
 	    <li><a href="#dia_three">Diac3</a></li>  
@@ -137,9 +137,9 @@
 		<?php include("includes/latin-02/pangra.php"); ?>			
 	  </div>	 	  
 
-	  <!-- Quotes -->
-	  <div id="quotes">
-		<?php include("includes/latin-02/quotes.php"); ?>			
+	  <!-- Apostrophes -->
+	  <div id="apostrophes">
+		<?php include("includes/latin-02/apostrophes.php"); ?>			
 	  </div>	
 
 	  <!-- Diacritics One -->

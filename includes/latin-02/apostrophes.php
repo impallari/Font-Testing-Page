@@ -1,6 +1,6 @@
 <div contenteditable="true">
 	
-	<table width="100%" cellpadding="16">
+	<table width="100%" cellpadding="12">
 		<tr>
 			<td width="50%">
 				<p class="sizelabel">Using /quoterigth (aka curly quotes, aka smart quotes).</p>
@@ -70,7 +70,7 @@
 		<tr>
 			<td width="50%">
 				<p class="sizelabel">Paris Metro Stations using /quoterigth.</p>
-				<p style="font-size: 30px;">
+				<p style="font-size: 38px;">
 				Château d’Eau<br />
 				Chaussée d’Antin<br />
 				L’Échat<br />
@@ -86,7 +86,7 @@
 			</td>
 			<td width="50%">
 				<p class="sizelabel">Paris Metro Stations using /quotesingle.</p>
-				<p style="font-size: 30px;">
+				<p style="font-size: 38px;">
 				Château d'Eau<br />
 				Chaussée d'Antin<br />
 				L'Échat<br />
