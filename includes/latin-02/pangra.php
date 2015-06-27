@@ -1,12 +1,7 @@
 <div contenteditable="true" style="width: 920px;">
 
-	<p class="sizelabel">46px jjj kkk ppp qqq vvv ww zz</p>
-	<p style="font-size: 46px; line-height: 1.5em;">
-	Aladine  Biopsia  Cumbia  Diego Espejo<br />
-	Flecha  Gaveta  Hockey  Index  Jaque<br />
-	Kurdos  Ludwing  Motivo  Nylon  Ortiz<br />
-	Profit  Quiff  Roving  Sioux  Tizzy Unwary<br />
-	Vertex  Wrathy  Xammar Yachts  Zaque</p>
+	<p class="sizelabel">46px</p>
+	<p style="font-size: 46px; line-height: 1.5em;">Azulejo Boxeo Clavija Duquesa Estupendo Fetichismo Graficos Hockey Iceberg Jockey Kilowatt Lavadero Memorizar Nixon Ochenta Preferible Quiroga Rawson Sequoia Tango Usurpar Verificar Whisky Xenofobia Yacimiento Zapador</p>
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel">28px</p>
