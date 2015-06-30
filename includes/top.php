@@ -6,7 +6,7 @@
 
 <!-- OT Features Menu -->
 <div id="toggleotfeatures">
-	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
+	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="index-tamil.php">Tamil</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
 	<a href="javascript://" id="showhide">OpenType Features</a>
 </div>
 <div id="otfeatures" style="display: none;">

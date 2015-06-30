@@ -3,15 +3,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Font Testing Page - Cyrillic Version</title>
-<link type="text/css" href="css/styles-v9.css" rel="stylesheet" charset="utf-8" />
+<title>Font Testing Page - Latin Version</title>
+<link type="text/css" href="css/styles-v9.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script>localStorage.clear();</script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/contentEditable" type="text/javascript" charset="utf-8"></script>
-<script src="includes/cyrillic/constants-cyr.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
+<script src="includes/tamil/constants-tamil.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/init.js" type="text/javascript" charset="utf-8"></script>
 
 <script>
@@ -35,31 +35,35 @@ $(document).ready(function(){
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
 	    <li><a href="#headlines">Headlines</a></li>
-	    <li><a href="#text">Text</a></li>
-	    <li><a href="#adhesion">облако</a></li>
-	    <li><a href="#hamburgefonstiv">киберносуфа</a></li>
-	    <li><a href="#lowercases">a-я</a></li>
+	    <li><a href="#tamiltext">Tamil</a></li>
+	    <li><a href="#talatext">Tamil + Latin</a></li>
+	    <li><a href="#adhesion">adhesion</a></li>
 	    <li><a href="#caps">Words</a></li>
-	    <li><a href="#allcaps">Caps</a></li>
 	    <li><a href="#layout">Layout</a></li>
 	    <li><a href="#lettering">Lettering</a></li>
 	    <li><a href="#kern">Kern</a></li>
 	    <li><a href="#hinting">Hinting</a></li>
 	  </ul>
 	
-	  <!-- Headlines (Content injected via constants-cyr.js) -->
+	  <!-- Headlines (Content injected via constants.js) -->
 	  <div id="headlines">
 		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
 		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
 	  </div>
 	  
-	  <!-- Text (Content injected via constants-cyr.js) -->
-	  <div id="text" style="width: 920px;">
+	  <!-- Tamil Text (Content injected via Javascript) -->
+	  <div id="tamiltext" style="width: 920px;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
 
-	  <!-- adhesion (Content injected via constants-cyr.js) -->
+	  <!-- Tamil + Latin Text (Content injected via Javascript) -->
+	  <div id="talatext" style="width: 920px;">
+			<div class="textsettingCol1"></div>
+			<div class="textsettingCol2"></div>
+	  </div>
+
+	  <!-- adhesion (Content injected via constants.js) -->
 	  <div id="adhesion">
 	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>			
 			<p>&nbsp;</p>
@@ -70,54 +74,27 @@ $(document).ready(function(){
 			</div>
 	  </div>
 
-	  <!-- hamburgefonstiv (Content injected via constants-cyr.js) -->
-	  <div id="hamburgefonstiv">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;" ></div>				
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<div style="width: 920px;">
-				<div class="textsettingCol1"></div>
-				<div class="textsettingCol2"></div>
-			</div>
-	  </div>
-
-	  <!-- Lowercases a-z (Content injected via constants-cyr.js) -->
-	  <div id="lowercases">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>				
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<div style="width: 920px;">
-				<div class="textsettingCol1"></div>
-				<div class="textsettingCol2"></div>
-			</div>
-	  </div>
-
-	  <!-- Caps (Content injected via constants-cyr.js) -->
+	  <!-- Caps (Content injected via constants.js) -->
 	  <div id="caps">
-	  		<div style="width: 920px;"></div>				
-	  </div>
-
-	  <!-- All Caps (Content injected via constants-cyr.js) -->
-	  <div id="allcaps">
 	  		<div style="width: 920px;"></div>				
 	  </div>
 
 	  <!-- Layout -->
 	  <div id="layout">
-	  	<?php include("includes/cyrillic/layout.php"); ?>						
+	  	<?php include("includes/tamil/layout.php"); ?>						
 	  </div>
 
 	  <!-- Lettering Sheet -->
 	  <div id="lettering">
-	  	<?php include("includes/cyrillic/lettering.php"); ?>			
+	  	<?php include("includes/tamil/lettering.php"); ?>			
 	  </div>
 
 	  <!-- Kerning -->
 	  <div id="kern">
-	  	<?php include("includes/cyrillic/kerning.php"); ?>			
+	  	<?php include("includes/tamil/kerning.php"); ?>			
 	  </div>
 
-	  <!-- Hinting (Content injected via constants-cyr.js) -->
+	  <!-- Hinting (Content injected via constants.js) -->
 	  <div id="hinting">
 	  		<div style="width: 920px;" contenteditable="true">
 				

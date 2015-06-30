@@ -11,7 +11,7 @@
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/constants-latin.js" type="text/javascript" charset="utf-8"></script>
+<script src="includes/latin/constants-latin.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/init.js" type="text/javascript" charset="utf-8"></script>
 
 <script>
