@@ -3,7 +3,7 @@ Font Testing Page
 
 Stable releases available for use at http://www.impallari.com/testing
 
-The Font Testing Page is a tool primarily intended for type designers and independent foundries to 'Drag and Drop' their work in progress into a browser. It can also be used by art directors, graphic designers, teachers and students interested in seeing how a typeface works on the web.
+The Font Testing Page is a tool primarily intended for type designers to 'Drag and Drop' and quickly test their fonts into a browser. It can also be used by Type and Art Directors, Graphic Designers, Teachers and Students interested in seeing how a typeface works on the web.
 
 There is a short video demonstrating this tool, http://vimeo.com/40296571
 
@@ -24,8 +24,7 @@ Below the drop area you see some buttons to select different layouts:
 - Layout: Displays examples of Headline, Subhead and Body text.
 - Kern: Displays examples of combinations of letters and miscellaneous signs.
 - Latin: Diacritics for 103 Latin languages, pangrams and text samples.
-- Non-Latin: Examples in arabic, armenian, greek, hebrew and +10 Non-Latin languages
-- Hinting: Basic Char-set at different sizes to check for hinting problems
+- And many many more...
 
 Notes:
 
@@ -39,8 +38,16 @@ Thanks
 - Developed by Pablo Impallari (http://impallari.com)
 - Designed by Pablo Cosgaya (http://omnibus-type.com)
 - Kerning string by James Montalbano (http://terminaldesign.com)
-- Latin text by Eduardo Tunni (http://tipo.net.ar)
+- Kern King Tab content from http://logofontandlettering.com/kernking.html
 - Pangrams from Wikipedia (http://en.wikipedia.org/wiki/List_of_pangrams)
+- Armenian Pangrams by Hrant Papazian (https://twitter.com/hhpapazian)
+- Latin Languages texts by Eduardo Tunni (http://tipo.net.ar)
+- Latin02 Diacritics tabs from Context of Diacritics (http://urtd.net/projects/cod)
+- Cyrillic Version by Alexei Vanyashin (http://www.cyreal.org)
+- Most Devanagari content by Girish Dalvi, Ek Type (http://ektype.in) and Pooja Saxena (http://www.poojasaxena.in)
+- Devanagari Dictionary words from http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html (Thanks to Andres Torresi and Juan Pablo del Peral from http://www.huertatipografica.com)
+- Tamil Version by Tharique Azeez (http://thariqueazeez.com), text are from Niram blog (tamil.niram.org)
+- And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
 License
 ------------
