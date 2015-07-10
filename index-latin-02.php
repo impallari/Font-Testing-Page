@@ -42,6 +42,7 @@
 	    <li><a href="#overshoots">OS</a></li>
 	    <li><a href="#pangra">Pang</a></li>
 	    <li><a href="#apostrophes">Apostrophes</a></li>
+	    <li><a href="#fractions">Fractions</a></li>
 	    <li><a href="#dia_one">Diac1</a></li>	 
 	    <li><a href="#dia_two">Diac2</a></li>
 	    <li><a href="#dia_three">Diac3</a></li>  
@@ -142,6 +143,11 @@
 		<?php include("includes/latin-02/apostrophes.php"); ?>			
 	  </div>	
 
+	  <!-- fractions -->
+	  <div id="fractions">
+		<?php include("includes/latin-02/fractions.php"); ?>			
+	  </div>	
+	  
 	  <!-- Diacritics One -->
 	  <div id="dia_one">
 		<?php include("includes/latin-02/dia-01.php"); ?>	
