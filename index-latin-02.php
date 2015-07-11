@@ -45,7 +45,8 @@
 	    <li><a href="#fractions">Fractions</a></li>
 	    <li><a href="#dia_one">Diac1</a></li>	 
 	    <li><a href="#dia_two">Diac2</a></li>
-	    <li><a href="#dia_three">Diac3</a></li>  
+	    <li><a href="#dia_three">Diac3</a></li> 
+	    <li><a href="#news">News</a></li> 
 	  </ul>
 
 	  <!-- Briem Basic Proof -->
@@ -161,6 +162,11 @@
 	  <!-- Diacritics 3 -->
 	  <div id="dia_three">
 	  	<?php include("includes/latin-02/dia-03.php"); ?>
+	  </div>
+
+	  <!-- News -->
+	  <div id="news">
+		<?php include("includes/latin-02/news.php"); ?>			
 	  </div>
 
 	</div><!-- end tabs -->
