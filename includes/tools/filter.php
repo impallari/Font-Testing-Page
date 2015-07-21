@@ -18,7 +18,8 @@
 					<td width="80" valign="top">
 						<p class="sizelabel"><input type="checkbox" id="addsomesentence"> Some<br />
 						<input type="checkbox" id="addsentence"> Initial<br />
-						<input type="checkbox" id="adduppercase"> AllCaps</p>
+						<input type="checkbox" id="adduppercase"> AllCaps<br />
+						<input type="checkbox" id="sidebyside"> S by S</p>
 					</td>
 					<td colspan="3" valign="top">
 						<p class="sizelabel">To filter your own text, paste it here:</p>
@@ -131,6 +132,7 @@
 			var adduppercase = $("#adduppercase").is(':checked') ? "yes" : "no";
 			var addsentence = $("#addsentence").is(':checked') ? "yes" : "no";
 			var addsomesentence = $("#addsomesentence").is(':checked') ? "yes" : "no";
+			var sidebyside = $("#sidebyside").is(':checked') ? "yes" : "no";
 			$.ajax({
 				url: "includes/tools/filter-ajax.php",
 				data: {
@@ -148,7 +150,8 @@
 					max: $( "#max" ).val(),
 					uppercase: adduppercase,
 					sentence: addsentence,
-					somesentence: addsomesentence,				
+					somesentence: addsomesentence,	
+					sidebyside: sidebyside,			
 					eng_dict: eng_dict,
 					spa_dict: spa_dict,
 					deva_dict: deva_dict,

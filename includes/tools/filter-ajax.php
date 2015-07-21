@@ -173,9 +173,11 @@ if ( !empty( $_POST['starting'] ) ) $a->starting( $_POST['starting'] );
 if ( !empty( $_POST['ending'] ) ) $a->ending( $_POST['ending'] );
 $a->randomize();
 $a->max( $_POST['max'] );
-if ( $_POST['sentence'] == "yes" ) $a->sentencecase();
-if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
-if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
+if ( $_POST['sidebyside'] == "no" ) {
+	if ( $_POST['sentence'] == "yes" ) $a->sentencecase();
+	if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
+	if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
+}
 if ( $_POST['loon'] == "yes" ) $a->addloon();
 
 // End Benchmark
@@ -416,12 +418,34 @@ if ($filtersize <= 19 ) {
 	echo '<p class="sizelabel">'.$a->count(). ' Results';
 	echo ' ('.number_format($timer_end, 2).' seconds)';
 	echo '</p>';
-	echo '<p style="font-size: '.$filtersize.'px;';
-	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-	if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
-	echo '">';
-	echo $a->getResults();
-	echo '</p>';	
+	if ( $_POST['sidebyside'] == "no" ) {
+		echo '<p style="font-size: '.$filtersize.'px;';
+		if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+		if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+		echo '">';
+		echo $a->getResults();
+		echo '</p>';
+	} else {
+		echo "<table>";
+			echo '<tr>';			
+				echo '<td width="50%" valign="top">';
+					echo '<p style="font-size: '.$filtersize.'px;';
+					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+					echo '">';
+					echo $a->getResults();
+					echo '</p>';				
+				echo '</td>';			
+				echo '<td width="50%" valign="top">';
+					echo '<p style="font-size: '.$filtersize.'px;';
+					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
+					echo '">';
+					$a->uppercase();
+					echo $a->getResults();
+					echo '</p>';				
+				echo '</td>';	
+			echo '</tr>';
+		echo '</table>';		
+	}	
 }
 
 // Add background Coor
