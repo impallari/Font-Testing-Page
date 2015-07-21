@@ -343,7 +343,7 @@ preset[22] = '<p>Passion is like fire</p>' +
 			 '<p>Some people feel the rain, others just get wet</p>'
 
 preset[23] = '<p style="text-align: center; margin-bottom: 0.8em">Originality Claims Administration Everywhere<br/>Printers know a \“Good Thing\” when they see it;<br/>Therefore, we show one of the \“Best<br/>Things\” in Hand-Cut Types.</p>' + 
-             '<p style="text-align: center; margin-bottom: 0.7em">The Printer Who Starts In<br/>Determined to use Universla Line<br/>and Nickel-Alloy Types</p>' +
+             '<p style="text-align: center; margin-bottom: 0.7em">The Printer Who Starts In<br/>Determined to use Universal Line<br/>and Nickel-Alloy Types</p>' +
              '<p style="text-align: center; margin-bottom: 0.6em">Is Sure To Build Up<br/>A Substantial and Profitable<br/>Printers\'Trade</p>' + 
              '<p style="text-align: center; margin-bottom: 0">Quality Shown<br/>In Our Productions</p>'
 

@@ -3,6 +3,40 @@
 	<table width="100%" cellpadding="12">
 		<tr>
 			<td width="50%">
+				<p class="sizelabel">Paris Metro Stations using /quoterigth.</p>
+				<p style="font-size: 38px;">
+				Château d’Eau<br />
+				Chaussée d’Antin<br />
+				L’Échat<br />
+				Église d’Auteuil<br />
+				Fort d’Aubervilliers<br />
+				Gare d’Austerlitz<br />
+				Gare de l’Est<br />
+				Mairie d’Ivry<br />
+				Porte d’Auteuil<br />
+				Porte d’Ivry<br />
+				Porte d’Orléans<br />
+				Trinité – d’Estienne d’Orves</p>
+			</td>
+			<td width="50%">
+				<p class="sizelabel">Paris Metro Stations using /quotesingle.</p>
+				<p style="font-size: 38px;">
+				Château d'Eau<br />
+				Chaussée d'Antin<br />
+				L'Échat<br />
+				Église d'Auteuil<br />
+				Fort d'Aubervilliers<br />
+				Gare d'Austerlitz<br />
+				Gare de l'Est<br />
+				Mairie d'Ivry<br />
+				Porte d'Auteuil<br />
+				Porte d'Ivry<br />
+				Porte d'Orléans<br />
+				Trinité – d'Estienne d'Orves</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="50%">
 				<p class="sizelabel">Using /quoterigth (aka curly quotes, aka smart quotes).</p>
 				<p style="font-size: 40px;">
 				he’d<br />
@@ -65,40 +99,6 @@
 				I'm<br />
 				I've<br />
 				60's</p>	
-			</td>
-		</tr>
-		<tr>
-			<td width="50%">
-				<p class="sizelabel">Paris Metro Stations using /quoterigth.</p>
-				<p style="font-size: 38px;">
-				Château d’Eau<br />
-				Chaussée d’Antin<br />
-				L’Échat<br />
-				Église d’Auteuil<br />
-				Fort d’Aubervilliers<br />
-				Gare d’Austerlitz<br />
-				Gare de l’Est<br />
-				Mairie d’Ivry<br />
-				Porte d’Auteuil<br />
-				Porte d’Ivry<br />
-				Porte d’Orléans<br />
-				Trinité – d’Estienne d’Orves</p>
-			</td>
-			<td width="50%">
-				<p class="sizelabel">Paris Metro Stations using /quotesingle.</p>
-				<p style="font-size: 38px;">
-				Château d'Eau<br />
-				Chaussée d'Antin<br />
-				L'Échat<br />
-				Église d'Auteuil<br />
-				Fort d'Aubervilliers<br />
-				Gare d'Austerlitz<br />
-				Gare de l'Est<br />
-				Mairie d'Ivry<br />
-				Porte d'Auteuil<br />
-				Porte d'Ivry<br />
-				Porte d'Orléans<br />
-				Trinité – d'Estienne d'Orves</p>
 			</td>
 		</tr>
 	</table>

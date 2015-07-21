@@ -45,7 +45,8 @@
 	    <li><a href="#fractions">Fractions</a></li>
 	    <li><a href="#dia_one">Diac1</a></li>	 
 	    <li><a href="#dia_two">Diac2</a></li>
-	    <li><a href="#dia_three">Diac3</a></li> 
+	    <li><a href="#dia_three">Diac3</a></li>
+	    <li><a href="#dia_four">Diac4</a></li> 
 	    <li><a href="#news">News</a></li> 
 	  </ul>
 
@@ -162,6 +163,11 @@
 	  <!-- Diacritics 3 -->
 	  <div id="dia_three">
 	  	<?php include("includes/latin-02/dia-03.php"); ?>
+	  </div>
+
+	  <!-- Diacritics 4 -->
+	  <div id="dia_four">
+	  	<?php include("includes/latin-02/dia-04.php"); ?>
 	  </div>
 
 	  <!-- News -->
