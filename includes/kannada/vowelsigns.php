@@ -1,10 +1,10 @@
 <div contenteditable="true" style="width: 920px;">
 
-<p class="sizelabel" style="line-height: 15px !important;">Every consonant with every vowel sign (or matra) and signs like anusvara and visarga</p>
+<p class="sizelabel" style="line-height: 15px !important;">Consonants + vowel signs (Syllables)</p>
 
 <p>&nbsp;</p>
 
-<p style="font-size: 40px;">
+<p style="font-size: 26px;">
 
 ಕ ಕಾ ಕಿ ಕೀ ಕು ಕೂ ಕೃ ಕೆ ಕೇ ಕೈ ಕೊ ಕೋ ಕೌ ಕಂ ಕಃ ಕ್ <br/><br/>
 ಖ ಖಾ ಖಿ ಖೀ ಖು ಖೂ ಖೃ ಖೆ ಖೇ ಖೈ ಖೊ ಖೋ ಖೌ ಖಂ ಖಃ ಖ್ <br/><br/>

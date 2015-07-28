@@ -8,23 +8,41 @@
 		<tr>
 			<td width="50%" valign="top">
 				<p class="sizelabel" style="font-size: 20px;">consonants:</p>
-				<p style="font-size: 44px;">
+				<p style="font-size: 40px;">
 				ಕ ಖ ಗ ಘ ಙ<br/>
-				ಚ ಛ ಜ ಝ ಞ<br/> 				ಟ ಠ ಡ ಢ ಣ<br/> 				ತ ಥ ದ ಧ ನ<br/> 				ಪ ಫ ಬ ಭ ಮ<br/>				ಯ ರ ಱ ಲ ಳ ವ<br/>
-				ಶ ಷ ಸ ಹ ೞ<br/> 				ಜ್ಞ ಕ್ಷ</p>
-			</td>
-
-			<td width="50%" valign="top">
-				<p class="sizelabel" style="font-size: 20px;">vowels:</p>
-				<p style="font-size: 44px;">
-				ಅ ಆ ಇ ಈ ಉ ಊ<br/>				ಋ ೠ ಌ ೡ<br/>				ಎ ಏ ಐ ಒ ಓ ಔ<br/></p>
+				ಚ ಛ ಜ ಝ ಞ<br/> 
+				ಟ ಠ ಡ ಢ ಣ<br/> 
+				ತ ಥ ದ ಧ ನ<br/> 
+				ಪ ಫ ಬ ಭ ಮ<br/>
+				ಯ ರ ಱ ಲ ಳ ವ<br/>
+				ಶ ಷ ಸ ಹ ೞ ಕ್ಷ</p>
 				<CR>
 				<p>&nbsp;</p>	
 				<CR>
 				<p class="sizelabel" style="font-size: 20px;">vowel signs/marks:</p>
-				<p style="font-size: 44px;"> ಾ ಿ ೀ ು ೂ ೃ ೄ<br/><CR>
-				 ೆ ೇ ೈ ೊ ೋ ೌ  ೢ  ೣ ್<br/><CR>
-			 	 ಂಃಽೱೲ ಼ ಁ</p>						
+				<p style="font-size: 40px;">
+				ಗ್ಕ ಗ್ಖ ಗ್ಗ ಗ್ಘ ಗ್ಙ ಗ್ಚ ಗ್ಛ ಗ್ಜ ಗ್ಝ <br/>
+				ಗ್ಞ ಗ್ಟ ಗ್ಠ ಗ್ಡ ಗ್ಢ ಗ್ಣ ಗ್ತ ಗ್ಥ ಗ್ದ <br/>
+				ಗ್ಧ ಗ್ನ ಗ್ಪ ಗ್ಫ ಗ್ಬ ಗ್ಭ ಗ್ಮ ಗ್ಯ ಗ್ರ <br/>
+				ಗ್ಱ ಗ್ಲ ಗ್ವ ಗ್ಶ ಗ್ಷ ಗ್ಸ ಗ್ಹ ಗ್ಳ ಗ್ೞ</p>
+					
+					
+			</td>
+
+			<td width="50%" valign="top">
+				<p class="sizelabel" style="font-size: 20px;">vowels:</p>
+				<p style="font-size: 40px;">
+				ಅ ಆ ಇ ಈ ಉ ಊ<br/>
+				ಋ ೠ ಌ ೡ<br/>
+				ಎ ಏ ಐ ಒ ಓ ಔ<br/></p>
+				<CR>
+				<p>&nbsp;</p>	
+				<CR>
+				<p class="sizelabel" style="font-size: 20px;">vowel signs/marks:</p>
+				<p style="font-size: 40px;">
+				 ಾ ಿ ೀ ು ೂ ೃ ೄ<br/><CR>
+				 ೆ ೇ ೈ ೊ ೋ ೌ ್<br/><CR>
+			 	 ಂಃಽೱೲ ಼</p>						
 				
 				<p>&nbsp;</p>	
 				
@@ -34,12 +52,6 @@
 			</td>
 		</tr>
 
-		<tr>
-			<td width="50%" valign="top" colspan="2">
-				<p class="sizelabel" style="font-size: 20px;">subscripts:</p>
-				<p style="font-size: 44px;">ಕ್ಕ ಕ್ಖ ಕ್ಗ ಕ್ಘ ಕ್ಙ ಕ್ಚ ಕ್ಛ ಕ್ಜ ಕ್ಝ ಕ್ಞ ಕ್ಟ ಕ್ಠ ಕ್ಡ ಕ್ಢ ಕ್ಣ ಕ್ತ ಕ್ಥ ಕ್ದ ಕ್ಧ ಕ್ನ ಕ್ಪ ಕ್ಫ ಕ್ಬ ಕ್ಭ ಕ್ಮ ಕ್ಯ ಕ್ರ ಕ್ಱ ಕ್ಲ ಕ್ವ ಕ್ಶ ಕ್ಷ ಕ್ಸ ಕ್ಹ ಕ್ಳ ಕ್ೞ</p>
-			</td>						
-		</tr>
 	</table>
 	
 </div>				

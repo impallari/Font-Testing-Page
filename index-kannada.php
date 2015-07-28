@@ -25,16 +25,19 @@
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
 	    <li><a href="#alphabet">Alphabet</a></li>
-	    <li><a href="#syllables">Syllables</a></li>
-	    <li><a href="basetobase">Base-to-Base</a></li>
-	    <li><a href="#basetosylltobase">Base-to-Syll-to-Base</a></li>
-	    <li><a href="#basetosub">Base-to-Subscripts</a></li>
-	    <li><a href="#sylltosub">Syllables-to-Sub</a></li>
-	    <li><a href="#subtosub">Sub-to-Sub</a></li>
-	    <li><a href="#subtobase">Sub-to-Base</a></li>
-	    <li><a href="#punctuation">Punctuation</a></li>
+	    <li><a href="#vowelsigns">Vowel sign combos</a></li>
+	    <li><a href="#spacing">Basic spacing</a></li>
+	    <li><a href="#vowelsignspacing">Vowel sign sp.</a></li>
+	    <li><a href="#specialsyll">Special syllable sp.</a></li>		
+	    <li><a href="#subscripts">Subscripts</a></li>
+	    <li><a href="#sylltosub">Special syllable/Subscript sp.</a></li>
+	    <li><a href="#subtosub">Subscript/Subscript sp.</a></li>
+	    <li><a href="#tallsubs">Tall Subscript sp.</a></li>
+	    <li><a href="#punctuation">Punctuation sp.</a></li>
 	    <li><a href="#numbers">Numbers</a></li>
-	    <li><a href="#sample">Sample</a></li>
+	    <li><a href="#adhesion">Adhesion</a></li>
+	    <li><a href="#adhesionbasic">Adhesion Basic text</a></li>		
+	    <li><a href="#sample">Complex Sample text</a></li>
 
 	  </ul>
 
@@ -42,20 +45,24 @@
 	  	<?php include("includes/kannada/alphabet.php"); ?>
 	  </div>
 
-	  <div id="syllables">
-	  	<?php include("includes/kannada/syllables.php"); ?>
+	  <div id="vowelsigns">
+	  	<?php include("includes/kannada/vowelsigns.php"); ?>
 	  </div>
 
-	  <div id="basetobase">
-	  	<?php include("includes/kannada/basetobase.php"); ?>
+	  <div id="spacing">
+	  	<?php include("includes/kannada/spacing.php"); ?>
 	  </div>
 
-	  <div id="basetosylltobase">
-	  	<?php include("includes/kannada/basetosylltobase.php"); ?>
+	  <div id="vowelsignspacing">
+	  	<?php include("includes/kannada/vowelsignspacing.php"); ?>
 	  </div>
 
-	  <div id="basetosub">
-	  	<?php include("includes/kannada/basetosub.php"); ?>
+	  <div id="specialsyll">
+	  	<?php include("includes/kannada/specialsyll.php"); ?>
+	  </div>
+	  
+	  <div id="subscripts">
+	  	<?php include("includes/kannada/subscripts.php"); ?>
 	  </div>
 
 	  <div id="sylltosub">
@@ -66,8 +73,8 @@
 	  	<?php include("includes/kannada/subtosub.php"); ?>
 	  </div>
 
-	  <div id="subtobase">
-	  	<?php include("includes/kannada/subtobase.php"); ?>
+	  <div id="tallsubs">
+	  	<?php include("includes/kannada/tallsubs.php"); ?>
 	  </div>
 
 	  <div id="punctuation">
@@ -78,6 +85,14 @@
 	  	<?php include("includes/kannada/numbers.php"); ?>
 	  </div>
 
+	  <div id="adhesion">
+	  	<?php include("includes/kannada/adhesion.php"); ?>
+	  </div>
+	  
+	  <div id="adhesionbasic">
+	  	<?php include("includes/kannada/adhesionbasic.php"); ?>
+	  </div>
+	  
 	  <div id="sample">
 	  	<?php include("includes/kannada/sample.php"); ?>
 	  </div>
