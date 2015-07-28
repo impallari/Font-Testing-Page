@@ -1,6 +1,6 @@
 <div contenteditable="true" style="width: 920px;">
 
-	<p class="sizelabel">Adhesiontext Basic: ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲಳವಶಷಸಹ ಅಆಇಈಉಊಎಏಐಒಓಔ - 40 pt. </p>
+	<p class="sizelabel">All base consonants and vowels: ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲಳವಶಷಸಹ ಅಆಇಈಉಊಎಏಐಒಓಔ - 40 pt. </p>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>	
 	<p style="font-size: 40px;">

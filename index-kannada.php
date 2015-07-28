@@ -28,16 +28,16 @@
 	    <li><a href="#vowelsigns">Vowel sign combos</a></li>
 	    <li><a href="#spacing">Basic spacing</a></li>
 	    <li><a href="#vowelsignspacing">Vowel sign sp.</a></li>
-	    <li><a href="#specialsyll">Special syllable sp.</a></li>		
+	    <li><a href="#specialsyll">Special syll sp.</a></li>		
 	    <li><a href="#subscripts">Subscripts</a></li>
-	    <li><a href="#sylltosub">Special syllable/Subscript sp.</a></li>
-	    <li><a href="#subtosub">Subscript/Subscript sp.</a></li>
-	    <li><a href="#tallsubs">Tall Subscript sp.</a></li>
+	    <li><a href="#sylltosub">Syll/Subs sp.</a></li>
+	    <li><a href="#subtosub">Subs/Subs sp.</a></li>
+	    <li><a href="#tallsubs">Tall Subs sp.</a></li>
 	    <li><a href="#punctuation">Punctuation sp.</a></li>
 	    <li><a href="#numbers">Numbers</a></li>
 	    <li><a href="#adhesion">Adhesion</a></li>
-	    <li><a href="#adhesionbasic">Adhesion Basic text</a></li>		
-	    <li><a href="#sample">Complex Sample text</a></li>
+	    <li><a href="#adhesion2">Adhesion 2</a></li>
+	    <li><a href="#newspaper">Newspaper text</a></li>
 
 	  </ul>
 
@@ -89,12 +89,12 @@
 	  	<?php include("includes/kannada/adhesion.php"); ?>
 	  </div>
 	  
-	  <div id="adhesionbasic">
-	  	<?php include("includes/kannada/adhesionbasic.php"); ?>
+	  <div id="adhesion2">
+	  	<?php include("includes/kannada/adhesion2.php"); ?>
 	  </div>
 	  
-	  <div id="sample">
-	  	<?php include("includes/kannada/sample.php"); ?>
+	  <div id="newspaper">
+	  	<?php include("includes/kannada/newspaper.php"); ?>
 	  </div>
 	  	  
 	</div><!-- end tabs -->
