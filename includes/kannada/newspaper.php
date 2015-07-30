@@ -1,6 +1,6 @@
 <div contenteditable="true" style="width: 920px;">
 
-	<p class="sizelabel">Sample from Kannada newspaper - 30 points. </p>
+	<p class="sizelabel">Sample from Kannada Prahba newspaper - 30 points. </p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 30px;">
@@ -36,7 +36,7 @@
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	
-	<p class="sizelabel">Sample from Kannada newspaper - 30 points. From other source</p>
+	<p class="sizelabel">Sample from Kannada Prahba newspaper - 30 points. From other source</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 30px;"> 
