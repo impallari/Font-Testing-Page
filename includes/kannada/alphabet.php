@@ -19,7 +19,7 @@
 				<CR>
 				<p>&nbsp;</p>	
 				<CR>
-				<p class="sizelabel" style="font-size: 20px;">vowel signs/marks:</p>
+				<p class="sizelabel" style="font-size: 20px;">subscripts:</p>
 				<p style="font-size: 40px;">
 				ಗ್ಕ ಗ್ಖ ಗ್ಗ ಗ್ಘ ಗ್ಙ ಗ್ಚ ಗ್ಛ ಗ್ಜ ಗ್ಝ <br/>
 				ಗ್ಞ ಗ್ಟ ಗ್ಠ ಗ್ಡ ಗ್ಢ ಗ್ಣ ಗ್ತ ಗ್ಥ ಗ್ದ <br/>
@@ -34,7 +34,8 @@
 				<p style="font-size: 40px;">
 				ಅ ಆ ಇ ಈ ಉ ಊ<br/>
 				ಋ ೠ ಌ ೡ<br/>
-				ಎ ಏ ಐ ಒ ಓ ಔ<br/></p>
+				ಎ ಏ ಐ ಒ ಓ ಔ<br/>
+</p>
 				<CR>
 				<p>&nbsp;</p>	
 				<CR>
