@@ -48,6 +48,7 @@ Thanks
 - Devanagari Dictionary words from http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html (Thanks to Andres Torresi and Juan Pablo del Peral from http://www.huertatipografica.com)
 - Tamil Version by Tharique Azeez (http://thariqueazeez.com), text are from Niram blog (tamil.niram.org)
 - Kannada Version by Erin McLaughlin (http://erinmclaughlin.com), sample texts from Miguel Sousa's AdhesionText (http://www.adhesiontext.com/kannada/), and Kannada Prahba newspaper (http://www.kannadaprabha.com/)
+- Telugu Version by Appaji Ambarisha Darbha
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
 License
