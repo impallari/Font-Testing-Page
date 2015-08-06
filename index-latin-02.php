@@ -27,6 +27,7 @@
 	    <li><a href="#blake">SB</a></li>
 	    <li><a href="#king">KKing</a></li>
 	    <li><a href="#words">KWords</a></li>
+	    <li><a href="#minimalkerning">Minimal Kerning Pairs</a></li>
 	    <li><a href="#oldnick">Nick</a></li>
 	    <li><a href="#ruder">Ruder</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
@@ -68,6 +69,11 @@
 	  <!-- Kern Words -->
 	  <div id="words">
 		<?php include("includes/latin-02/kern-words.php"); ?>	
+	  </div>
+
+	  <!-- Minimal Kerning Pairs -->
+	  <div id="minimalkerning">
+		<?php include("includes/latin-02/minimalkerning.php"); ?>	
 	  </div>
 
 	  <!-- Old Nick -->
