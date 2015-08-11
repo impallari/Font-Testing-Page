@@ -5,13 +5,12 @@
 	
 	<p class="sizelabel">Cap to Cap</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
-		HHATHH HHTAHH HHTÆHH<br />
-		HHAUHH HHUAHH HHUÆHH<br />
-		HHAVHH HHVAHH HHVÆHH<br />
-		HHAWHH HHWAHH HHWÆHH<br />
-		HHAYHH HHYAHH HHYÆHH<br />
-		HHAOHH HHAQHH HHACHH<br />
-		HHOAHH HHQAHH HHDAHH<br />
+		HHATAHH HHTÆHH<br />
+		HHAUAHH HHUÆHH<br />
+		HHAVAHH HHVÆHH<br />
+		HHAWAHH HHWÆHH<br />
+		HHAYAHH HHYÆHH<br />
+		HHAOAHH HHAQAHH HHACHH HHDAHH<br />
 		HHOÆHH HHDÆHH HHQÆHH<br />
 		HHBTHH<br />
 		HHBVHH<br />
@@ -20,17 +19,17 @@
 		HHFJHH<br />
 		HHGYHH<br />
 		HHKOHH HHKCHH HHKQHH<br />
-		HHLCHH HHLOHH<br />
+		HHLOHH HHLCHH HHLQHH<br />
 		HHLTHH<br />
 		HHLUHH<br />
 		HHLVHH<br />
 		HHLWHH<br />
 		HHLYHH<br />
-		HHOTHH HHDTHH HHTOHH HHTCHH<br />
-		HHOVHH HHDVHH HHVOHH HHVCHH<br />
-		HHOWHH HHDWHH HHWOHH HHWCHH<br />
-		HHOXHH HHDXHH HHXOHH HHXCHH<br /> 
-		HHOYHH HHDYHH HHYOHH HHYCHH<br />
+		HHOTOHH HHQTQHH HHDTHH HHTCHH<br />
+		HHOVOHH HHQVQHH HHDVHH HHVCHH<br />
+		HHOWOHH HHQWQHH HHDWHH HHWCHH<br />
+		HHOXOHH HHQXQHH HHDXHH HHXCHH<br /> 
+		HHOYOHH HHQYQHH HHDYHH HHYCHH<br />
 		HHPAHH HHPÆHH<br />
 		HHPJHH<br />
 		HHPXHH<br />
@@ -45,48 +44,54 @@
 	<p class="sizelabel">Cap to Lower</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
 		Fannon Kannon Pannon Tannon Vannon Wannon Yannon<br />
-		Kcnnon Pcnnon Tcnnon Vcnnon Wcnnon Ycnnon<br />
-		Fennon Pennon Tennon Vennon Wennon Yennon<br />
-		Vgnnon Ygnnon <br />
+		Fcnnon Kcnnon Pcnnon Tcnnon Vcnnon Wcnnon Xcnnon Ycnnon<br />
+		Fdnnon Kdnnon Pdnnon Tdnnon Vdnnon Wdnnon Xdnnon Ydnnon<br />
+		Fennon Kennon Pennon Tennon Vennon Wennon Yennon Yennon<br />
+		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Yonnon Yonnon<br />
+		Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Ygnnon Ygnnon<br />
 		Tmnnon Vmnnon Wmnnon Ymnnon<br />
 		Tnnnon Vnnnon Wnnnon Ynnnon<br />
-		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Yonnon<br />
 		Trnnon Vrnnon<br />
 		Tsnnon Vsnnon Ysnnon<br />
 		Atnnon Ytnnon<br />
-		Funnon Kunnon Tunnon Vunnon Wunnon Yunnon<br />
-		Avnnon Kvnnon Lvnnon Tvnnon Yvnnon<br />
-		Awnnon Kwnnon Lwnnon Twnnon Ywnnon<br />
+		Funnon Kunnon Tunnon Vunnon Wunnon Yunnon Xunnon<br />
+		Avnnon Kvnnon Lvnnon Tvnnon Vvnnon Yvnnon Xvnnon<br />
+		Awnnon Kwnnon Lwnnon Twnnon Vwnnon Ywnnon Xwnnon<br />
 		Txnnon Yxnnon<br />
-		Aynnon Kynnon Lynnon Tynnon Vynnon Xynnon<br />
+		Aynnon Kynnon Lynnon Tynnon Vynnon Yynnon Xynnon<br />
 		Tznnon Yznnon</p>
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel">Lower to Lower</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
 		nonavnon nonvanon<br />
-		nonovnon nonvonon nonvcnon<br />
-		nonoxnon nonxonon nonxcnon<br />
-		nonkcnon nonkonon<br />
-		nonranon nonrcnon nonronon</p>
+		nonovonon nonvcnon nonvdnon nonvenon<br />
+		nonoxonon nonxcnon nonxdnon nonxenon<br />
+		nonkcnon nonkdnon nonkenon nonkonon<br />
+		nonranon nonrcnon nonrdnon nonrenon nonronon</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Caps and punctuation</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
 		HH‘AHH HHA’HH HH’AHH HHL’HH<br />
-		HHO,HH HHD,HH HHF,HH HHP,HH HHT,HH HHV,HH HHW,HH HHY,HH<br />
-		HHF.HH HHP.HH HHT.HH HHV.HH HHW.HH HHY.HH<br />
-		HHK-HH HHL-HH HHT-HH HHV-HH HHW-HH HHX-HH HHY-HH HHZ-HH<br />
-		HH-THH HH-VHH HH-WHH HH-XHH HH-YHH HH-ZHH<br />
-		HHT:HH HHV:HH HHY:HH</p>
+		HH“AHH HHA”HH HH”AHH HHL”HH<br />
+		HH'A'HH HHL'HH HH"A"HH HHL"HH<br />
+		HH.O.HH HH.T.HH HH.V.HH HH.W.HH HH.Y.HH<br />
+		HHD.HH HHF.HH HHP.HH<br />
+		HH,O,HH HH,T,HH HH,V,HH HH,W,HH HH,Y,HH<br />
+		HHD,HH HHF,HH HHP,HH<br />
+		HHK-HH HHL-HH<br />
+		HH-T-HH HH-V-HH HH-W-HH HH-X-HH HH-Y-HH HH-Z-HH<br />
+		HHT:HH HHV:HH HHY:HH<br />
+		HHT;HH HHV;HH HHY;HH</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Lower and punctuation</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
-		nonf.non nonr.non nonv.non nonw.non nony.non<br />
-		nonf,non nonr,non nonv,non nonw,non nony,non<br />
+		nn.f.nn nn.o.nn nn.v.nn nn.w.nn nn.y.nn nnr.nn<br />
+		nn,f,nn nn,o,nn nn,v,nn nn,w,nn nn,y,nn nnr,nn<br />
 		nonf?non non(f)non nonf’non<br />
-		nonk-non nonr-non nonx-non<br />
+		nonk-non nonr-non non-x-non<br />
 		non’snon</p>
 	<p>&nbsp;</p>
 		
