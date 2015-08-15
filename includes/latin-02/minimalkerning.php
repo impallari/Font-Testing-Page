@@ -1,6 +1,6 @@
 <div contenteditable="true">
 
-	<p class="sizelabel">Impallari's Minimal Kerning Pair List (for a Sans)</p>
+	<p class="sizelabel">Impallari's Minimal Kerning Pair List</p>
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel">Cap to Cap</p>
@@ -12,32 +12,33 @@
 		HHAYAHH HHYÆHH<br />
 		HHAOAHH HHAQAHH HHACHH HHDAHH<br />
 		HHOÆHH HHDÆHH HHQÆHH<br />
-		HHBTHH<br />
-		HHBVHH<br />
-		HHBYHH<br />
-		HHFAHH HHFÆHH<br />
-		HHFJHH<br />
-		HHGYHH<br />
-		HHKOHH HHKCHH HHKQHH<br />
-		HHLOHH HHLCHH HHLQHH<br />
-		HHLTHH<br />
-		HHLUHH<br />
-		HHLVHH<br />
-		HHLWHH<br />
-		HHLYHH<br />
 		HHOTOHH HHQTQHH HHDTHH HHTCHH<br />
 		HHOVOHH HHQVQHH HHDVHH HHVCHH<br />
 		HHOWOHH HHQWQHH HHDWHH HHWCHH<br />
 		HHOXOHH HHQXQHH HHDXHH HHXCHH<br /> 
 		HHOYOHH HHQYQHH HHDYHH HHYCHH<br />
-		HHPAHH HHPÆHH<br />
+		HHKOHH HHKCHH HHKQHH<br />
+		HHLOHH HHLCHH HHLQHH<br />	
+		HHFAHH HHFÆHH<br />	
+		HHPAHH HHPÆHH<br />						
+		HHSYHH HHYSHH<br />
+		HHBTHH<br />
+		HHBVHH<br />
+		HHBYHH<br />
+		HHFJHH<br />
+		HHGYHH<br />
+		HHLTHH<br />
+		HHLUHH<br />
+		HHLVHH<br />
+		HHLWHH<br />
+		HHLYHH<br />
 		HHPJHH<br />
 		HHPXHH<br />
 		HHRTHH<br />
+		HHRUHH<br />
 		HHRVHH<br />
 		HHRWHH<br />
 		HHRYHH<br />
-		HHSYHH HHYSHH<br />
 		HHTJHH</p>
 	<p>&nbsp;</p>
 
@@ -49,6 +50,7 @@
 		Fennon Kennon Pennon Tennon Vennon Wennon Yennon Yennon<br />
 		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Yonnon Yonnon<br />
 		Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Ygnnon Ygnnon<br />
+		Vinnon Winnon Yinnon<br />
 		Tmnnon Vmnnon Wmnnon Ymnnon<br />
 		Tnnnon Vnnnon Wnnnon Ynnnon<br />
 		Trnnon Vrnnon<br />
@@ -58,7 +60,7 @@
 		Avnnon Kvnnon Lvnnon Tvnnon Vvnnon Yvnnon Xvnnon<br />
 		Awnnon Kwnnon Lwnnon Twnnon Vwnnon Ywnnon Xwnnon<br />
 		Txnnon Yxnnon<br />
-		Aynnon Kynnon Lynnon Tynnon Vynnon Yynnon Xynnon<br />
+		Aynnon Kynnon Lynnon Tynnon Vynnon Wynnon Yynnon Xynnon<br />
 		Tznnon Yznnon</p>
 	<p>&nbsp;</p>
 	
@@ -76,14 +78,14 @@
 		HH‘AHH HHA’HH HH’AHH HHL’HH<br />
 		HH“AHH HHA”HH HH”AHH HHL”HH<br />
 		HH'A'HH HHL'HH HH"A"HH HHL"HH<br />
-		HH.O.HH HH.T.HH HH.V.HH HH.W.HH HH.Y.HH<br />
+		HH.O.HH HH.T.HH HH.U.HH HH.V.HH HH.W.HH HH.Y.HH<br />
 		HHD.HH HHF.HH HHP.HH<br />
-		HH,O,HH HH,T,HH HH,V,HH HH,W,HH HH,Y,HH<br />
+		HH,O,HH HH,T,HH HH,U,HH HH,V,HH HH,W,HH HH,Y,HH<br />
 		HHD,HH HHF,HH HHP,HH<br />
 		HHK-HH HHL-HH<br />
 		HH-T-HH HH-V-HH HH-W-HH HH-X-HH HH-Y-HH HH-Z-HH<br />
-		HHT:HH HHV:HH HHY:HH<br />
-		HHT;HH HHV;HH HHY;HH</p>
+		HHT:HH HHV:HH HHW:HH HHY:HH<br />
+		HHT;HH HHV;HH HHW;HH HHY;HH</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Lower and punctuation</p>
