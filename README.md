@@ -49,6 +49,7 @@ Thanks
 - Tamil Version by Tharique Azeez (http://thariqueazeez.com), text are from Niram blog (tamil.niram.org)
 - Kannada Version by Erin McLaughlin (http://erinmclaughlin.com), sample texts from Miguel Sousa's AdhesionText (http://www.adhesiontext.com/kannada/), and Kannada Prahba newspaper (http://www.kannadaprabha.com/)
 - Telugu Version by Appaji Ambarisha Darbha
+- Hebrew Version by Meir Sadan (http://meirsadan.com/)
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
 License
