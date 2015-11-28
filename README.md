@@ -33,28 +33,26 @@ Notes:
 
 Thanks
 
-- Inspired by Jonathan Kew's [OpenType Playground](http://people.mozilla.com/~jkew/opentype-feature-playground.html), made for Mozilla
-- Initiated by Dave Crossland (http://understandingfonts.com)
-- Developed by Pablo Impallari (http://impallari.com)
-- Designed by Pablo Cosgaya (http://omnibus-type.com)
-- Kerning string by James Montalbano (http://terminaldesign.com)
+- Inspired by Jonathan Kew's [OpenType Playground](http://people.mozilla.com/~jkew/opentype-feature-playground.html) made for Mozilla and [FontDrag](https://github.com/ryanseddon/font-dragr)
+- Initiated by [Dave Crossland](http://understandingfonts.com)
+- Developed by [Pablo Impallari](http://impallari.com)
+- Designed by [Pablo Cosgaya](http://omnibus-type.com)
+- Kerning string by [James Montalbano](http://terminaldesign.com)
 - Kern King Tab content from http://logofontandlettering.com/kernking.html
-- Pangrams from Wikipedia (http://en.wikipedia.org/wiki/List_of_pangrams)
-- Armenian Pangrams by Hrant Papazian (https://twitter.com/hhpapazian)
-- Latin Languages texts by Eduardo Tunni (http://tipo.net.ar)
-- Latin02 Diacritics tabs from Context of Diacritics (http://urtd.net/projects/cod)
-- Cyrillic Version by Alexei Vanyashin (http://www.cyreal.org)
-- Most Devanagari content by Girish Dalvi, Ek Type (http://ektype.in) and Pooja Saxena (http://www.poojasaxena.in)
-- Devanagari Dictionary words from http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html (Thanks to Andres Torresi and Juan Pablo del Peral from http://www.huertatipografica.com)
-- Tamil Version by Tharique Azeez (http://thariqueazeez.com), text are from Niram blog (tamil.niram.org)
-- Kannada Version by Erin McLaughlin (http://erinmclaughlin.com), sample texts from Miguel Sousa's AdhesionText (http://www.adhesiontext.com/kannada/), and Kannada Prahba newspaper (http://www.kannadaprabha.com/)
-- Telugu Version by Appaji Ambarisha Darbha
-- Hebrew Version by Meir Sadan (http://meirsadan.com/)
+- Pangrams from [Wikipedia](http://en.wikipedia.org/wiki/List_of_pangrams)
+- Armenian Pangrams by [Hrant Papazian](https://twitter.com/hhpapazian)
+- Latin Languages texts by [Eduardo Tunni](http://tipo.net.ar)
+- Latin02 Diacritics tabs from [Context of Diacritics](http://urtd.net/projects/cod)
+- Cyrillic Version by [Alexei Vanyashin](http://www.cyreal.org)
+- Most Devanagari content by [Girish Dalvi, Ek Type](http://ektype.in) and [Pooja Saxena](http://www.poojasaxena.in)
+- Devanagari Dictionary words from http://sanskritdocuments.org/hindi/dict/eng-hin_unic.html (Thanks to [Andres Torresi and Juan Pablo del Peral](http://www.huertatipografica.com))
+- Tamil Version by [Tharique Azeez](http://thariqueazeez.com), text are from [Niram blog](tamil.niram.org)
+- Kannada Version by [Erin McLaughlin](http://erinmclaughlin.com), sample texts from Miguel Sousa's [AdhesionText Kannada](http://www.adhesiontext.com/kannada/), and [Kannada Prahba](http://www.kannadaprabha.com/) newspaper
+- Telugu Version by [Appaji Ambarisha Darbha](https://github.com/appajid)
+- Hebrew Version by [Meir Sadan](http://meirsadan.com/)
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
 License
 ------------
-
 Code is available under the MIT License, see LICENSE.md for full details
-
 Page text is available under the Creative Commons Attribution-ShareAlike v3.0 License
