@@ -92,7 +92,9 @@
 	<p style="font-size: 36px; line-height: 1.5em;">
 		nn.f.nn nn.o.nn nn.v.nn nn.w.nn nn.y.nn nnr.nn<br />
 		nn,f,nn nn,o,nn nn,v,nn nn,w,nn nn,y,nn nnr,nn<br />
-		nonf?non non(f)non nonf’non<br />
+		nonf*non nonf?non non(f)non non[f]non non{f}non<br />
+		nonf"non nonf“non nonf”non nonf’non nonf‘non<br />
+		non¿jnon non(j)non non[j]non non{j}non
 		nonk-non nonr-non non-x-non<br />
 		non’snon</p>
 	<p>&nbsp;</p>
