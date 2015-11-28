@@ -94,7 +94,7 @@
 		nn,f,nn nn,o,nn nn,v,nn nn,w,nn nn,y,nn nnr,nn<br />
 		nonf*non nonf?non non(f)non non[f]non non{f}non<br />
 		nonf"non nonf“non nonf”non nonf’non nonf‘non<br />
-		non¿jnon non(j)non non[j]non non{j}non
+		non¿jnon non(j)non non[j]non non{j}non<br />
 		nonk-non nonr-non non-x-non<br />
 		non’snon</p>
 	<p>&nbsp;</p>
