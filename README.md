@@ -31,7 +31,17 @@ Notes:
 - Requires Firefox or Chrome
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
 
-Thanks
+Developers:
+
+To download the latest version and use it locally: 
+
+    git clone https://github.com/impallari/Font-Testing-Page.git;
+    cd Font-Testing-Page;
+    php -S 127.0.0.1:8080
+
+Then visit <http://127.0.0.1:8080> to see your local version of the tool.
+
+Thanks:
 
 - Inspired by Jonathan Kew's [OpenType Playground](http://people.mozilla.com/~jkew/opentype-feature-playground.html) made for Mozilla and [FontDrag](https://github.com/ryanseddon/font-dragr)
 - Initiated by [Dave Crossland](http://understandingfonts.com)
@@ -52,7 +62,8 @@ Thanks
 - Hebrew Version by [Meir Sadan](http://meirsadan.com/)
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
-License
-------------
-Code is available under the MIT License, see LICENSE.md for full details
+License: 
+
+Code is available under the MIT License, see [LICENSE.md](LICENSE.md) for full details
+
 Page text is available under the Creative Commons Attribution-ShareAlike v3.0 License
