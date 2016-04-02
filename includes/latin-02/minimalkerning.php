@@ -2,6 +2,9 @@
 
 	<p class="sizelabel">Impallari's Minimal Kerning Pair List</p>
 	<p>&nbsp;</p>
+	<p class="sizelabel">If your font is well spaced, you probably need to kern this pairs only.</p>
+	<p class="sizelabel">You may need a few other pairs here and there depending of your design, but if you need a hell lot more pairs then your spacing is wrong.</p>
+	<p>&nbsp;</p>
 	
 	<p class="sizelabel">Cap to Cap</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
@@ -10,15 +13,17 @@
 		HHAVAHH HHVÆHH<br />
 		HHAWAHH HHWÆHH<br />
 		HHAYAHH HHYÆHH<br />
-		HHAOAHH HHAQAHH HHACHH HHDAHH<br />
+		HHAOAHH HHAQAHH HHACHH HHAGHH HHDAHH<br />
 		HHOÆHH HHDÆHH HHQÆHH<br />
-		HHOTOHH HHQTQHH HHDTHH HHTCHH<br />
-		HHOVOHH HHQVQHH HHDVHH HHVCHH<br />
-		HHOWOHH HHQWQHH HHDWHH HHWCHH<br />
-		HHOXOHH HHQXQHH HHDXHH HHXCHH<br /> 
-		HHOYOHH HHQYQHH HHDYHH HHYCHH<br />
-		HHKOHH HHKCHH HHKQHH<br />
-		HHLOHH HHLCHH HHLQHH<br />	
+		HHOTOHH HHQTQHH HHDTHH HHTCHH HHTGHH<br />
+		HHOVOHH HHQVQHH HHDVHH HHVCHH HHVGHH<br />
+		HHOWOHH HHQWQHH HHDWHH HHWCHH HHWGHH<br />
+		HHOXOHH HHQXQHH HHDXHH HHXCHH HHXGHH<br /> 
+		HHOYOHH HHQYQHH HHDYHH HHYCHH HHYGHH<br />
+		HHKOHH HHKCHH HHKGHH HHKQHH<br />
+		HHLOHH HHLCHH HHLGHH HHLQHH<br />
+		HHEOHH HHECHH HHEGHH HHEQHH<br />
+		HHFOHH HHFCHH HHFGHH HHFQHH<br />	
 		HHFAHH HHFÆHH<br />	
 		HHPAHH HHPÆHH<br />						
 		HHSYHH HHYSHH<br />
@@ -47,9 +52,9 @@
 		Fannon Kannon Pannon Tannon Vannon Wannon Yannon<br />
 		Fcnnon Kcnnon Pcnnon Tcnnon Vcnnon Wcnnon Xcnnon Ycnnon<br />
 		Fdnnon Kdnnon Pdnnon Tdnnon Vdnnon Wdnnon Xdnnon Ydnnon<br />
-		Fennon Kennon Pennon Tennon Vennon Wennon Yennon Yennon<br />
-		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Yonnon Yonnon<br />
-		Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Ygnnon Ygnnon<br />
+		Fennon Kennon Pennon Tennon Vennon Wennon Xennon Yennon<br />
+		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Xonnon Yonnon<br />
+		Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Xgnnon Ygnnon<br />
 		Vinnon Winnon Yinnon<br />
 		Tmnnon Vmnnon Wmnnon Ymnnon<br />
 		Tnnnon Vnnnon Wnnnon Ynnnon<br />
@@ -67,10 +72,12 @@
 	<p class="sizelabel">Lower to Lower</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
 		nonavnon nonvanon<br />
-		nonovonon nonvcnon nonvdnon nonvenon<br />
-		nonoxonon nonxcnon nonxdnon nonxenon<br />
-		nonkcnon nonkdnon nonkenon nonkonon<br />
-		nonranon nonrcnon nonrdnon nonrenon nonronon</p>
+		nonovonon nonvcnon nonvenon nonbvdnon nonpvqnon<br />
+		nonoxonon nonxcnon nonxenon nonbxdnon nonpxqnon<br />
+		nonkcnon nonkenon nonkonon nonkdnon nonkqnon<br />
+		nonranon nonrcnon nonrdnon nonrenon nonronon nonrdnon nonrqnon<br />
+		nonofonon nonfcnon nonfenon nonbfdnon nonpfqnon<br />
+		nonotonon nonfcnon nontenon nonbtdnon nonptqnon</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Caps and punctuation</p>
