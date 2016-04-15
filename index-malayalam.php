@@ -35,7 +35,7 @@ $(document).ready(function(){
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
 	    <li><a href="#headlines">Headlines</a></li>
-	    <li><a href="#malayalamtext">Malayalam</a></li>
+	    <li><a href="#malayalamtext">Text</a></li>
 	    <li><a href="#mllatext">Malayalam + Latin</a></li>
 	    <li><a href="#caps">Words</a></li>
 	    <li><a href="#layout">Layout</a></li>
@@ -61,18 +61,7 @@ $(document).ready(function(){
 			<div class="textsettingCol2"></div>
 	  </div>
 
-	  <!-- adhesion (Content injected via constants.js) -->
-	  <div id="adhesion">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<div style="width: 920px;">
-				<div class="textsettingCol1"></div>
-				<div class="textsettingCol2"></div>
-			</div>
-	  </div>
-
-	  <!-- Caps (Content injected via constants.js) -->
+	  <!-- Words (Content injected via constants.js) -->
 	  <div id="caps">
 	  		<div style="width: 920px;"></div>
 	  </div>
@@ -81,14 +70,17 @@ $(document).ready(function(){
 	  <div id="layout">
 	  	<?php include("includes/malayalam/layout.php"); ?>
 	  </div>
+	  
 	  <!-- Lettering -->
           <div id="lettering">
 	  	<?php include("includes/malayalam/lettering.php"); ?>
 	  </div>
+	  
 	  <!-- Clusters -->
 	  <div id="clusters">
 	  	<?php include("includes/malayalam/clusters.php"); ?>
 	  </div>
+	  
 	</div><!-- end tabs -->
 
 </section>
