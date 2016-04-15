@@ -60,6 +60,7 @@ Thanks:
 - Kannada Version by [Erin McLaughlin](http://erinmclaughlin.com), sample texts from Miguel Sousa's [AdhesionText Kannada](http://www.adhesiontext.com/kannada/), and [Kannada Prahba](http://www.kannadaprabha.com/) newspaper
 - Telugu Version by [Appaji Ambarisha Darbha](https://github.com/appajid)
 - Hebrew Version by [Meir Sadan](http://meirsadan.com/)
+- Malayan Version by [Santhosh Thottingal](http://thottingal.in/)
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
 License: 
