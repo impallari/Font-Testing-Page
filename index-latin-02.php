@@ -38,6 +38,7 @@
 	    <li><a href="#upperspacing01">UC1</a></li>
 	    <li><a href="#upperspacing02">UC2</a></li>
 	    <li><a href="#upperspacing03">UC3</a></li>
+	    <li><a href="#captolower">UC2lw</a></li>
 	    <li><a href="#numbers">N1</a></li>
 	    <li><a href="#numeritos">N2</a></li>   		    
 	    <li><a href="#overshoots">OS</a></li>
@@ -48,7 +49,7 @@
 	    <li><a href="#dia_two">Diac2</a></li>
 	    <li><a href="#dia_three">Diac3</a></li>
 	    <li><a href="#dia_four">Diac4</a></li> 
-	    <li><a href="#news">News</a></li> 
+	    <li><a href="#news">News</a></li>
 	  </ul>
 
 	  <!-- Briem Basic Proof -->
@@ -124,6 +125,11 @@
 	  <!-- Upperspacing 3 -->
 	  <div id="upperspacing03">
 		<?php include("includes/latin-02/uc-spacing-03.php"); ?>
+	  </div>
+
+	  <!-- Caps to Lowercase Relations -->
+	  <div id="captolower">
+		<?php include("includes/latin-02/capstolower-short.php"); ?>
 	  </div>
 	  
 	  <!-- Numbers -->
