@@ -27,24 +27,14 @@
 		HHFAHH HHFÆHH<br />	
 		HHPAHH HHPÆHH<br />						
 		HHSYHH HHYSHH<br />
-		HHBTHH<br />
-		HHBVHH<br />
-		HHBYHH<br />
-		HHFJHH<br />
-		HHGYHH<br />
-		HHLTHH<br />
-		HHLUHH<br />
-		HHLVHH<br />
-		HHLWHH<br />
-		HHLYHH<br />
-		HHPJHH<br />
-		HHPXHH<br />
-		HHRTHH<br />
-		HHRUHH<br />
-		HHRVHH<br />
-		HHRWHH<br />
-		HHRYHH<br />
-		HHTJHH</p>
+		HHBTHH HHLTHH HHRTHH<br />
+		HHBVHH HHLVHH HHPTHH HHRVHH HHGVHH<br />
+		HHBWHH HHLWHH HHPTHH HHRWHH HHGWHH<br />
+		HHBXHH HHLXHH HHPXHH HHRXHH HHGXHH<br />
+		HHBYHH HHLYHH HHPYHH HHRYHH HHGYHH<br />
+		HHFJHH HHPJHH HHTJHH HHVJHH HHWJHH HHYJHH<br />
+		HHLUHH HHRUHH<br />
+		</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Cap to Lower</p>
