@@ -30,7 +30,8 @@
 	    <li><a href="#minimalkerning">Minimal Kerning Pairs</a></li>
 	    <li><a href="#oldnick">Nick</a></li>
 	    <li><a href="#ruder">Ruder</a></li> 
-	    <li><a href="#ngrams">Ngrams</a></li>    
+	    <li><a href="#ngrams">Ngrams</a></li> 
+	    <li><a href="#commonwords">Common</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
 	    <li><a href="#lowergrid">LC Grid</a></li>
 	    <li><a href="#lowerspacing01">LC1</a></li>
@@ -92,6 +93,11 @@
 	  <div id="ngrams">
 	  	<?php include("includes/latin-02/ngrams.php"); ?>
 	  </div>
+
+	  <!-- Common Words -->
+	  <div id="commonwords">
+	  	<?php include("includes/latin-02/commonwords.php"); ?>
+	  </div>	  
 
 	  <!-- Caps Grid -->
 	  <div id="capsgrid">

@@ -1,4 +1,4 @@
-<div contenteditable="true" style="width: 920px;">
+<div contenteditable="true">
 
 	<div class="dontprint">
 		<input type="range" min="12" max="200" value="40" step="1" oninput="changeFontSizeC2L(this.value)" onchange="changeFontSizeC2L(this.value)" style="width: 300px;" />
