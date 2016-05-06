@@ -79,6 +79,9 @@ div.tabs > div h2 { margin-top: 0; }
 /* This is only used in the "Ruder" tab, should be moved to inline css into the ruder.php include file */  
 #ruder td { font-size: 32px; line-height: 1; margin: 0; padding: 4px; }
 
+/* This is only used in the "Ngrams" tab, should be moved to inline css into the ngrams.php include file */  
+#ngrams td { font-size: 32px; line-height: 1.4; margin: 0; padding: 4px; }
+
 /*-----------------------------------------------------------------------------------------------------
   Footer
   ---------------------------------------------------------------------------------------------------*/

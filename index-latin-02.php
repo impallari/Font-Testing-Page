@@ -29,7 +29,8 @@
 	    <li><a href="#words">KWords</a></li>
 	    <li><a href="#minimalkerning">Minimal Kerning Pairs</a></li>
 	    <li><a href="#oldnick">Nick</a></li>
-	    <li><a href="#ruder">Ruder</a></li>    
+	    <li><a href="#ruder">Ruder</a></li> 
+	    <li><a href="#ngrams">Ngrams</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
 	    <li><a href="#lowergrid">LC Grid</a></li>
 	    <li><a href="#lowerspacing01">LC1</a></li>
@@ -85,6 +86,11 @@
 	  <!-- Emil Ruders -->
 	  <div id="ruder">
 	  	<?php include("includes/latin-02/ruder.php"); ?>
+	  </div>
+
+	  <!-- Ngrams -->
+	  <div id="ngrams">
+	  	<?php include("includes/latin-02/ngrams.php"); ?>
 	  </div>
 
 	  <!-- Caps Grid -->
