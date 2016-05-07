@@ -415,8 +415,8 @@ if ($filtersize <= 19 ) {
 	echo '</div>';		
 } else {
 	// Intermediate sizes, normal previw
-	echo '<p class="sizelabel">'.$a->count(). ' Results';
-	echo ' ('.number_format($timer_end, 2).' seconds)';
+	echo '<p class="sizelabel" style="margin-bottom:10px">'.$a->count(). ' Results. Set at '.$filtersize.'px';
+	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo '/'.$_POST['line'].'em';
 	echo '</p>';
 	if ( $_POST['sidebyside'] == "no" ) {
 		echo '<p style="font-size: '.$filtersize.'px;';
