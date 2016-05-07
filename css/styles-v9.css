@@ -48,6 +48,17 @@ div.tabs > div { padding: 20px; }
 /* Is this rule still used? If no longer used then it can be removed... */
 div.tabs > div h2 { margin-top: 0; } 
 
+/* Rules for changing case*/
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalized {
+	text-transform: capitalize;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
 /*-----------------------------------------------------------------------------------------------------
   Tab Specific Rules:
   - If the rule is used in multiple tabs, put it here
