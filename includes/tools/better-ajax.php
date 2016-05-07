@@ -188,7 +188,9 @@ $resultados = $a->get_results();
 // End Benchmark
 $timer_end = microtime(true) - $timer_start;
 
-echo '<p class="sizelabel">'.count($resultados). ' Results ('.number_format($timer_end, 2).' seconds) set at '.$bettersize.'px</p>';
+echo '<p class="sizelabel">'.count($resultados). ' Results ('.number_format($timer_end, 2).' seconds) set at '.$bettersize.'px';
+if ( isset( $_POST['betterline'] ) && !empty( $_POST['betterline'] ) ) echo '/'.$_POST['betterline'].'em';
+echo '</p>';
 echo '<p style="font-size: '.$bettersize.'px;';
 if ( isset( $_POST['betterline'] ) && !empty( $_POST['betterline'] ) ) echo ' line-height: '.$_POST['betterline'].';';
 echo '">'.implode(' ', $resultados).'</p>';
