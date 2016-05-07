@@ -173,9 +173,9 @@ if ( !empty( $_POST['starting'] ) ) $a->starting( $_POST['starting'] );
 if ( !empty( $_POST['ending'] ) ) $a->ending( $_POST['ending'] );
 $a->randomize();
 $a->max( $_POST['max'] );
-if ( $_POST['sidebyside'] == "no" ) {
-	if ( $_POST['sentence'] == "yes" ) $a->sentencecase();
-	if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
+if ( $_POST['sentence'] == "yes" ) $a->sentencecase();	
+if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
+if ( $_POST['sidebyside'] == "no" ) {	
 	if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
 }
 if ( $_POST['loon'] == "yes" ) $a->addloon();
@@ -414,10 +414,11 @@ if ($filtersize <= 19 ) {
 	
 	echo '</div>';		
 } else {
-	// Intermediate sizes, normal previw
+	// Intermediate sizes, Standard Preview
 	echo '<p class="sizelabel" style="margin-bottom:10px">'.$a->count(). ' Results. Set at '.$filtersize.'px';
 	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo '/'.$_POST['line'].'em';
 	echo '</p>';
+	// Side by Side
 	if ( $_POST['sidebyside'] == "no" ) {
 		echo '<p style="font-size: '.$filtersize.'px;';
 		if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
@@ -428,14 +429,14 @@ if ($filtersize <= 19 ) {
 	} else {
 		echo "<table>";
 			echo '<tr>';			
-				echo '<td width="50%" valign="top">';
+				echo '<td width="45%" valign="top">';
 					echo '<p style="font-size: '.$filtersize.'px;';
 					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
 					echo '">';
 					echo $a->getResults();
 					echo '</p>';				
 				echo '</td>';			
-				echo '<td width="50%" valign="top">';
+				echo '<td width="55%" valign="top">';
 					echo '<p style="font-size: '.$filtersize.'px;';
 					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
 					echo '">';
