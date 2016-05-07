@@ -1,6 +1,6 @@
 <div contenteditable="true">
 	
-	<p class="sizelabel">Some News Headlines, set at 32px</p>
+	<p class="sizelabel">Real world newspaper headlines, set at 32px</p>
 	<p>&nbsp;</p>
 	<p style="font-size: 32px;">ANALYSE. Iedereen kijkt naar Sagan (behalve zijn eigen team)</p>
 	<p>&nbsp;</p>
@@ -74,5 +74,12 @@
 	<p>&nbsp;</p>
 	<p style="font-size: 32px;">Překvapení? Nizozemský sniper van Persie přestoupil do Fenerbahce</p>
 	<p>&nbsp;</p>	
+	<p style="font-size: 32px;">Bleus : N'Golo Kanté, l'éveil tardif d'un milieu "box to box" à l'anglaise</p>
+	<p>&nbsp;</p>	
+	<p style="font-size: 32px;">« La révolution sera numérique » : le manifeste de John Doe, le lanceur d’alerte des « Panama papers »</p>
+	<p>&nbsp;</p>	
+	<p style="font-size: 32px;">En Turquie, Erdogan plaide l’« urgence » d’un référendum pour un régime présidentiel à sa mesure</p>
+	<p>&nbsp;</p>	
+	<p style="font-size: 32px;">Des centaines de femmes dans les rues d'Alger pour une course solidaire inédite</p>
 	
 </div>	
