@@ -20,7 +20,6 @@
 	</table>
 	
 	<p>&nbsp;</p>
-	<p>&nbsp;</p>
 	
 	<table>
 		<?php 

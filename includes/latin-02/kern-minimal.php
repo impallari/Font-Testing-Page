@@ -84,7 +84,8 @@
 		HHK-HH HHL-HH<br />
 		HH-T-HH HH-V-HH HH-W-HH HH-X-HH HH-Y-HH HH-Z-HH<br />
 		HHT:HH HHV:HH HHW:HH HHY:HH<br />
-		HHT;HH HHV;HH HHW;HH HHY;HH</p>
+		HHT;HH HHV;HH HHW;HH HHY;HH<br />
+		HH¿JHH HH¡JHH</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Lower and punctuation</p>
@@ -92,7 +93,7 @@
 		nn.f.nn nn.o.nn nn.v.nn nn.w.nn nn.y.nn nnr.nn<br />
 		nn,f,nn nn,o,nn nn,v,nn nn,w,nn nn,y,nn nnr,nn<br />
 		nonf*non nonf?non non(f)non non[f]non non{f}non<br />
-		nonf"non nonf“non nonf”non nonf’non nonf‘non<br />
+		nonf'non nonf"non nonf’non nonf”non nonf‘non nonf“non<br />
 		non¿jnon non(j)non non[j]non non{j}non<br />
 		nonk-non nonr-non non-x-non<br />
 		non’snon</p>

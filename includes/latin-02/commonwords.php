@@ -1,6 +1,6 @@
 <div class="dontprint">
 	<p class="sizelabel">
-	 <input type="range" min="12" max="250" value="40" step="1" oninput="changeFontSizeCW(this.value)" onchange="changeFontSizeCW(this.value)" style="width: 300px;" />
+	 <input type="range" min="12" max="120" value="40" step="1" oninput="changeFontSizeCW(this.value)" onchange="changeFontSizeCW(this.value)" style="width: 300px;" />
 	 <input type="range" min="0" max="9" value="5" step="1" oninput="changeLineHeigthCW(this.value)" onchange="changeLineHeigthCW(this.value)" style="width: 100px;" />
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeLowercaseCM(); return false;">Lowercase</a>&nbsp; 
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeCapitalizedCM(); return false;">Initial</a>&nbsp; 
@@ -35,7 +35,9 @@
 
 <div contenteditable="true">
 
-	<p class="sizelabel">Set at <span id="changedfontsizeCW">40</span>px / 1.<span id="changedlineheigthCW">5</span>em. Most common words in Google Book corpus (source: norvig.com/mayzner.html).</p>
+	<p class="sizelabel">Set at <span id="changedfontsizeCW">40</span>px / 1.<span id="changedlineheigthCW">5</span>em.<br />
+	Most common words in the Google Book Corpus (source: norvig.com/mayzner.html).</p>
+	<p class="sizelabel">&nbsp;</p>
 	<p class="sizelabel">&nbsp;</p>
 	<p class="sizelabel">From 53.097.401.461 to 1.000.000.000 appearances</p>
 	<p class="changesizeC2L" style="font-size: 40px; line-height: 1.5em;">the of and to in a is that for it as was with be by on not he i this are or his from at which but have an had they you were their one all we can her has there been if more when will would who so no she other its may these what them than some him time into only do such my new about out also two</p>

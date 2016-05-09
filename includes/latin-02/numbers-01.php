@@ -12,7 +12,7 @@
 	<p class="sizelabel">Numers to Caps. 42 points</p>
 	<table border="0" cellpadding="10" cellspacing="0">
 	<?php 
-	$glyphs = array('0', '1', '2','3','4','5','6','7','8','9');
+	$glyphs = array('1', '2','3','4','5','6','7','8','9', '0');
 	
 	foreach ($glyphs as $glyph) {
 	?>

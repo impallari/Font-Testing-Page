@@ -33,18 +33,19 @@
 	    <li><a href="#ngrams">Ngrams</a></li> 
 	    <li><a href="#commonwords">Google Book Corpus</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
-	    <li><a href="#lowergrid">Lc Grid</a></li>
-	    <li><a href="#numbersgrid">Numbers Grid</a></li>	    
 	    <li><a href="#upperspacing01">UC 1</a></li>
 	    <li><a href="#upperspacing02">UC 2</a></li>
-	    <li><a href="#upperspacing03">UC 3</a></li>
+	    <li><a href="#upperspacing03">UC 3</a></li>	    
 	    <li><a href="#captolower">UC 2 Lc</a></li>	    	    
+	    <li><a href="#lowergrid">Lc Grid</a></li>
 	    <li><a href="#lowerspacing01">Lc 1</a></li>
 	    <li><a href="#lowerspacing02">Lc 2</a></li>
 	    <li><a href="#lowerspacing03">Lc 3</a></li>
-	    <li><a href="#numbers1">Numbers1</a></li>
-	    <li><a href="#numbers2">Numbers2</a></li> 
-	    <li><a href="#numbers3">Numbers3</a></li>   		    
+	    <li><a href="#numbersgrid">Numbers Grid</a></li>	    	    
+	    <li><a href="#numbers1">Num 1</a></li>
+	    <li><a href="#numbers2">Num 2</a></li> 
+	    <li><a href="#numbers3">Num 3</a></li>
+	    <li><a href="#numbers4">Num 4</a></li>   		    
 	    <li><a href="#overshoots">Overshoots</a></li>
 	    <li><a href="#pangra">Pangrams</a></li>
 	    <li><a href="#apostrophes">Apostrophes</a></li>
@@ -106,16 +107,6 @@
 		<?php include("includes/latin-02/grid-caps.php"); ?>
 	  </div>
 
-	  <!-- Grid Lowercase -->
-	  <div id="lowergrid">
-		<?php include("includes/latin-02/grid-lower.php"); ?>
-	  </div>
-
-	  <!-- Grid: Numbers -->
-	  <div id="numbersgrid">
-		<?php include("includes/latin-02/grid-numbers.php"); ?>
-	  </div>
-
 	  <!-- Upperspacing 1 -->
 	  <div id="upperspacing01">
 		<?php include("includes/latin-02/uc-spacing-01.php"); ?>
@@ -136,6 +127,11 @@
 		<?php include("includes/latin-02/uc-to-lc.php"); ?>
 	  </div>
 
+	  <!-- Grid Lowercase -->
+	  <div id="lowergrid">
+		<?php include("includes/latin-02/grid-lower.php"); ?>
+	  </div>
+
 	  <!-- lowerspacing 1 -->
 	  <div id="lowerspacing01">
 		<?php include("includes/latin-02/lc-spacing-01.php"); ?>
@@ -151,6 +147,11 @@
 		<?php include("includes/latin-02/lc-spacing-03.php"); ?>
 	  </div>		  	  
 
+	  <!-- Grid: Numbers -->
+	  <div id="numbersgrid">
+		<?php include("includes/latin-02/grid-numbers.php"); ?>
+	  </div>
+
 	  <!-- Numbers 1 -->
 	  <div id="numbers1">
 		<?php include("includes/latin-02/numbers-01.php"); ?>
@@ -164,6 +165,11 @@
 	  <!-- Numbers 3 -->
 	  <div id="numbers3">
 	  	<?php include("includes/latin-02/numbers-03.php"); ?>
+	  </div>
+
+	  <!-- Numbers 4 -->
+	  <div id="numbers4">
+	  	<?php include("includes/latin-02/numbers-04.php"); ?>
 	  </div>
 
 	  <!-- overshoots -->
