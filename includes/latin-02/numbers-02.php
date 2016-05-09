@@ -1,17 +1,5 @@
 <div contenteditable="true">
 
-	<p class="sizelabel">42 points</p>
-	<p style="font-size: 42px;">1 2 3 4 5 6 7 8 9 0 1</p>
-	<p style="font-size: 42px;">2 3 4 5 6 7 8 9 0 1 2</p>
-	<p style="font-size: 42px;">3 4 5 6 7 8 9 0 1 2 3</p>
-	<p style="font-size: 42px;">4 5 6 7 8 9 0 1 2 3 4</p>
-	<p style="font-size: 42px;">5 6 7 8 9 0 1 2 3 4 5</p>
-	<p style="font-size: 42px;">6 7 8 9 0 1 2 3 4 5 6</p>
-	<p style="font-size: 42px;">7 8 9 0 1 2 3 4 5 6 7</p>
-	<p style="font-size: 42px;">8 9 0 1 2 3 4 5 6 7 8</p>
-	<p style="font-size: 42px;">9 0 1 2 3 4 5 6 7 8 9</p>
-	<p style="font-size: 42px;">0 1 2 3 4 5 6 7 8 9 0</p>
-	<p>&nbsp;</p>
 	<p class="sizelabel">22 points</p>
 	<p style="font-size: 22px;">Rosario, 22 de Diciembre de 1976</p>
 	<p style="font-size: 22px;">El 18 de enero de 1738 a las 4 de la tarde</p>
@@ -34,13 +22,15 @@
 	<p style="font-size: 22px;">0+0 1−2 3±4 5×6 7÷8 6 < 8 8 > 5 5≤x 9≥y 2=2 2≠3 2≈2.1 x = 5 ± √4 62% 324‰ f</p>
 	<p style="font-size: 22px;">f(x,y) := x2y, then ∂f/∂x = 2xy Δx ∫ f(x) dx μ(n) = 1 1/Ω(E) 1+∞ ∏ ∑ </p>
 	<p>&nbsp;</p>
+	
 	<p style="font-size: 32px;">HH1HH2HH3HH4HH5HH6HH7HH8HH9HH0HH</p>
 	<p style="font-size: 32px;">OO1OO2OO3OO4OO5OO6OO7OO8OO9OO0OO</p>
 	<p>&nbsp;</p>
+	
 	<p style="font-size: 32px;">nn1nn2nn3nn4nn5nn6nn7nn8nn9nn0nn</p>
 	<p style="font-size: 32px;">oo1oo2oo3oo4oo5oo6oo7oo8oo9oo0oo</p>
 	<p>&nbsp;</p>
-	<p>&nbsp;</p>
+	
 	<p class="sizelabel">32 points</p>
 	<p style="font-size: 32px;">010203040506070809000</p>
 	<p style="font-size: 32px;">111213141516171819101</p>
@@ -52,6 +42,8 @@
 	<p style="font-size: 32px;">717273747576777879707</p>
 	<p style="font-size: 32px;">818283848586878889808</p>
 	<p style="font-size: 32px;">919293949596979899909</p>
+	<p>&nbsp;</p>
+		
 	<p class="sizelabel">64 points</p>
 	<p style="font-size: 64px;">010203040506070809000</p>
 	<p style="font-size: 64px;">111213141516171819101</p>

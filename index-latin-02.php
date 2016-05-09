@@ -24,34 +24,36 @@
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
 	    <li><a href="#briem">Briem's</a></li>
-	    <li><a href="#blake">SB</a></li>
-	    <li><a href="#king">KKing</a></li>
-	    <li><a href="#words">KWords</a></li>
+	    <li><a href="#blake">Stephenson Blake</a></li>
+	    <li><a href="#king">Kern King</a></li>
+	    <li><a href="#words">Kern Words</a></li>
 	    <li><a href="#minimalkerning">Minimal Kerning Pairs</a></li>
 	    <li><a href="#oldnick">Nick</a></li>
 	    <li><a href="#ruder">Ruder</a></li> 
 	    <li><a href="#ngrams">Ngrams</a></li> 
-	    <li><a href="#commonwords">Common</a></li>    
+	    <li><a href="#commonwords">Google Book Corpus</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
-	    <li><a href="#lowergrid">LC Grid</a></li>
-	    <li><a href="#lowerspacing01">LC1</a></li>
-	    <li><a href="#lowerspacing02">LC2</a></li>
-	    <li><a href="#lowerspacing03">LC3</a></li>
-	    <li><a href="#upperspacing01">UC1</a></li>
-	    <li><a href="#upperspacing02">UC2</a></li>
-	    <li><a href="#upperspacing03">UC3</a></li>
-	    <li><a href="#captolower">UC2lw</a></li>
-	    <li><a href="#numbers">N1</a></li>
-	    <li><a href="#numeritos">N2</a></li>   		    
-	    <li><a href="#overshoots">OS</a></li>
-	    <li><a href="#pangra">Pang</a></li>
+	    <li><a href="#lowergrid">Lc Grid</a></li>
+	    <li><a href="#numbersgrid">Numbers Grid</a></li>	    
+	    <li><a href="#upperspacing01">UC 1</a></li>
+	    <li><a href="#upperspacing02">UC 2</a></li>
+	    <li><a href="#upperspacing03">UC 3</a></li>
+	    <li><a href="#captolower">UC 2 Lc</a></li>	    	    
+	    <li><a href="#lowerspacing01">Lc 1</a></li>
+	    <li><a href="#lowerspacing02">Lc 2</a></li>
+	    <li><a href="#lowerspacing03">Lc 3</a></li>
+	    <li><a href="#numbers1">Numbers1</a></li>
+	    <li><a href="#numbers2">Numbers2</a></li> 
+	    <li><a href="#numbers3">Numbers3</a></li>   		    
+	    <li><a href="#overshoots">Overshoots</a></li>
+	    <li><a href="#pangra">Pangrams</a></li>
 	    <li><a href="#apostrophes">Apostrophes</a></li>
 	    <li><a href="#fractions">Fractions</a></li>
-	    <li><a href="#dia_one">Diac1</a></li>	 
-	    <li><a href="#dia_two">Diac2</a></li>
-	    <li><a href="#dia_three">Diac3</a></li>
-	    <li><a href="#dia_four">Diac4</a></li> 
-	    <li><a href="#news">News</a></li>
+	    <li><a href="#dia_one">Diacritics 1</a></li>	 
+	    <li><a href="#dia_two">Diacritics 2</a></li>
+	    <li><a href="#dia_three">Diacritics 3</a></li>
+	    <li><a href="#dia_four">Diacritics 4</a></li> 
+	    <li><a href="#news">News Headlines</a></li>
 	  </ul>
 
 	  <!-- Briem Basic Proof -->
@@ -76,7 +78,7 @@
 
 	  <!-- Minimal Kerning Pairs -->
 	  <div id="minimalkerning">
-		<?php include("includes/latin-02/minimalkerning.php"); ?>	
+		<?php include("includes/latin-02/kern-minimal.php"); ?>	
 	  </div>
 
 	  <!-- Old Nick -->
@@ -99,30 +101,20 @@
 	  	<?php include("includes/latin-02/commonwords.php"); ?>
 	  </div>	  
 
-	  <!-- Caps Grid -->
+	  <!-- Grid Uppercase -->
 	  <div id="capsgrid">
-		<?php include("includes/latin-02/caps-grid.php"); ?>
+		<?php include("includes/latin-02/grid-caps.php"); ?>
 	  </div>
 
-	  <!-- Lower Grid -->
+	  <!-- Grid Lowercase -->
 	  <div id="lowergrid">
-		<?php include("includes/latin-02/lower-grid.php"); ?>
+		<?php include("includes/latin-02/grid-lower.php"); ?>
 	  </div>
 
-	  <!-- lowerspacing 1 -->
-	  <div id="lowerspacing01">
-		<?php include("includes/latin-02/lc-spacing-01.php"); ?>
+	  <!-- Grid: Numbers -->
+	  <div id="numbersgrid">
+		<?php include("includes/latin-02/grid-numbers.php"); ?>
 	  </div>
-
-	  <!-- lowerspacing 2 -->
-	  <div id="lowerspacing02">
-		<?php include("includes/latin-02/lc-spacing-02.php"); ?>
-	  </div>	  
-
-	  <!-- lowerspacing 3 -->
-	  <div id="lowerspacing03">
-		<?php include("includes/latin-02/lc-spacing-03.php"); ?>
-	  </div>		  
 
 	  <!-- Upperspacing 1 -->
 	  <div id="upperspacing01">
@@ -141,17 +133,37 @@
 
 	  <!-- Caps to Lowercase Relations -->
 	  <div id="captolower">
-		<?php include("includes/latin-02/capstolower-short.php"); ?>
+		<?php include("includes/latin-02/uc-to-lc.php"); ?>
+	  </div>
+
+	  <!-- lowerspacing 1 -->
+	  <div id="lowerspacing01">
+		<?php include("includes/latin-02/lc-spacing-01.php"); ?>
+	  </div>
+
+	  <!-- lowerspacing 2 -->
+	  <div id="lowerspacing02">
+		<?php include("includes/latin-02/lc-spacing-02.php"); ?>
+	  </div>	  
+
+	  <!-- lowerspacing 3 -->
+	  <div id="lowerspacing03">
+		<?php include("includes/latin-02/lc-spacing-03.php"); ?>
+	  </div>		  	  
+
+	  <!-- Numbers 1 -->
+	  <div id="numbers1">
+		<?php include("includes/latin-02/numbers-01.php"); ?>
 	  </div>
 	  
-	  <!-- Numbers -->
-	  <div id="numbers">
-		<?php include("includes/latin-02/numbers.php"); ?>
+	  <!-- Numbers 2 -->
+	  <div id="numbers2">
+	  	<?php include("includes/latin-02/numbers-02.php"); ?>
 	  </div>
-	  
-	  <!-- numeritos -->
-	  <div id="numeritos">
-	  	<?php include("includes/latin-02/numeritos.php"); ?>
+
+	  <!-- Numbers 3 -->
+	  <div id="numbers3">
+	  	<?php include("includes/latin-02/numbers-03.php"); ?>
 	  </div>
 
 	  <!-- overshoots -->
