@@ -31,7 +31,8 @@
 	    <li><a href="#oldnick">Nick</a></li>
 	    <li><a href="#ruder">Ruder</a></li> 
 	    <li><a href="#ngrams">Ngrams</a></li> 
-	    <li><a href="#commonwords">Google Book Corpus</a></li>    
+	    <li><a href="#googlebooksEnglish">Google Book: English</a></li>
+	    <li><a href="#googlebooksSpanish">Google Book: Spanish</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
 	    <li><a href="#upperspacing01">UC 1</a></li>
 	    <li><a href="#upperspacing02">UC 2</a></li>
@@ -97,10 +98,15 @@
 	  	<?php include("includes/latin-02/ngrams.php"); ?>
 	  </div>
 
-	  <!-- Common Words -->
-	  <div id="commonwords">
-	  	<?php include("includes/latin-02/commonwords.php"); ?>
+	  <!-- Google Books Corpus: English -->
+	  <div id="googlebooksEnglish">
+	  	<?php include("includes/latin-02/googlebooks-english.php"); ?>
 	  </div>	  
+
+	  <!-- Google Books Corpus: Spanish -->
+	  <div id="googlebooksSpanish">
+	  	<?php include("includes/latin-02/googlebooks-spanish.php"); ?>
+	  </div>
 
 	  <!-- Grid Uppercase -->
 	  <div id="capsgrid">
