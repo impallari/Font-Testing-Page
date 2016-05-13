@@ -1,4 +1,4 @@
-<div style="width: 920px;" contenteditable="true">
+<div contenteditable="true">
 	
 	<p class="sizelabel">32px</p>
 	<p style="font-size: 32px;">
