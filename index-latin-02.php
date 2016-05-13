@@ -31,8 +31,8 @@
 	    <li><a href="#oldnick">Nick</a></li>
 	    <li><a href="#ruder">Ruder</a></li> 
 	    <li><a href="#ngrams">Ngrams</a></li> 
-	    <li><a href="#googlebooksEnglish">Google Book: English</a></li>
-	    <li><a href="#googlebooksSpanish">Google Book: Spanish</a></li>    
+	    <li><a href="#googlebooksEnglish">GBC English</a></li>
+	    <li><a href="#googlebooksSpanish">GBC Spanish</a></li>    
 	    <li><a href="#capsgrid">UC Grid</a></li>
 	    <li><a href="#upperspacing01">UC 1</a></li>
 	    <li><a href="#upperspacing02">UC 2</a></li>
