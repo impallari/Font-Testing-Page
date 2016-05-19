@@ -19,12 +19,16 @@
 	<p style="font-size: 24px;">1½ 1¼ 1¾ </p>
 	<p style="font-size: 24px;">primo" 1º "prima" 1ª, "secondo" 2º "seconda" 2ª, "terzo" 3º "terza" 3ª 1.º </p>
 	<p style="font-size: 24px;">^ | ¦ 0/0\0</p>
-	<p style="font-size: 24px;">0+0 1−2 3±4 5×6 7÷8 6 < 8 8 > 5 5≤x 9≥y 2=2 2≠3 2≈2.1 x = 5 ± √4 62% 324‰ f</p>
+	<p style="font-size: 24px;">0+0 1−2 3±4 5×6 7÷8 6 &lt; 8 8 > 5 5≤x 9≥y 2=2 2≠3 2≈2.1 x = 5 ± √4 62% 324‰ f</p>
 	<p style="font-size: 24px;">f(x,y) := x2y, then ∂f/∂x = 2xy Δx ∫ f(x) dx μ(n) = 1 1/Ω(E) 1+∞ ∏ ∑ </p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 24px;">HH1HH2HH3HH4HH5HH6HH7HH8HH9HH0HH</p>
 	<p style="font-size: 24px;">OO1OO2OO3OO4OO5OO6OO7OO8OO9OO0OO</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 24px;">00000 00100 00200 00300 00400</p>
+	<p style="font-size: 24px;">00500 00600 00700 00800 00900</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 24px;">0110220330440550660770880990000</p>
