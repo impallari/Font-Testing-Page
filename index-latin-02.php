@@ -46,11 +46,11 @@
 	    <li><a href="#numbers1">Num 1</a></li>
 	    <li><a href="#numbers2">Num 2</a></li> 
 	    <li><a href="#numbers3">Num 3</a></li>
-	    <li><a href="#numbers4">Num 4</a></li>   		    
+	    <li><a href="#numbers4">Num 4</a></li> 
+	    <li><a href="#fractions">Fractions</a></li>	      		    
 	    <li><a href="#overshoots">Overshoots</a></li>
 	    <li><a href="#pangra">Pangrams</a></li>
 	    <li><a href="#apostrophes">Apostrophes</a></li>
-	    <li><a href="#fractions">Fractions</a></li>
 	    <li><a href="#dia_one">Diacritics 1</a></li>	 
 	    <li><a href="#dia_two">Diacritics 2</a></li>
 	    <li><a href="#dia_three">Diacritics 3</a></li>
@@ -178,6 +178,11 @@
 	  	<?php include("includes/latin-02/numbers-04.php"); ?>
 	  </div>
 
+	  <!-- fractions -->
+	  <div id="fractions">
+		<?php include("includes/latin-02/fractions.php"); ?>			
+	  </div>	
+	  
 	  <!-- overshoots -->
 	  <div id="overshoots">
 		<?php include("includes/latin-02/overshoots.php"); ?>	
@@ -191,11 +196,6 @@
 	  <!-- Apostrophes -->
 	  <div id="apostrophes">
 		<?php include("includes/latin-02/apostrophes.php"); ?>			
-	  </div>	
-
-	  <!-- fractions -->
-	  <div id="fractions">
-		<?php include("includes/latin-02/fractions.php"); ?>			
 	  </div>	
 	  
 	  <!-- Diacritics One -->

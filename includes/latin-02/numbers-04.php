@@ -22,20 +22,24 @@
 	<p style="font-size: 24px;">0+0 1−2 3±4 5×6 7÷8 6 &lt; 8 8 > 5 5≤x 9≥y 2=2 2≠3 2≈2.1 x = 5 ± √4 62% 324‰ f</p>
 	<p style="font-size: 24px;">f(x,y) := x2y, then ∂f/∂x = 2xy Δx ∫ f(x) dx μ(n) = 1 1/Ω(E) 1+∞ ∏ ∑ </p>
 	<p>&nbsp;</p>
-	
-	<p style="font-size: 24px;">HH1HH2HH3HH4HH5HH6HH7HH8HH9HH0HH</p>
-	<p style="font-size: 24px;">OO1OO2OO3OO4OO5OO6OO7OO8OO9OO0OO</p>
+
+	<p style="font-size: 24px;">0110220330440550660770880990000</p>
+	<p>&nbsp;</p>
+		
+	<p style="font-size: 24px;">HH1HH HH2HH HH3HH HH4HH HH5HH</p>
+	<p style="font-size: 24px;">HH6HH HH7HH HH8HH HH9HH HH0HH</p>
+	<p style="font-size: 24px;">OO1OO OO2OO OO3OO OO4OO OO5OO</p>
+	<p style="font-size: 24px;">OO6OO OO7OO OO8OO OO9OO OO0OO</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 24px;">00000 00100 00200 00300 00400</p>
 	<p style="font-size: 24px;">00500 00600 00700 00800 00900</p>
 	<p>&nbsp;</p>
 	
-	<p style="font-size: 24px;">0110220330440550660770880990000</p>
-	<p>&nbsp;</p>
-	
-	<p style="font-size: 24px;">nn1nn2nn3nn4nn5nn6nn7nn8nn9nn0nn</p>
-	<p style="font-size: 24px;">oo1oo2oo3oo4oo5oo6oo7oo8oo9oo0oo</p>
+	<p style="font-size: 24px;">nn1nn nn2nn nn3nn nn4nn nn5nn</p>
+	<p style="font-size: 24px;">nn6nn nn7nn nn8nn nn9nn nn0nn</p>
+	<p style="font-size: 24px;">oo1oo oo2oo oo3oo oo4oo oo5oo</p>
+	<p style="font-size: 24px;">oo6oo oo7oo oo8oo oo9oo oo0oo</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 24px;">.1.2.3.4.5.6.7.8.9.0.</p>
