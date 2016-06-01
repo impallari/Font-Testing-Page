@@ -31,6 +31,11 @@ Notes:
 - Requires Firefox or Chrome
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
 
+Secret tips for the "Filter text" tool:
+
+- When working on text fonts: Set the size to 18px or lower, and you will get nice blocks at all text sizes at the same time.
+- When working on display fonts: Set the size to 200 and you get a small cascade, set it to 300px and you get a full cascade (Great for deciding on your font's spacing/fitting).
+
 Developers:
 
 To download the latest version and use it locally: 
