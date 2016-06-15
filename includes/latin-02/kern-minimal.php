@@ -66,7 +66,7 @@
 		nonovonon nonvcnon nonvenon nonbvdnon nonpvqnon<br />
 		nonoxonon nonxcnon nonxenon nonbxdnon nonpxqnon<br />
 		nonkcnon nonkenon nonkonon nonkdnon nonkqnon<br />
-		nonranon nonrcnon nonrdnon nonrenon nonronon nonrdnon nonrqnon<br />
+		nonranon nonrcnon nonrdnon nonrenon nonronon nonrqnon<br />
 		nonofonon nonfcnon nonfenon nonbfdnon nonpfqnon<br />
 		nonotonon nonfcnon nontenon nonbtdnon nonptqnon</p>
 	<p>&nbsp;</p>
