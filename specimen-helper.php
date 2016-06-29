@@ -22,36 +22,30 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#wordsfinder">Words finder</a></li>
-	    <li><a href="#calculator">Calculator</a></li>
-	    <li><a href="#template01">Template for the WordFinder</a></li>
 	    <li><a href="#specimens">Predefined Specimens</a></li>
-	    <li><a href="#scale">Scale</a></li>
+	    <li><a href="#wordsfinder">Words finder</a></li>
+	    <li><a href="#calculator">Calculator for the WordFinder</a></li>
+	    <li><a href="#template01">Template for the WordFinder</a></li>
 	  </ul>
+
+	  <!-- Predefined Specimens -->
+	  <div id="specimens">
+	  	<?php include("includes/specimen-helper/specimens.php"); ?>				
+	  </div>
 
 	  <!-- Words Finder -->
 	  <div id="wordsfinder">
 	  	<?php include("includes/specimen-helper/wordsfinder.php"); ?>
 	  </div>	  
 
-	  <!-- Calculator -->
+	  <!-- Calculator for the WordFinder -->
 	  <div id="calculator">
 	  	<?php include("includes/specimen-helper/calculator.php"); ?>
 	  </div>
 
-	  <!-- Specimen Template 01 -->
+	  <!-- Template for the WordFinder -->
 	  <div id="template01">
 	  	<?php include("includes/specimen-helper/template01.php"); ?>
-	  </div>
-
-	  <!-- Specimens Generator -->
-	  <div id="specimens">
-	  	<?php include("includes/specimen-helper/specimens.php"); ?>				
-	  </div>
-
-	  <!-- Scale -->
-	  <div id="scale">
-	  	<?php include("includes/specimen-helper/scale.php"); ?>
 	  </div>
 
 	</div><!-- end tabs -->

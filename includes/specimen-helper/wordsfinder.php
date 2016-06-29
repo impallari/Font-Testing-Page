@@ -1,6 +1,8 @@
 <div>
 
 	<div id="formContainer">
+		<p class="sizelabel" style="margin-bottom: 20px;">Post explaining <a href="http://typedrawers.com/discussion/comment/9592/#Comment_9592" target="_blank">how to use this tool</a> and what it is for.</p>
+
 		<form method="post" action="includes/specimen-helper/wordsfinder-ajax.php" id="filterform">
 		
 			<?php
@@ -88,7 +90,7 @@
 			<table width="920" border="0" cellpadding="4">	
 				<tr>			 						
 					<td>
-						<p class="sizelabel">Desired EM:
+						<p class="sizelabel">Desired Word Advance-width:
 						<input type="text" id="desired_em" size="6" value="<?php if (isset($_POST['desired_em']) && !empty($_POST['desired_em']) ) echo $_POST['desired_em']; ?>" /></p>
 					</td>
 					<td>
@@ -158,6 +160,7 @@
 	<div id="filterresults" style="padding: 20px 80px 20px 0px;">
 		<p>What's this:</p>
 		<p>It's a tool that helps you find the perfect word for your nice type specimen</p>
+		<p>This post explain <a href="http://typedrawers.com/discussion/comment/9592/#Comment_9592" target="_blank">how to use this tool</a>, including a quick video<p>
 	</div>
 				
 </div>
