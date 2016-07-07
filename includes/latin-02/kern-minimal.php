@@ -28,8 +28,8 @@
 		HHPAHH HHPÆHH<br />						
 		HHSYHH HHYSHH<br />
 		HHBTHH HHLTHH HHRTHH<br />
-		HHBVHH HHLVHH HHPTHH HHRVHH HHGVHH<br />
-		HHBWHH HHLWHH HHPTHH HHRWHH HHGWHH<br />
+		HHBVHH HHLVHH HHPVHH HHRVHH HHGVHH<br />
+		HHBWHH HHLWHH HHPWHH HHRWHH HHGWHH<br />
 		HHBXHH HHLXHH HHPXHH HHRXHH HHGXHH<br />
 		HHBYHH HHLYHH HHPYHH HHRYHH HHGYHH<br />
 		HHFJHH HHPJHH HHTJHH HHVJHH HHWJHH HHYJHH<br />
@@ -63,7 +63,9 @@
 	<p class="sizelabel">Lower to Lower</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
 		nonavnon nonvanon<br />
+		nonawnon nonwanon<br />
 		nonovonon nonvcnon nonvenon nonbvdnon nonpvqnon<br />
+		nonowonon nonwcnon nonwenon nonbwdnon nonpwqnon<br />
 		nonoxonon nonxcnon nonxenon nonbxdnon nonpxqnon<br />
 		nonkcnon nonkenon nonkonon nonkdnon nonkqnon<br />
 		nonranon nonrcnon nonrdnon nonrenon nonronon nonrqnon<br />
