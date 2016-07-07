@@ -68,7 +68,7 @@
 		nonkcnon nonkenon nonkonon nonkdnon nonkqnon<br />
 		nonranon nonrcnon nonrdnon nonrenon nonronon nonrqnon<br />
 		nonofonon nonfcnon nonfenon nonbfdnon nonpfqnon<br />
-		nonotonon nonfcnon nontenon nonbtdnon nonptqnon</p>
+		nonotonon nontcnon nontenon nonbtdnon nonptqnon</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Caps and punctuation</p>
