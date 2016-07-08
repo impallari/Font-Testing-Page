@@ -43,14 +43,16 @@
 		Fannon Kannon Pannon Tannon Vannon Wannon Yannon<br />
 		Fcnnon Kcnnon Pcnnon Tcnnon Vcnnon Wcnnon Xcnnon Ycnnon<br />
 		Fdnnon Kdnnon Pdnnon Tdnnon Vdnnon Wdnnon Xdnnon Ydnnon<br />
-		Fennon Kennon Pennon Tennon Vennon Wennon Xennon Yennon<br />
+		Fennon Kennon Pennon Tennon Vennon Wennon Xennon Yennon<br />		
+		Fqnnon Kqnnon Pqnnon Tqnnon Vqnnon Wqnnon Xqnnon Yqnnon<br />		
 		Fonnon Konnon Ponnon Tonnon Vonnon Wonnon Xonnon Yonnon<br />
 		Fgnnon Kgnnon Pgnnon Tgnnon Vgnnon Wgnnon Xgnnon Ygnnon<br />
 		Vinnon Winnon Yinnon<br />
 		Tmnnon Vmnnon Wmnnon Ymnnon<br />
 		Tnnnon Vnnnon Wnnnon Ynnnon<br />
-		Trnnon Vrnnon<br />
-		Tsnnon Vsnnon Ysnnon<br />
+		Tpnnon Vpnnon Wpnnon Ypnnon<br />
+		Trnnon Vrnnon Wrnnon Yrnnon<br />
+		Tsnnon Vsnnon Wsnnon Ysnnon<br />
 		Atnnon Ytnnon<br />
 		Funnon Kunnon Tunnon Vunnon Wunnon Yunnon Xunnon<br />
 		Avnnon Kvnnon Lvnnon Tvnnon Vvnnon Yvnnon Xvnnon<br />
@@ -75,10 +77,10 @@
 
 	<p class="sizelabel">Caps and punctuation</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
-		HH‘AHH HHA’HH HH’AHH HHL’HH<br />
-		HH“AHH HHA”HH HH”AHH HHL”HH<br />
-		HH'A'HH HHL'HH HH"A"HH HHL"HH<br />
-		HH*A*HH HHL*HH<br />
+		HH‘AHH HHA’HH HH’AHH HH‘OHH HHO’HH HH’OHH HHL’HH<br />
+		HH“AHH HHA”HH HH”AHH HH“OHH HHO”HH HH”OHH HHL”HH<br />
+		HH'A'HH HH'O'HH HHL'HH HH"A"HH HH"O"HH HHL"HH<br />
+		HH*A*HH HH*O*HH HHL*HH<br />
 		HH.O.HH HH.T.HH HH.U.HH HH.V.HH HH.W.HH HH.Y.HH<br />
 		HHD.HH HHF.HH HHP.HH<br />
 		HH,O,HH HH,T,HH HH,U,HH HH,V,HH HH,W,HH HH,Y,HH<br />
