@@ -1,9 +1,6 @@
 <div contenteditable="true">
 
-	<p class="sizelabel">Impallari's Minimal Kerning Pair List</p>
-	<p>&nbsp;</p>
-	<p class="sizelabel">If your font is well spaced, you probably need to kern this pairs only.</p>
-	<p class="sizelabel">You may need a few other pairs here and there depending of your design, but if you need a hell lot more pairs then your spacing is wrong.</p>
+	<p class="sizelabel">Impallari's Minimal Kerning Pairs Checklist</p>
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel">Cap to Cap</p>
@@ -69,8 +66,8 @@
 		nonovonon nonvcnon nonvenon nonbvdnon nonpvqnon<br />
 		nonowonon nonwcnon nonwenon nonbwdnon nonpwqnon<br />
 		nonoxonon nonxcnon nonxenon nonbxdnon nonpxqnon<br />
-		nonkcnon nonkenon nonkonon nonkdnon nonkqnon<br />
-		nonranon nonrcnon nonrdnon nonrenon nonronon nonrqnon<br />
+		nonkonon nonkcnon nonkenon nonkdnon nonkqnon<br />
+		nonranon nonronon nonrcnon nonrenon nonrdnon nonrqnon<br />
 		nonofonon nonfcnon nonfenon nonbfdnon nonpfqnon<br />
 		nonotonon nontcnon nontenon nonbtdnon nonptqnon</p>
 	<p>&nbsp;</p>
