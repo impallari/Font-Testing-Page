@@ -61,15 +61,15 @@
 	
 	<p class="sizelabel">Lower to Lower</p>
 	<p style="font-size: 36px; line-height: 1.5em;">
-		nonavnon nonvanon<br />
-		nonawnon nonwanon<br />
-		nonovonon nonvcnon nonvenon nonbvdnon nonpvqnon<br />
-		nonowonon nonwcnon nonwenon nonbwdnon nonpwqnon<br />
-		nonoxonon nonxcnon nonxenon nonbxdnon nonpxqnon<br />
+		nonavnon nonvanon nonawnon nonwanon<br />
+		nonovonon noncvcnon nonevenon nonbvdnon nonpvqnon<br />
+		nonowonon noncwcnon nonewenon nonbwdnon nonpwqnon<br />
+		nonoxonon noncxcnon nonexenon nonbxdnon nonpxqnon<br />
+		nonoyonon noncycnon noneyenon nonbydnon nonpyqnon<br />
 		nonkonon nonkcnon nonkenon nonkdnon nonkqnon<br />
 		nonranon nonronon nonrcnon nonrenon nonrdnon nonrqnon<br />
-		nonofonon nonfcnon nonfenon nonbfdnon nonpfqnon<br />
-		nonotonon nontcnon nontenon nonbtdnon nonptqnon</p>
+		nonofonon noncfcnon nonefenon nonbfdnon nonpfqnon<br />
+		nonotonon nonctcnon nonetenon nonbtdnon nonptqnon</p>
 	<p>&nbsp;</p>
 
 	<p class="sizelabel">Caps and punctuation</p>
