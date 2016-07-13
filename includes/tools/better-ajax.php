@@ -61,7 +61,7 @@ class textFilter
 						$glypsh_string .= $key;	
 					}
         	$glypsh_string = preg_replace('/\s+/', '', trim($glypsh_string));
-        	$regex = '/^['.$glypsh_string.']{4,12}$/u';
+        	$regex = '/^['.$glypsh_string.']{4,14}$/u';
         	$this->madefrom_text = array_slice(array_values(preg_grep($regex, $this->full_text)), 0);
         	shuffle($this->madefrom_text);
         }       
