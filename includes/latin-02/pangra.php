@@ -13,6 +13,55 @@
 	<p style="font-size: 46px; line-height: 1.5em;">Alissa Bernhard Caprice Derrick Erica Franklin Guinevere Harold Imogene Jason Kamelia Lawrence Miranda Nicholas Olivia Phillip Querida Rashad Sumiko Thomas Ursula Vincent Willow Xiomar Yvonne Zachary</p>
 	<p>&nbsp;</p>
 	
+	<p class="sizelabel">40px</p>
+	<p style="font-size: 40px;">All their equipment and instruments are alive.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">A red flair silhouetted the jagged edge of a wing.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">I watched the storm, so beautiful yet terrific.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">Almost before we knew it, we had left the ground.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">A shining crescent far beneath the flying vessel.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">It was going to be a lonely trip back.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">Mist enveloped the ship three hours out from port.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">My two natures had memory in common.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">Silver mist suffused the deck of the ship.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">The face of the moon was in shadow.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">She stared through the window at the stars.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">The recorded voice scratched in the speaker.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">The sky was cloudless and of a deep dark blue.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">The spectacle before us was indeed sublime.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">Then came the night of the first falling star.</p>
+	<p>&nbsp;</p>
+	
+	<p style="font-size: 40px;">Waves flung themselves at the blue evening.</p>
+	<p>&nbsp;</p>
+
 	<p class="sizelabel">28px</p>
 	<p style="font-size: 28px;">few black taxis drive up major roads on quiet hazy nights</p>
 	<p>&nbsp;</p>
