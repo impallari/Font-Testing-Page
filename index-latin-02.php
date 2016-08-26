@@ -55,6 +55,7 @@
 	    <li><a href="#dia_two">Diacritics 2</a></li>
 	    <li><a href="#dia_three">Diacritics 3</a></li>
 	    <li><a href="#dia_four">Diacritics 4</a></li> 
+	    <li><a href="#locale">Locale</a></li>
 	    <li><a href="#news">News Headlines</a></li>
 	  </ul>
 
@@ -216,6 +217,11 @@
 	  <!-- Diacritics 4 -->
 	  <div id="dia_four">
 	  	<?php include("includes/latin-02/dia-04.php"); ?>
+	  </div>
+
+	  <!-- Locales-->
+	  <div id="locale">
+	  	<?php include("includes/latin-02/locale.php"); ?>
 	  </div>
 
 	  <!-- News -->
