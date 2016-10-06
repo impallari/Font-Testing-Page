@@ -1,8 +1,8 @@
 <div contenteditable="true">
 
 	<div class="dontprint">
-		<input type="range" min="12" max="200" value="16" step="1" oninput="changeFontSizeOldNick(this.value)" onchange="changeFontSizeOldNick(this.value)" style="width: 300px;" />
-		<input type="range" min="0" max="9" value="5" step="1" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 100px;" />
+		<input type="range" min="12" max="200" value="16" step="1" oninput="changeFontSizeOldNick(this.value)" onchange="changeFontSizeOldNick(this.value)" style="width: 400px;" />
+		<input type="range" min="10" max="99" value="50" step="5" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 200px;" />
 		<script type="text/javascript">
 			function changeFontSizeOldNick(newValue) {
 			document.getElementById("changedfontsizeOldNick").innerHTML=newValue;
