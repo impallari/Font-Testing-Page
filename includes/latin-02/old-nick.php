@@ -2,7 +2,7 @@
 
 	<div class="dontprint">
 		<input type="range" min="12" max="200" value="16" step="1" oninput="changeFontSizeOldNick(this.value)" onchange="changeFontSizeOldNick(this.value)" style="width: 400px;" />
-		<input type="range" min="10" max="99" value="50" step="5" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 200px;" />
+		<input type="range" min="0.6" max="2" value="1.5" step="0.01" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 200px;" />
 		<script type="text/javascript">
 			function changeFontSizeOldNick(newValue) {
 			document.getElementById("changedfontsizeOldNick").innerHTML=newValue;
@@ -10,12 +10,13 @@
 			};
 			function changeLineHeigthOldNick(newValue) {
 			document.getElementById("changedlineheigthOldNick").innerHTML=newValue;
-				$('.changesizeOldNick').css('line-height','1.'+newValue);
+				$('.changesizeOldNick').css('line-height',newValue);
 			};
 		</script>
 	</div>
 
-	<p class="sizelabel"><span id="changedfontsizeOldNick">16</span>px / 1.<span id="changedlineheigthOldNick">5</span>em</p>
+	<p class="sizelabel"><span id="changedfontsizeOldNick">16</span>px / <span id="changedlineheigthOldNick">1.5</span>em</p>
+	<p class="sizelabel">&nbsp;</p>
 	<p class="changesizeOldNick" style="font-size: 16px; line-height: 1.5em;">If ANYONE wishes to believe me a little loony—which, might be possible, considering that I have quite intentionally made a considerable effort to insinuate that possibility indubitably—may now consider the preceding—as well as the following—proof more or less conclusive. Trust me on this.</p>
 	<p class="changesizeOldNick" style="font-size: 16px; line-height: 1.5em;">&nbsp;</p>
 	<p class="changesizeOldNick" style="font-size: 16px; line-height: 1.5em;">The glyph most representative of what 666 is alleged to represent is…$</p>

@@ -1,7 +1,7 @@
 <div class="dontprint">
 	<p class="sizelabel">
-	 <input type="range" min="12" max="120" value="40" step="1" oninput="changeFontSizeGBEN(this.value)" onchange="changeFontSizeGBEN(this.value)" style="width: 300px;" />
-	 <input type="range" min="0" max="9" value="5" step="1" oninput="changeLineHeigthGBEN(this.value)" onchange="changeLineHeigthGBEN(this.value)" style="width: 100px;" />
+	 <input type="range" min="12" max="120" value="40" step="1" oninput="changeFontSizeGBEN(this.value)" onchange="changeFontSizeGBEN(this.value)" style="width: 400px;" />
+	 <input type="range" min="0.6" max="2" value="1.5" step="0.01" oninput="changeLineHeigthGBEN(this.value)" onchange="changeLineHeigthGBEN(this.value)" style="width: 200px;" />
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeLowercaseGBEN(); return false;">Lowercase</a>&nbsp; 
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeCapitalizedGBEN(); return false;">Initial</a>&nbsp; 
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeUppercaseGBEN(); return false;">AllCaps</a> 
@@ -15,7 +15,7 @@
 		};
 		function changeLineHeigthGBEN(newValue) {
 		document.getElementById("changedlineheigthGBEN").innerHTML=newValue;
-			$('.changesizeGBEN').css('line-height','1.'+newValue);
+			$('.changesizeGBEN').css('line-height', newValue);
 		};
 		// Fuctions to change capitalization of words
 		function makeLowercaseGBEN() {
@@ -35,8 +35,8 @@
 
 <div contenteditable="true">
 
-	<p class="sizelabel">Set at <span id="changedfontsizeGBEN">40</span>px / 1.<span id="changedlineheigthGBEN">5</span>em.<br />
-	Most common words in the Google Book Corpus (source: norvig.com/mayzner.html).</p>
+	<p class="sizelabel">Set at <span id="changedfontsizeGBEN">40</span>px / <span id="changedlineheigthGBEN">5</span>em.
+	<br />Most common words in the Google Book Corpus (source: norvig.com/mayzner.html).</p>
 	<p class="sizelabel">&nbsp;</p>
 	<p class="sizelabel">&nbsp;</p>
 	

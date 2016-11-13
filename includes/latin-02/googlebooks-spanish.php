@@ -1,7 +1,7 @@
 <div class="dontprint">
 	<p class="sizelabel">
-	 <input type="range" min="12" max="120" value="40" step="1" oninput="changeFontSizeGBES(this.value)" onchange="changeFontSizeGBES(this.value)" style="width: 300px;" />
-	 <input type="range" min="0" max="9" value="5" step="1" oninput="changeLineHeigthGBES(this.value)" onchange="changeLineHeigthGBES(this.value)" style="width: 100px;" />
+	 <input type="range" min="12" max="120" value="40" step="1" oninput="changeFontSizeGBES(this.value)" onchange="changeFontSizeGBES(this.value)" style="width: 400px;" />
+	 <input type="range" min="0.6" max="2" value="1.5" step="0.01" oninput="changeLineHeigthGBES(this.value)" onchange="changeLineHeigthGBES(this.value)" style="width: 200px;" />
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeLowercaseGBES(); return false;">Lowercase</a>&nbsp; 
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeCapitalizedGBES(); return false;">Initial</a>&nbsp; 
 	 <a nohref style="cursor:pointer;color:blue;text-decoration:none" onclick="makeUppercaseGBES(); return false;">AllCaps</a> 
@@ -15,7 +15,7 @@
 		};
 		function changeLineHeigthGBES(newValue) {
 		document.getElementById("changedlineheigthGBES").innerHTML=newValue;
-			$('.changesizeGBES').css('line-height','1.'+newValue);
+			$('.changesizeGBES').css('line-height', newValue);
 		};
 		// Fuctions to change capitalization of words
 		function makeLowercaseGBES() {
@@ -35,8 +35,8 @@
 
 <div contenteditable="true">
 
-	<p class="sizelabel">Set at <span id="changedfontsizeGBES">40</span>px / 1.<span id="changedlineheigthGBES">5</span>em.<br />
-	Top 1000 most common words in Spanish in the Google Book Corpus (source: github.com/SamuelPoquette).</p>
+	<p class="sizelabel">Set at <span id="changedfontsizeGBES">40</span>px / <span id="changedlineheigthGBES">5</span>em.
+	<br />Top 1000 most common words in Spanish in the Google Book Corpus (source: github.com/SamuelPoquette).</p>
 	<p class="sizelabel">&nbsp;</p>
 	<p class="sizelabel">&nbsp;</p>
 	
