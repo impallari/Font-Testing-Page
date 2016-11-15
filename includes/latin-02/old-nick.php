@@ -5,11 +5,11 @@
 		<input type="range" min="0.6" max="2" value="1.5" step="0.01" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 200px;" />
 		<script type="text/javascript">
 			function changeFontSizeOldNick(newValue) {
-			document.getElementById("changedfontsizeOldNick").innerHTML=newValue;
+				document.getElementById("changedfontsizeOldNick").innerHTML=newValue;
 				$('.changesizeOldNick').css('font-size',newValue + 'px');
 			};
 			function changeLineHeigthOldNick(newValue) {
-			document.getElementById("changedlineheigthOldNick").innerHTML=newValue;
+				document.getElementById("changedlineheigthOldNick").innerHTML=newValue;
 				$('.changesizeOldNick').css('line-height',newValue);
 			};
 		</script>
