@@ -124,9 +124,12 @@ class textFilter
     {
         $sentence_count = 1;
         foreach ($this->text as $key => $value) {
-        	if ($sentence_count % 6 == 1 ) {
+        	if ($sentence_count % 5 == 1 ) {
         		$this->text[$key] = ucwords($this->text[$key]);
         	}
+        	if ($sentence_count % 18 == 1 ) {
+        		$this->text[$key] = strtoupper($this->text[$key]);
+        	}        	
         	$sentence_count ++;
         }
         return $this;        
