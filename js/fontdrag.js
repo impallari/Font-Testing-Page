@@ -68,6 +68,9 @@ droppedFileSize = Math.round(file.size/1024) + "kb";
 // Custom Addition by Andras Larsen
 document.title = droppedFileName;
 
+// Change the html title (useful for printing etc.) - should probably be somewhere else because now it only updates when adding and not when changing to an already added font
+document.title = droppedFileName;
+
 TCNDDF.processData(file,droppedFileName,droppedFileSize);
 } else {
 alert("Invalid file extension. Will only accept ttf, otf, woff or woff2 font files");
