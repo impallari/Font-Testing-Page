@@ -9,13 +9,13 @@
 	h n u m r i l k t<br />
 	c e o d b p q a<br />
 	n a b<br />
-	jypgqdlhkf - f i fi fl</p>
+	qgpqyjpdlhkf</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 80px; line-height: 1.2em;">il beodo over brown dog</p>
 	<p>&nbsp;</p>
 
-	<p style="font-size: 80px; line-height: 1.2em;">C E F G L S T Z s z 5 7</p>
+	<p style="font-size: 80px; line-height: 1.2em;">C E F G L S T Z s z 5 7 4 2 3</p>
 	<p>&nbsp;</p>
 	
 	<p style="font-size: 60px; line-height: 1em;">HHCHGHJHSHH<br />

@@ -56,8 +56,9 @@
 	    <li><a href="#dia_three">Diacritics 3</a></li>
 	    <li><a href="#dia_four">Diacritics 4</a></li> 
 	    <li><a href="#locale">Locale</a></li>
-	    <li><a href="#news">News Headlines</a></li>
+	    <li><a href="#news">Headlines</a></li>
 	    <li><a href="#groups">Groups</a></li>
+	    <li><a href="#fun">Fun</a></li>
 	  </ul>
 
 	  <!-- Briem Basic Proof -->
@@ -233,7 +234,12 @@
 	  <!-- Groups -->
 	  <div id="groups">
 		<?php include("includes/latin-02/groups.php"); ?>			
-	  </div>	  
+	  </div>
+	  
+	  <!-- Fun -->
+	  <div id="fun">
+		<?php include("includes/latin-02/fun.php"); ?>			
+	  </div>	  	  
 
 	</div><!-- end tabs -->
 
