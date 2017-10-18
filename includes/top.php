@@ -8,9 +8,9 @@
 <div id="toggleotfeatures">
 	<!-- Editions nav menu: Latins go first, then all scripts follow alphabetically, then tools, then helper. -->
 	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="index-hebrew.php">Hebrew</a> | <a href="index-kannada.php">Kannada</a> | <a href="index-malayalam.php">Malayalam</a> | <a href="index-tamil.php">Tamil</a> | <a href="index-telugu.php">Telugu</a> | <a href="tools.php">Tools</a> | <a href="specimen-helper.php">Specimen Helper</a></span>
-	<a href="javascript://" id="showhide">OpenType Features</a>
+	<a href="javascript://" id="showhide">OT Features</a>
 </div>
-<div id="otfeatures" style="display: none;">
+<div id="otfeatures" class="otpanel" style="display: none;">
 	<table width="100%">
 		<tr>
 			<td valign="top" width="25%">
@@ -82,7 +82,37 @@
 		<tr>
 			<td colspan="3">
 				<p style="margin: 0 0 6px;">Recommended CSS:</p>
-				<p id="csscode"></p>
+				<p id="csscode" class="csscode"></p>
+			</td>
+		</tr>
+	</table>		
+</div>
+<div id="otvariations" class="otpanel" style="display: none;">
+	<table width="100%">
+		<tr>
+			<td valign="top" width="25%">
+				<input class="varAxisRange" type="range" id="wght" min="0" max="1" step="0.001">
+				<label for="wght">Weight</label>
+			</td>
+			<td valign="top" width="25%">
+				<input class="varAxisRange" type="range" id="wdth" min="0" max="1" step="0.001">
+				<label for="wdth">Width</label>
+			</td>
+			<td valign="top" width="25%">
+				<input class="varAxisRange" type="range" id="opsz" min="0" max="1" step="0.001">
+				<label for="opsz">O. Size</label>
+			</td>
+			<td valign="top" width="25%">
+				<input class="varAxisRange" type="range" id="ital" min="0" max="1" step="0.001">
+				<label for="ital">Italic</label>
+				<input class="varAxisRange" type="range" id="slnt" min="0" max="1" step="0.001">
+				<label for="slnt">Slant</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<p style="margin: 0 0 6px;">Recommended CSS:</p>
+				<p id="cssvarcode" class="csscode"></p>
 			</td>
 		</tr>			
 	</table>

@@ -12,7 +12,7 @@
     // OT Features Panel
     $('#showhide').click(function () {
         $('#otfeatures').slideToggle("fast", function() {
-		    $("#showhide").text($(this).is(':visible') ? "Hide OpenType Features" : "OpenType Features");
+		    $("#showhide").text($(this).is(':visible') ? "Hide Features" : "OT Features");
 		  });
     });
 
