@@ -1,21 +1,9 @@
-<div style="width: 920px;" contenteditable="true">
+<div contenteditable="true">
 	
 	<p class="sizelabel">32px</p>
 	<p style="font-size: 32px;">
-	Ay  Aw  Av  A'  AY  AW  AV  AT F.<br />
-	F,  FA  Ly  L'  LY  LW  LV  LT  P.  P,<br />
-	PA  Ry  RY  RW  RV  RT  Ty  Tw<br />
-	Tu  T;  Ts  Tr  T.  To  Ti  T-  Te  T,  T:<br />
-	Tc  Ta  TA  Vy  Vu  V;  Vr  V.  Vo  Vi<br />
-	V-  Ve  V,  V:  Va  VA  Wy  Wu  W;<br />
-	Wr  W.  Wo  Wi  W-  We  W,  W:<br />
-	Wa  WA  Yv  Yu  Y;  Yq  Y.  Yp  Yo<br />
-	Yi  Y-  Ye  Y,  Y:  Ya  YA  f'  ff  ``  't<br />
-	's  ''  rz  ry  rx  rw  rv  ru  rt  rr  r'  rq<br />
-	r.  ro  rn  rm  r-  rh  rg  rf  re  rd  r,<br />
-	rc  v.  v,  w.  w,  y.  y,<br />
-	n. r. v. w. y.<br />
-	n-n o-o<br />
+	Ay  Aw  Av  A'  AY  AW  AV  AT F. F,  FA  Ly  L'  LY  LW  LV  LT  P.  P, PA  Ry  RY  RW  RV  RT  Ty  Tw Tu  T;  Ts  Tr  T.  To  Ti  T-  Te  T,  T: Tc  Ta  TA  Vy  Vu  V;  Vr  V.  Vo  Vi V-  Ve  V,  V:  Va  VA  Wy  Wu  W; Wr  W.  Wo  Wi  W-  We  W,  W: Wa  WA  Yv  Yu  Y;  Yq  Y.  Yp  Yo Yi  Y-  Ye  Y,  Y:  Ya  YA<br />
+	f'  ff  ``  't 's  ''  rz  ry  rx  rw  rv  ru  rt  rr  r'  rq r.  ro  rn  rm  r-  rh  rg  rf  re  rd  r, rc  v.  v,  w.  w,  y.  y, n. r. v. w. y. n-n o-o<br />
 	<br />
 	nnannbnncnndnnenn<br />
 	nnfnngnnhnninnjnn<br />
@@ -48,7 +36,7 @@
 	<br />
 	HAHBHCHDHEHFH<br />
 	HGHIHJHKHLHMHNH<br />
-	NHOHPHQHRHSHTH<br />
+	HNHOHPHQHRHSHTH<br />
 	HUHVHWHXHYHZH<br />
 	<br />
 	OAOBOCODOEOFO<br />

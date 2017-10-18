@@ -104,5 +104,129 @@
 	</table>
 	
 	<p>&nbsp;</p>
+	
+	<?php 
+	$list_lowercase = array('a','b','c','d','e','f','g','h','i','j','k','l','m', 'n', 'o', 'p','q','r','s','t','u','v','w','x','y','z');
+	$list_uppercase = array('A','B','C','D','E','F','G','H','I','J','K','L','M', 'N', 'O', 'P','Q','R','S','T','U','V','W','X','Y','Z');
+	$list_numbers = array(0,1,2,3,4,5,6,7,8,9)
+	?>
+	
+		<table width="100%" cellpadding="12">
+			<tr>
+			
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_lowercase as $value1) {
+						foreach ($list_lowercase as $value2) {
+							echo 'nonn'.$value1.'’'.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_lowercase as $value1) {
+						foreach ($list_uppercase as $value2) {
+							echo 'nonn'.$value1.'’'.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_uppercase as $value1) {
+						foreach ($list_lowercase as $value2) {
+							echo 'nonn'.$value1.'’'.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_uppercase as $value1) {
+						foreach ($list_uppercase as $value2) {
+							echo 'HOHH'.$value1.'’'.$value2.'HHOH<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_numbers as $value1) {
+						foreach ($list_numbers as $value2) {
+							echo '0100'.$value1.'’'.$value2.'0010<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>				
+
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_lowercase as $value1) {
+						foreach ($list_lowercase as $value2) {
+							echo 'nonn'.$value1.'\''.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_lowercase as $value1) {
+						foreach ($list_uppercase as $value2) {
+							echo 'nonn'.$value1.'\''.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_uppercase as $value1) {
+						foreach ($list_lowercase as $value2) {
+							echo 'nonn'.$value1.'\''.$value2.'nnon<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_uppercase as $value1) {
+						foreach ($list_uppercase as $value2) {
+							echo 'HOHH'.$value1.'\''.$value2.'HHOH<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>
+				<td valign="top">
+					<p style="font-size: 18px;">
+					<?php
+					foreach ($list_numbers as $value1) {
+						foreach ($list_numbers as $value2) {
+							echo '0100'.$value1.'\''.$value2.'0010<br />';	
+						}
+					}
+					?>
+					</p>
+				</td>				
+																				
+			</tr>		
+		</table>
 
 </div>

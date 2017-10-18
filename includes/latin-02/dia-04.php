@@ -1,4 +1,7 @@
 <div contenteditable="true">
+
+	<p class="sizelabel">Some diacritics that require particular spacing considerations</p>
+	<p>&nbsp;</p>
 	
 	<p class="sizelabel">32px</p>
 	<p style="font-size: 32px;">HĽHďHľHťHŀHłHĿH</p>

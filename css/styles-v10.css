@@ -1,8 +1,10 @@
 /*
 
    Notes:
-   Old version (see notes on styles-v10,css), to be deprecated once all non-laton pages are updated
-   Plese, do not add or edit new stuff in here. Thanks!
+   A little wider than v9
+   Used by Latin1 and Latin2
+   
+   At some point, all other testing pages should be updated to use this css file only
    
 */
 
@@ -17,22 +19,22 @@ ol { padding-left: 0px; list-style-position: inside; }
 /*----------------------------------------------------------------------------------------------------
   Top
   ---------------------------------------------------------------------------------------------------*/
-#top { width: 920px; margin: 0 20px; padding: 0px; }
+#top { width: 960px; margin: 0 20px; padding: 0px; }
 header { margin: 0; padding: 0; background: #cccccc;}
 header h1 { margin: 0; padding: 40px 20px; }
 
 /* Font Selection */
-#fonts { width: 900px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; }
+#fonts { width: 940px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; }
 #fonts li { display: inline; list-style: none; margin: 0 16px 0 0; padding: 0; cursor: pointer; }
 #fonts li.active { background: #CCCCCC; }
 
 /* OT Features Panel */
-#toggleotfeatures { float: left; width: 880px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+#toggleotfeatures { float: left; width: 920px; margin: 0 20px; padding: 12px 20px; background-color: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 #toggleotfeatures a { color: #fff; text-decoration:none; text-shadow: 1px 1px 2px black; }
 #editions { float: right; }
 
 /* OT Features Menu */
-#otfeatures { float: left; width: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+#otfeatures { float: left; width: 960px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 #otfeatures table td { padding: 4px 20px;}
 #csscode { margin: 0; padding: 0; font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
 
@@ -44,7 +46,7 @@ header h1 { margin: 0; padding: 40px 20px; }
 #custom p.sizelabel { font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; color: #666; }
 
 /* Navigation */
-ul.tabNavigation { width: 920px; overflow: hidden;	list-style: none; margin: 2px 20px; padding: 0; font: normal 15px/15px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+ul.tabNavigation { width: 960px; overflow: hidden;	list-style: none; margin: 2px 20px; padding: 0; font: normal 15px/15px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 ul.tabNavigation li { float: left; padding: 0; margin: 0; }
 ul.tabNavigation li a { display: block; padding: 7px 5px; margin: 2px 4px 2px 0px; color: #000; text-decoration: none; background-color: #ccc; }
 ul.tabNavigation li a.selected, ul.tabNavigation li a:hover { color: #fff; background-color: #333; }
@@ -74,8 +76,8 @@ div.tabs > div h2 { margin-top: 0; }
   ---------------------------------------------------------------------------------------------------*/
   
 /* Used in Text previews in multiple Tabs */  
-.textsettingCol1 { width: 450px; float: left; }
-.textsettingCol2 { width: 450px; float: right; }
+.textsettingCol1 { width: 460px; float: left; }
+.textsettingCol2 { width: 460px; float: right; }
 
 /* Used for the Unicode Tables and Unicode Lists */
 .bigslot { font-size: 50px; }
@@ -104,6 +106,6 @@ div.tabs > div h2 { margin-top: 0; }
 /*-----------------------------------------------------------------------------------------------------
   Footer
   ---------------------------------------------------------------------------------------------------*/
-#footer { padding: 20px; width: 920px; }
+#footer { padding: 20px; width: 960px; }
 #footer p { color: #666;  font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;  font-size: 10px;  line-height: 18px;  font-style: normal; margin: 0; }
 #footer p a { color: #666; }

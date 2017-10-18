@@ -61,7 +61,7 @@ class textFilter
 						$glypsh_string .= $key;	
 					}
         	$glypsh_string = preg_replace('/\s+/', '', trim($glypsh_string));
-        	$regex = '/^['.$glypsh_string.']{4,12}$/u';
+        	$regex = '/^['.$glypsh_string.']{4,14}$/u';
         	$this->madefrom_text = array_slice(array_values(preg_grep($regex, $this->full_text)), 0);
         	shuffle($this->madefrom_text);
         }       
@@ -143,9 +143,12 @@ class textFilter
     {
         $sentence_count = 1;
         foreach ($this->resulting_text as $key => $value) {
-        	if ($sentence_count % 6 == 1 ) {
+        	if ($sentence_count % 5 == 1 ) {
         		$this->resulting_text[$key] = ucwords($this->resulting_text[$key]);
         	}
+        	if ($sentence_count % 18 == 1 ) {
+        		$this->text[$key] = strtoupper($this->text[$key]);
+        	}          	
         	$sentence_count ++;
         }
         return $this;        
@@ -188,7 +191,9 @@ $resultados = $a->get_results();
 // End Benchmark
 $timer_end = microtime(true) - $timer_start;
 
-echo '<p class="sizelabel">'.count($resultados). ' Results ('.number_format($timer_end, 2).' seconds) set at '.$bettersize.'px</p>';
+echo '<p class="sizelabel">'.count($resultados). ' Results ('.number_format($timer_end, 2).' seconds) set at '.$bettersize.'px';
+if ( isset( $_POST['betterline'] ) && !empty( $_POST['betterline'] ) ) echo '/'.$_POST['betterline'].'em';
+echo '</p>';
 echo '<p style="font-size: '.$bettersize.'px;';
 if ( isset( $_POST['betterline'] ) && !empty( $_POST['betterline'] ) ) echo ' line-height: '.$_POST['betterline'].';';
 echo '">'.implode(' ', $resultados).'</p>';

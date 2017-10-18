@@ -20,7 +20,7 @@ class textFilter
     {
         if ( !empty($glypsh_string) ) {
         	$glypsh_string = preg_replace('/\s+/', '', trim($glypsh_string));
-        	$regex = '/^[' . $glypsh_string . ']{5,10}$/u';
+        	$regex = '/^[' . $glypsh_string . ']{4,14}$/u';
         	// echo $regex;
         	$this->text = array_slice(array_values(preg_grep($regex, $this->text)), 0);
         }
@@ -124,9 +124,12 @@ class textFilter
     {
         $sentence_count = 1;
         foreach ($this->text as $key => $value) {
-        	if ($sentence_count % 6 == 1 ) {
+        	if ($sentence_count % 5 == 1 ) {
         		$this->text[$key] = ucwords($this->text[$key]);
         	}
+        	if ($sentence_count % 18 == 1 ) {
+        		$this->text[$key] = strtoupper($this->text[$key]);
+        	}        	
         	$sentence_count ++;
         }
         return $this;        
@@ -173,9 +176,9 @@ if ( !empty( $_POST['starting'] ) ) $a->starting( $_POST['starting'] );
 if ( !empty( $_POST['ending'] ) ) $a->ending( $_POST['ending'] );
 $a->randomize();
 $a->max( $_POST['max'] );
-if ( $_POST['sidebyside'] == "no" ) {
-	if ( $_POST['sentence'] == "yes" ) $a->sentencecase();
-	if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
+if ( $_POST['sentence'] == "yes" ) $a->sentencecase();	
+if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
+if ( $_POST['sidebyside'] == "no" ) {	
 	if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
 }
 if ( $_POST['loon'] == "yes" ) $a->addloon();
@@ -414,10 +417,11 @@ if ($filtersize <= 19 ) {
 	
 	echo '</div>';		
 } else {
-	// Intermediate sizes, normal previw
-	echo '<p class="sizelabel">'.$a->count(). ' Results';
-	echo ' ('.number_format($timer_end, 2).' seconds)';
+	// Intermediate sizes, Standard Preview
+	echo '<p class="sizelabel" style="margin-bottom:10px">'.$a->count(). ' Results. Set at '.$filtersize.'px';
+	if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo '/'.$_POST['line'].'em';
 	echo '</p>';
+	// Side by Side
 	if ( $_POST['sidebyside'] == "no" ) {
 		echo '<p style="font-size: '.$filtersize.'px;';
 		if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
@@ -428,14 +432,14 @@ if ($filtersize <= 19 ) {
 	} else {
 		echo "<table>";
 			echo '<tr>';			
-				echo '<td width="50%" valign="top">';
+				echo '<td width="45%" valign="top">';
 					echo '<p style="font-size: '.$filtersize.'px;';
 					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
 					echo '">';
 					echo $a->getResults();
 					echo '</p>';				
 				echo '</td>';			
-				echo '<td width="50%" valign="top">';
+				echo '<td width="55%" valign="top">';
 					echo '<p style="font-size: '.$filtersize.'px;';
 					if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
 					echo '">';
