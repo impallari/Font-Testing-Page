@@ -107,5 +107,5 @@ div.tabs > div h2 { margin-top: 0; }
   Footer
   ---------------------------------------------------------------------------------------------------*/
 #footer { padding: 20px; width: 960px; }
-#footer p { color: #666;  font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;  font-size: 10px;  line-height: 18px;  font-style: normal; margin: 0; }
+#footer p { color: #666;  font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;  font-size: 16px;  line-height: 1.5em;  font-style: normal; margin: 0; }
 #footer p a { color: #666; }
