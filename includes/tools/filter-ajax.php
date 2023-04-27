@@ -181,7 +181,7 @@ if ( $_POST['somesentence'] == "yes" ) $a->somesentence();
 if ( $_POST['sidebyside'] == "no" ) {	
 	if ( $_POST['uppercase'] == "yes" ) $a->uppercase();
 }
-if ( $_POST['loon'] == "yes" ) $a->addloon();
+if ( isset($_POST['loon']) == "yes" ) $a->addloon();
 
 // End Benchmark
 $timer_end = microtime(true) - $timer_start;
@@ -198,7 +198,7 @@ function change_order($words) {
 }
 
 // Add background Color 040f21
-if ( $_POST['loon'] == "yes" ) echo '<div style="background: #1a3351 url(\'images/stars-2.png\'); padding: 80px 40px;">';
+if ( isset($_POST['loon']) == "yes" ) echo '<div style="background: #1a3351 url(\'images/stars-2.png\'); padding: 80px 40px;">';
 
 // Render Contents
 if ($filtersize <= 19 ) {
@@ -425,7 +425,7 @@ if ($filtersize <= 19 ) {
 	if ( $_POST['sidebyside'] == "no" ) {
 		echo '<p style="font-size: '.$filtersize.'px;';
 		if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-		if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
+		if ( isset( $_POST['loon'] ) == "yes" ) echo ' color: #fefefe;';
 		echo '">';
 		echo $a->getResults();
 		echo '</p>';
@@ -453,7 +453,7 @@ if ($filtersize <= 19 ) {
 }
 
 // Add background Coor
-if ( $_POST['loon'] == "yes" ) echo '</div>';
+if ( isset( $_POST['loon'] ) == "yes" ) echo '</div>';
 
 //echo '<pre>';
 //print_r($_POST);

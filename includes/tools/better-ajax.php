@@ -12,11 +12,11 @@ $made_from = mb_strtolower($made_from, 'UTF-8'); // Paso a Minusculas
 $made_from = preg_replace('/\s+/', '', $made_from); // Borro Espacios en blanco
 
 # Creo un Array limpito, con Frecuencia Zero
-function mb_str_split( $string ) {
+function mb_str_split_renamed( $string ) {
     return preg_split('/(?<!^)(?!$)/u', $string );
 } 
 mb_internal_encoding('UTF-8'); // Modo UTF-8
-$made_from = array_unique(mb_str_split($made_from)); 
+$made_from = array_unique(mb_str_split_renamed($made_from)); 
 $made_from = array_flip($made_from);
 ksort($made_from);
 foreach ($made_from as $key => $value) {

@@ -11,11 +11,11 @@
 		<table>
 			<tr>
 				<td>
-					<p class="sizelabel">Your Text:</p>
+					<p class="sizelabel">Text 1:</p>
 					<textarea rows="20" style="width: 500px;" id="analizerone"><?php if (isset($_POST['analizerone']) && !empty($_POST['analizerone']) ) echo $_POST['analizerone']; ?></textarea>	  						
 				</td>
 				<td>
-					<p class="sizelabel">Your Text:</p>
+					<p class="sizelabel">Text 2:</p>
 					<textarea rows="20" style="width: 500px;" id="analizertwo"><?php if (isset($_POST['analizertwo']) && !empty($_POST['analizertwo']) ) echo $_POST['analizertwo']; ?></textarea>	  						
 				</td>
 				<td>

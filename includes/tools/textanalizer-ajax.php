@@ -2,7 +2,7 @@
 header("Content-type: text/html; charset=utf-8");
 mb_internal_encoding('UTF-8'); // Modo UTF-8
 
-function mb_str_split( $string ) {
+function mb_str_split_renamed( $string ) {
     return preg_split('/(?<!^)(?!$)/u', $string );
 } 
 
@@ -142,7 +142,7 @@ echo '<table cellpadding="4" border="1">';
 		
 		echo '<td valign="top">';
 			# Creo un Array limpito, con Frecuencia Zero
-			$made_from = array_unique(mb_str_split($analizertwo)); 
+			$made_from = array_unique(mb_str_split_renamed($analizertwo)); 
     	$new = my_array_find(' ', $made_from);
     	if (($key = array_search($new, $made_from)) !== false) unset($made_from[$key]);
 			$made_from = array_flip($made_from);

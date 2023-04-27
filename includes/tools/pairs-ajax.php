@@ -30,7 +30,7 @@ class makePairs
         $this->despues = explode( ' ', $source_string );
         $this->despues = array_unique( $this->despues );
         return $this;
-    }        
+    }                
 
     function generate()
     {

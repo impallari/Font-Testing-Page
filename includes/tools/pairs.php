@@ -7,8 +7,8 @@
 		
 		<form method="post" action="includes/tools/pairs-ajax.php" id="pairsform">
 		
-			<table width="920" cellpadding="4" cellpadding="0" border="0">
-				<tr>
+			<table width="960" cellpadding="4" cellpadding="0" border="0">
+				<tr>	
 					<td valign="top">
 						<p class="sizelabel">First:</p>
 						<textarea rows="6" style="width: 300px;" id="pairsantes"><?php if (isset($_POST['pairsantes']) && !empty($_POST['pairsantes']) ) echo $_POST['pairsantes']; ?></textarea>	  						
@@ -20,7 +20,7 @@
 					<td valign="top">
 						<p class="sizelabel">Second:</p>
 						<textarea rows="6" style="width: 300px;" id="pairsdespues"><?php if (isset($_POST['pairsdespues']) && !empty($_POST['pairsdespues']) ) echo $_POST['pairsdespues']; ?></textarea>	  						
-					</td>  
+					</td> 					 
 				</tr>
 				<tr>
 					<td colspan="2">
