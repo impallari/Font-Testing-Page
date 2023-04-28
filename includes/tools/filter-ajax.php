@@ -212,7 +212,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$filtersize.'px</p>';
 				echo '<p style="font-size: '.$filtersize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -222,7 +221,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';			
@@ -232,7 +230,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -244,7 +241,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -254,7 +250,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -264,7 +259,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -278,7 +272,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
@@ -288,7 +281,6 @@ if ($filtersize <= 19 ) {
 				echo '<p class="sizelabel">'.$newSize.'px</p>';
 				echo '<p style="font-size: '.$newSize.'px;';
 				if ( isset( $_POST['line'] ) && !empty( $_POST['line'] ) ) echo ' line-height: '.$_POST['line'].';';
-				if ( $_POST['loon'] == "yes" ) echo ' color: #fefefe;';
 				echo '">';
 				echo $a->getResults();
 				echo '</p>';				
