@@ -20,6 +20,9 @@
 					<td valign="top">
 						<p class="sizelabel">Max Results:</p>
 						<select id="bettermax">
+							<option value="25">10</option>
+							<option value="25">15</option>
+							<option value="25">20</option>
 							<option value="25">25</option>
 							<option value="50">50</option>
 							<option value="75">75</option>
