@@ -114,7 +114,7 @@ data = dataURL[0] + dataURL[1];
 fontFaceStyle = "@font-face{font-family: "+name+"; src:url("+data+");}";
 styleSheet.insertRule(fontFaceStyle, 0);
 
-domElements[2].appendChild(document.createTextNode(size));
+domElements[2].appendChild(document.createTextNode(" ("+size+")"));
 domElements[1].appendChild(document.createTextNode(name));
 domElements[0].className = "active";
 domElements[0].title = name;
