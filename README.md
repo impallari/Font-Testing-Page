@@ -54,7 +54,7 @@ Thanks:
 - Designed by [Pablo Cosgaya](http://omnibus-type.com)
 - Kerning string by [James Montalbano](http://terminaldesign.com)
 - Kern King Tab content from http://logofontandlettering.com/kernking.html
-- Pangrams from [Wikipedia](http://en.wikipedia.org/wiki/List_of_pangrams)
+- Pangrams from [Wikipedia](http://clagnut.com/blog/2380/)
 - Armenian Pangrams by [Hrant Papazian](https://twitter.com/hhpapazian)
 - Latin Languages texts by [Eduardo Tunni](http://tipo.net.ar)
 - Latin02 Diacritics tabs from [Context of Diacritics](http://urtd.net/projects/cod)
