@@ -13,7 +13,7 @@
 				<tr>
 					<td colspan="7" valign="top">
 						<p class="sizelabel">Made From:</p>
-						<textarea rows="2" style="width: 500px;" id="filterglyphs"><?php if (isset($_POST['filterglyphs']) && !empty($_POST['filterglyphs']) ) echo $_POST['filterglyphs']; ?></textarea>	  						
+						<textarea rows="4" style="width: 500px;" id="filterglyphs"><?php if (isset($_POST['filterglyphs']) && !empty($_POST['filterglyphs']) ) echo $_POST['filterglyphs']; ?></textarea>	  						
 					</td>
 					<td width="80" valign="top">
 						<p class="sizelabel"><input type="checkbox" id="addsomesentence"> Some<br />
