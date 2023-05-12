@@ -39,23 +39,6 @@
 			<td><p style="font-size: 46px; line-height: 1.5em;" lang="pl">ŹRÓDŁOSŁOWU</p></td>
 		</tr>
 
-		<tr><td colspan="3"><p class="sizelabel" style="text-align: center ;">Native American Ogonek</p></td></tr>
-		<tr>
-			<td><p class="sizelabel" style="text-align: right ;">No lang tag</p></td>
-			<td><p style="font-size: 46px; line-height: 1.5em;">ałʼąą</p></td>			
-			<td><p style="font-size: 46px; line-height: 1.5em;">AŁʼĄĄ</p></td>
-		</tr>
-		<tr>
-			<td><p class="sizelabel" style="text-align: right ;">Polish (a-ogonek and lang="pl")</p></td>
-			<td><p style="font-size: 46px; line-height: 1.5em;" lang="pl">robią</p></td>			
-			<td><p style="font-size: 46px; line-height: 1.5em;" lang="pl">ROBIĄ</p></td>
-		</tr>
-		<tr>
-			<td><p class="sizelabel" style="text-align: right ;">Navajo (a-ogonek and lang="nv")</p></td>
-			<td><p style="font-size: 46px; line-height: 1.5em;" lang="nv">ałʼąą</p></td>			
-			<td><p style="font-size: 46px; line-height: 1.5em;" lang="nv">AŁʼĄĄ</p></td>
-		</tr>
-
 		<tr><td colspan="3"><p class="sizelabel" style="text-align: center ;">Cyrillic Variants</p></td></tr>
 		<tr>
 			<td><p class="sizelabel" style="text-align: right ;">No lang tag</p></td>
