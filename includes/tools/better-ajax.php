@@ -147,7 +147,7 @@ class textFilter
         		$this->resulting_text[$key] = ucwords($this->resulting_text[$key]);
         	}
         	if ($sentence_count % 18 == 1 ) {
-        		$this->text[$key] = strtoupper($this->text[$key]);
+        		$this->resulting_text[$key] = strtoupper($this->resulting_text[$key]);
         	}          	
         	$sentence_count ++;
         }
