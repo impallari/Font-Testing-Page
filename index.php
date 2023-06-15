@@ -10,6 +10,7 @@
 <script>localStorage.clear();</script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/otvars-v10.0.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
 <script src="includes/latin/constants-latin.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/init.js" type="text/javascript" charset="utf-8"></script>

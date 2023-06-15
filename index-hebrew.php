@@ -4,13 +4,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Font Testing Page - Hebrew Version</title>
-<link type="text/css" href="css/styles-v9.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
+<link type="text/css" href="css/styles-v10.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
 <link type="text/css" href="css/rtl-v1.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script>localStorage.clear();</script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/otvars-v10.0.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
 <script src="includes/hebrew/constants-hebrew.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/init.js" type="text/javascript" charset="utf-8"></script>
@@ -31,7 +32,7 @@ $(document).ready(function(){
 <?php include("includes/top.php"); ?>
 
 <section id="custom">
-
+	
 	<div class="tabs">
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
@@ -44,7 +45,7 @@ $(document).ready(function(){
 	    <li><a href="#hinting">Hinting</a></li>
 	    <li><a href="#diacritics">Diacritics</a></li>
 	  </ul>
-	
+	  
 	  <!-- Headlines (Content injected via constants.js) -->
 	  <div id="headlines">
 		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
@@ -114,7 +115,7 @@ $(document).ready(function(){
 	  		</div>
 	  </div>
 
-	  <!-- Latin -->
+	  <!-- Diacritics -->
 	  <div id="diacritics">
 	  	<?php include("includes/hebrew/diatrics.php"); ?>
 	  </div>

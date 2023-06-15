@@ -33,10 +33,10 @@ header h1 { margin: 0; padding: 40px 20px; }
 #toggleotfeatures a { color: #fff; text-decoration:none; text-shadow: 1px 1px 2px black; }
 #editions { float: right; }
 
-/* OT Features Menu */
-#otfeatures { float: left; width: 960px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
-#otfeatures table td { padding: 4px 20px;}
-#csscode { margin: 0; padding: 0; font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
+/* OT Panel (Features / Variations) */
+.otpanel { float: left; width: 960px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+.otpanel table td { padding: 4px 20px;}
+.csscode { margin: 0; padding: 0; font: normal 10px/10px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
 
 /*-----------------------------------------------------------------------------------------------------
   Content
