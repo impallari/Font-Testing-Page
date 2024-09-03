@@ -17,6 +17,11 @@
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel">32px</p>
+	<p style="font-size: 32px;">Czech:<br/>
+	Přijďte k nám na nový ďábelský koncert! Budeme hrát s ďábelským nadšením. Zkuste si také naše ľahké recepty na ľahké a lahodné dezerty. Pokud máte rádi ťukání kláves a ťukání na stůl, neváhejte se přidat k našim ťukacím večerům.</p>
+	<p>&nbsp;</p>
+	
+	<p class="sizelabel">32px</p>
 	<p style="font-size: 32px;">ď: vďačíme pribrzďovaný ľuďmi poďakoval meďnato shromažďování buďto zhromažďujú päťloďová najďalej přijď žďárských sústreďovať shromažďovaly háďatko kapraďorostů zhromažďovala objížďková keďže předpověď maďarština ľuďoch žerďové loďstvo soustřeďující srď stredomaďarská</p>
 	<p>&nbsp;</p>
 	
