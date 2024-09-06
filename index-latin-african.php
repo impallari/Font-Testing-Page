@@ -23,13 +23,13 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#tap1">Tap 1 Comming Soon</a></li>
-	    <li><a href="#tap2">Tap 2 Comming Soon</a></li>
+	    <li><a href="#lettering">Lettering</a></li>
+	    <li><a href="#tap2">Tap 2 Placeholder</a></li>
 	  </ul>
 
 	  <!-- Briem Basic Proof -->
-	  <div id="tap1">
-	  	<?php include("includes/latin-african/tap1.php"); ?>
+	  <div id="lettering">
+	  	<?php include("includes/latin-african/lettering.php"); ?>
 	  </div>
 
 	  <!-- Blake Proof -->
