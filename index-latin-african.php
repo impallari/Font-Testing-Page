@@ -24,17 +24,23 @@
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
 	    <li><a href="#lettering">Lettering</a></li>
-	    <li><a href="#tap2">Tap 2 Placeholder</a></li>
+	    <li><a href="#barstroke">Bars & Strokes</a></li>
+	    <li><a href="#placeholder">Tap 2 Placeholder</a></li>
 	  </ul>
 
-	  <!-- Briem Basic Proof -->
+	  <!-- African Lettering -->
 	  <div id="lettering">
 	  	<?php include("includes/latin-african/lettering.php"); ?>
 	  </div>
 
-	  <!-- Blake Proof -->
-	  <div id="tap2">
-	  	<?php include("includes/latin-african/tap2.php"); ?>
+	  <!-- Bars & Strokes -->
+	  <div id="barstroke">
+	  	<?php include("includes/latin-african/barstroke.php"); ?>
+	  </div>	  
+
+	  <!-- Placeholder -->
+	  <div id="placeholder">
+	  	<?php include("includes/latin-african/placeholder.php"); ?>
 	  </div>
   	  
 
