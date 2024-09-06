@@ -1,5 +1,5 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<div class="dontprint">
 		<input type="range" min="12" max="200" value="16" step="1" oninput="changeFontSizeOldNick(this.value)" onchange="changeFontSizeOldNick(this.value)" style="width: 400px;" />
 		<input type="range" min="0.6" max="2" value="1.5" step="0.01" oninput="changeLineHeigthOldNick(this.value)" onchange="changeLineHeigthOldNick(this.value)" style="width: 200px;" />

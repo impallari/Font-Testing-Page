@@ -1,4 +1,4 @@
-<div contenteditable="true">
+<div conten<div style="width: 1020px;" contenteditable="true">
 
 	<p class="sizelabel">Some diacritics that require particular spacing considerations</p>
 	<p>&nbsp;</p>

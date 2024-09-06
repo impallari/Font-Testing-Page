@@ -33,7 +33,7 @@
 	</script>
 </div>
 
-<div contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 
 	<p class="sizelabel">Set at <span id="changedfontsizeGBES">40</span>px / <span id="changedlineheigthGBES">5</span>em.
 	<br />Top 1000 most common words in Spanish in the Google Book Corpus (source: github.com/SamuelPoquette).</p>

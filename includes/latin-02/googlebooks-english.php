@@ -33,7 +33,7 @@
 	</script>
 </div>
 
-<div contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 
 	<p class="sizelabel">Set at <span id="changedfontsizeGBEN">40</span>px / <span id="changedlineheigthGBEN">5</span>em.
 	<br />Most common words in the Google Book Corpus (source: norvig.com/mayzner.html).</p>

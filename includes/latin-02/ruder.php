@@ -1,4 +1,5 @@
 <div contenteditable="true">
+	
 	<p class="sizelabel">32px Text.</p>
 	<table>
 		<tbody>

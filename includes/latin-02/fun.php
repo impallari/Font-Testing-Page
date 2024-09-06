@@ -1,9 +1,9 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p>&nbsp;</p>
 	
 	<p class="sizelabel" style="text-align: center;">http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/</p>	
-	<p style="font-size: 32px; line-height: 1.5em; text-align: center;">
+	<p style="font-size: 30px; line-height: 1.5em; text-align: center;">
 	Aoccdrnig to rsceearch at Cmarbidge Uinervtisy, <br />
 	it deosn't mttaer in waht oredr the ltteers in a wrod aer,<br />
 	the olny ipmoratnt tinhg is taht the frist and lsat ltteer<br />
@@ -14,7 +14,7 @@
 	<p>&nbsp;</p>
 
 	<p class="sizelabel" style="text-align: center;">Some Uppercase Fun :)</p>
-	<p style="font-size: 32px; line-height: 1.5em; text-align: center;">
+	<p style="font-size: 30px; line-height: 1.5em; text-align: center;">
 	7H15 M3554G3 53RV35 7O PR0V3<br />
 	H0W 0UR M1ND5 C4N D0 4M4Z1NG 7H1NG5!<br />
 	1MPR3551V3 7H1NG5!<br />

@@ -1,5 +1,5 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">Impallari's Minimal Kerning Pairs Checklist</p>
 	<p>&nbsp;</p>
 	

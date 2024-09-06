@@ -1,4 +1,5 @@
-<div>
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel" style="margin-bottom: 10px;">32px Most common letter sequences http://norvig.com/mayzner.html</p>
 	<table width="900px">
 		<tbody>

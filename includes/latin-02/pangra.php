@@ -1,5 +1,5 @@
-<div contenteditable="true" style="width: 920px;">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">66px</p>
 	<p style="font-size: 66px; line-height: 1.5em;">Whereas disregard and contempt for human rights have resulted</p>
 	<p>&nbsp;</p>

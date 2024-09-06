@@ -1,5 +1,5 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">Source: Leslie Cabarga's Kern King http://logofontandlettering.com/kernking.html</p>
 	<p>&nbsp;</p>
 	

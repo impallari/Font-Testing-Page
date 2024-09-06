@@ -1,5 +1,5 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">Source: Context of Diacritics http://urtd.net/projects/cod/</p>
 	<p>&nbsp;</p>
 

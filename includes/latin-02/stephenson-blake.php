@@ -1,5 +1,5 @@
-<div contenteditable="true">
-
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">Stephenson Blake Testing Sheet - 32px</p>
 	<p style="font-size: 32px;">
 	COMMOONWEALTH? WARWICKSHIRE; BALACLAVAH!<br />
