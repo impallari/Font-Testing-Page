@@ -1,4 +1,5 @@
-<div style="width: 920px;" contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
+	
 	<p class="sizelabel">22px</p>
 	<p style="font-size: 22px;">
 	ААБАВАГАДАЕАЖАЗАИАЙАКАЛАМАНАОАПАРАСАТАУАФАХАЦАЧАШАЩАЪАЫАЬАЭАЮАЯА<br />

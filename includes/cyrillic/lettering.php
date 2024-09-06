@@ -1,4 +1,4 @@
-<div contenteditable="true" style="width: 880px; text-align: center; padding: 20px 20px;">
+<div contenteditable="true" style="width: 1020px; text-align: center; padding: 20px 20px;">
 	
 	<p class="sizelabel">Lettering Sheet 72 points</p>
 	
