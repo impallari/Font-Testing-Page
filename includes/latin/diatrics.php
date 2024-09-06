@@ -1,4 +1,4 @@
-<div contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 
 	<div class="dontprint">
 		<input type="range" min="10" max="200" value="42" step="1" oninput="changeFontSizeDiacritics(this.value)" onchange="changeFontSizeDiacritics(this.value)" style="width: 400px;" />

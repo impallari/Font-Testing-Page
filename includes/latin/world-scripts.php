@@ -1,4 +1,4 @@
-<div style="width: 960px;" contenteditable="true">
+<div style="width: 1020px;" contenteditable="true">
 	
 	<h3 style="text-align: center; border-top: 1px solid #333;">Cyrillic</h3>
 		<p class="sizelabel">Bulgarian</p>

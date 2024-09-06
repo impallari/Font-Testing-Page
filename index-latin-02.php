@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Font Testing Page - Custom Version</title>
-<link type="text/css" href="css/styles-v10.css" rel="stylesheet" charset="utf-8" />
+<link type="text/css" href="css/styles-v11.css?rand=<?php echo rand(5,500)?>" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script>localStorage.clear(); </script>

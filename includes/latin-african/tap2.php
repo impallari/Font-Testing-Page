@@ -1,9 +1,9 @@
 <div contenteditable="true" style="width: 980px; text-align: center; padding: 20px 20px;">
-
 	
-	<p class="sizelabel" style="margin-bottom: 30px;">Lettering Sheet 72 points</p>
+	<p class="sizelabel" style="margin-bottom: 30px;">African Tap2 comming soon</p>
 	
-	<p style="font-size: 72px;">A B C D E F G H<br />
+	<p style="font-size: 72px;">African Tap2 comming soon<br />
+	A B C D E F G H<br />
 	I J K L M N O P Q R<br />
 	S T U V W X Y Z<br />
 	a b c d e f g h i j k l m<br />
