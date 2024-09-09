@@ -6,8 +6,9 @@
 	Ƙ Ɲ Ŋ Ɔ Ƥ Ɽ Ƭ Ʈ Ʊ Ɣ Ʋ Ʌ Ⱳ Ƴ<br />
 	<br />	
 	ɑ ɓ ƈ ɗ ɖ ɛ ʃ ǝ ʒ ɣ ɠ ɂ ɦ ɩ ƙ ɲ ŋ<br />
-	ƥ ɔ ɋ ɾ ɽ ƭ ʈ ʊ ʋ ʌ ⱳ ƴ ʔ ʕ ʼ ꞌ Ꞌ</p>
-
+	ƥ ɔ ɋ ɾ ɽ ƭ ʈ ʊ ʋ ʌ ⱳ ƴ<br />
+	<br />
+	? ʔ ʕ ʼ ꞌ Ꞌ</p>
 	<br /><br />
 
 	<p class="sizelabel" style="margin-bottom: 30px;">All - 30 points</p>
