@@ -23,14 +23,14 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#lettering">Lettering</a></li>
+	    <li><a href="#lettering-pri">AfricanPri Lettering</a></li>
 	    <li><a href="#barstroke">Bars & Strokes</a></li>
 	    <li><a href="#placeholder">Tap 2 Placeholder</a></li>
 	  </ul>
 
 	  <!-- African Lettering -->
-	  <div id="lettering">
-	  	<?php include("includes/latin-african/lettering.php"); ?>
+	  <div id="lettering-pri">
+	  	<?php include("includes/latin-african/lettering-pri.php"); ?>
 	  </div>
 
 	  <!-- Bars & Strokes -->
