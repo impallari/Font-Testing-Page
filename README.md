@@ -1,5 +1,4 @@
-Font Testing Page
-=================
+# Font Testing Page
 
 Stable releases available for use at http://www.impallari.com/testing
 
@@ -26,7 +25,7 @@ Below the drop area you see some buttons to select different layouts:
 - Latin: Diacritics for 103 Latin languages, pangrams and text samples.
 - And many many more...
 
-Notes:
+## Notes
 
 - Requires Firefox or Chrome
 - 100% safe: Your fonts are only stored in your own browser (using `localStorage`) and **nothing gets uploaded to any server**
@@ -36,7 +35,7 @@ Secret tips for the "Filter text" tool:
 - When working on text fonts: Set the size to 18px or lower, and you will get nice blocks at all text sizes at the same time.
 - When working on display fonts: Set the size to 200 and you get a small cascade, set it to 300px and you get a full cascade (Great for deciding on your font's spacing/fitting).
 
-Developers:
+## Developers
 
 To download the latest version and use it locally: 
 
@@ -46,7 +45,17 @@ To download the latest version and use it locally:
 
 Then visit <http://127.0.0.1:8080> to see your local version of the tool.
 
-Thanks:
+### Docker
+
+For local development and testing:
+
+```bash
+docker build -t font-testing-page Docker/
+
+docker run --rm -p 8080:8080  --name font-tester font-testing-page
+```
+
+## Thanks
 
 - Inspired by Jonathan Kew's [OpenType Playground](http://people.mozilla.com/~jkew/opentype-feature-playground.html) made for Mozilla and [FontDrag](https://github.com/ryanseddon/font-dragr)
 - Initiated by [Dave Crossland](http://understandingfonts.com)
@@ -68,7 +77,7 @@ Thanks:
 - Malayan Version by [Santhosh Thottingal](http://thottingal.in/)
 - And many more people that helped in one way or another (If I've forgotten to include your name, just let me know and I will add it).
 
-License: 
+## License
 
 Code is available under the MIT License, see [LICENSE.md](LICENSE.md) for full details
 
